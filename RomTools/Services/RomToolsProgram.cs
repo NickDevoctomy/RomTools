@@ -25,8 +25,7 @@ namespace RomTools.Services
 
         public async Task<int> Run()
         {
-            await Task.Yield(); // !!! Remove this
-
+            var returnCode = 0;
             var arguments = _commandLineArgumentService.GetArguments(Environment.CommandLine);
             if (_commandLineParserService.TryParseArgumentsAsOptions(typeof(PreOptions), arguments, out var preOptions))
             {
@@ -39,7 +38,7 @@ namespace RomTools.Services
                                 arguments,
                                 out var pruneRomsOptions))
                             {
-                                return await _pruneRomsService.Process((PruneRomsOptions)pruneRomsOptions.Options);
+                                returnCode = await _pruneRomsService.Process((PruneRomsOptions)pruneRomsOptions.Options);
                             }
                             else
                             {
@@ -64,6 +63,7 @@ namespace RomTools.Services
                 if(preOptions.InvalidOptions.Count == 0)
                 {
                     message.AppendLine(preOptions.Exception.Message);
+                    returnCode = (int)ReturnCodes.NoArguments;
                 }
                 else
                 {
@@ -71,10 +71,12 @@ namespace RomTools.Services
                     {
                         var expected = Enum.GetNames<Command>().Where(x => x != "None").Select(y => y.ToLower()).ToList();
                         message.AppendLine($"Unknown command '{preOptions.InvalidOptions["Command"]}', expected one of ({string.Join(',', expected)}).");
+                        returnCode = (int)ReturnCodes.InvalidArguments;
                     }
                     else
                     {
                         message.AppendLine($"Invalid command line '{Environment.CommandLine}'.");
+                        returnCode = (int)ReturnCodes.IncorrectArgumentSyntax;
                     }
                 }
 
@@ -85,7 +87,7 @@ namespace RomTools.Services
                 Console.WriteLine(message);
             }
 
-            return -1;
+            return returnCode;
         }
     }
 }
