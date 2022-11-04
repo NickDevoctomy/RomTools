@@ -48,7 +48,10 @@ public class CommandLineParserService : ICommandLineParserService
     {
         if (string.IsNullOrWhiteSpace(argumentString))
         {
-            results = default;
+            results = new ParseResults
+            {
+                Exception = new System.ArgumentException($"No arguments were provided.")
+            };
             return false;
         }
 
