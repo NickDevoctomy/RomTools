@@ -7,7 +7,7 @@ namespace RomTools.Services
     public class PruneRomsOptions : PreOptions
     {
         [CommandLineParserOption(Required = true, ShortName = "p", LongName = "path")]
-        public int Path { get; set; }
+        public string Path { get; set; }
 
         [CommandLineParserOption(Required = false, ShortName = "v", LongName = "verbose", DefaultValue = true)]
         public bool Verbose { get; set; }
