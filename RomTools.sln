@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomTools", "RomTools\RomTools.csproj", "{9909A905-03D5-4844-B96A-762A7DE98294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomTools.UnitTests", "RomTools.UnitTests\RomTools.UnitTests.csproj", "{139F81FF-90E6-43DF-A3CA-84390F664795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9909A905-03D5-4844-B96A-762A7DE98294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9909A905-03D5-4844-B96A-762A7DE98294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9909A905-03D5-4844-B96A-762A7DE98294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9909A905-03D5-4844-B96A-762A7DE98294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139F81FF-90E6-43DF-A3CA-84390F664795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139F81FF-90E6-43DF-A3CA-84390F664795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139F81FF-90E6-43DF-A3CA-84390F664795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139F81FF-90E6-43DF-A3CA-84390F664795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E23B83B9-051E-49F4-B444-A8E3A1AA7AC9}
+	EndGlobalSection
+EndGlobal
