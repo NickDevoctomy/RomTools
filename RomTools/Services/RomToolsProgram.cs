@@ -9,15 +9,18 @@ namespace RomTools.Services
         private readonly ICommandLineArgumentService _commandLineArgumentService;
         private readonly ICommandLineParserService _commandLineParserService;
         private readonly IHelpMessageFormatter _helpMessageFormatter;
+        private readonly IPruneRomsService _pruneRomsService;
 
         public RomToolsProgram(
             ICommandLineArgumentService commandLineArgumentService,
             ICommandLineParserService commandLineParserService,
-            IHelpMessageFormatter helpMessageFormatter)
+            IHelpMessageFormatter helpMessageFormatter,
+            IPruneRomsService pruneRomsService)
         {
             _commandLineArgumentService = commandLineArgumentService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
+            _pruneRomsService = pruneRomsService;
         }
 
         public async Task<int> Run()
@@ -36,7 +39,7 @@ namespace RomTools.Services
                                 arguments,
                                 out var pruneRomsOptions))
                             {
-                                throw new NotImplementedException();
+                                return await _pruneRomsService.Process((PruneRomsOptions)pruneRomsOptions.Options);
                             }
                             else
                             {

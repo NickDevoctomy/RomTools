@@ -23,5 +23,6 @@ public static class Program
         .AddSingleton<ICommandLineArgumentService, CommandLineArgumentsService>()
         .AddSingleton<ICommandLineParserService, CommandLineParserService>((IServiceProvider _) => { return CommandLineParserService.CreateDefaultInstance(); })
         .AddSingleton<IHelpMessageFormatter, HelpMessageFormatter>()
+        .AddSingleton<IPruneRomsService, PruneRomsService>()
         .AddSingleton<IProgram, RomToolsProgram>());
 }

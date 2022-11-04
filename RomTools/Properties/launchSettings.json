@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RomTools": {
+      "commandName": "Project",
+      "commandLineArgs": "pruneroms"
+    }
+  }
+}
