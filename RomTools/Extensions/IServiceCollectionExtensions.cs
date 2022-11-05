@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using RomTools.Services.DuplicateFileFilters;
+using RomTools.Services.FileFilters;
 
 namespace RomTools.Extensions
 {

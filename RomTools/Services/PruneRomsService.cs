@@ -1,4 +1,4 @@
-﻿using RomTools.Services.DuplicateFileFilters;
+﻿using RomTools.Services.FileFilters;
 
 namespace RomTools.Services
 {

@@ -3,7 +3,6 @@ using RomTools.Services.CommandLineParser;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Diagnostics.CodeAnalysis;
-using RomTools.Services.DuplicateFileFilters;
 using RomTools.Extensions;
 
 namespace RomTools;
