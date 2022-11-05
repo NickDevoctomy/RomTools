@@ -3,6 +3,5 @@
 public enum Command
 {
     None = 0,
-    FixFileNames = 1,
-    PruneRoms = 2
+    PruneRoms = 1
 }
