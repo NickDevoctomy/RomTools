@@ -5,12 +5,16 @@ namespace RomTools.Services
     public class PruneRomsService : IPruneRomsService
     {
         private readonly IEnumerable<IFileFilter> _fileFilters;
+        private readonly IMd5HasherService _md5HasherService;
 
         private PruneRomsOptions _options;
 
-        public PruneRomsService(IEnumerable<IFileFilter> fileFilters)
+        public PruneRomsService(
+            IEnumerable<IFileFilter> fileFilters,
+            IMd5HasherService md5HasherService)
         {
             _fileFilters = fileFilters;
+            _md5HasherService = md5HasherService;
         }
 
         public async Task<int> Process(PruneRomsOptions options)
@@ -21,6 +25,10 @@ namespace RomTools.Services
             LogMessage($"Getting all files from path '{options.Path}'.", false, options);
             var allFiles = GetAllFilesFromPath(options.Path);
             LogMessage($"Got {allFiles.Count} files.", false, options);
+
+            LogMessage($"Hashing all files.", false, options);
+            _md5HasherService.HashAll(allFiles);
+            LogMessage($"All files hashed.", false, options);
 
             LogMessage($"Processing file filters", false, options);
             foreach (var curFileFilter in _fileFilters)
@@ -44,7 +52,7 @@ namespace RomTools.Services
             string message,
             bool isVerbose)
         {
-            LogMessage(message, isVerbose, _options);
+            LogMessage($"{DateTime.Now} :: {message}", isVerbose, _options);
         }
 
         private static void LogMessage(

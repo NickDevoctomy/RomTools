@@ -4,6 +4,8 @@ namespace RomTools.Services.FileFilters;
 
 public class Md5DuplicateFileFilter : IFileFilter
 {
+    public int Priority => 200;
+
     public string Description => "Filter duplicate files by their md5 hash.";
 
     private readonly IMd5HasherService _md5HasherService;
@@ -17,7 +19,9 @@ public class Md5DuplicateFileFilter : IFileFilter
         List<FileEnvelope> files,
         Action<string, bool> log)
     {
-        _md5HasherService.HashAll(files, out var groupedByHash);
+        var groupedByHash = files
+            .GroupBy(x => x.Properties["Md5Hash"])
+            .ToDictionary(a => a.Key, b => b.ToList());
 
         log("All duplicates found by Md5 hash.", true);
         log(string.Empty, true);

@@ -2,6 +2,7 @@
 
 public class FileExtensionFilter : IFileFilter
 {
+    public int Priority => 1;
     public string Description => "Filter files by their file extension.";
 
     public List<FileEnvelope> Filter(

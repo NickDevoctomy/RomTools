@@ -9,26 +9,14 @@ namespace RomTools.Services
 {
     public class Md5HasherService : IMd5HasherService
     {
-        public void HashAll(
-            List<FileEnvelope> files,
-            out Dictionary<string, List<FileEnvelope>> groupedByHash)
+        public void HashAll(List<FileEnvelope> files)
         {
-            var fileHashes = new Dictionary<string, List<FileEnvelope>>();
-            files.ForEach(x => StoreFileHash(x, fileHashes));
-            groupedByHash = fileHashes;
+            files.ForEach(x => StoreFileHash(x));
         }
 
-        private void StoreFileHash(
-            FileEnvelope file,
-            Dictionary<string, List<FileEnvelope>> hashes)
+        private void StoreFileHash(FileEnvelope file)
         {
             var hash = GetMD5Hash(file.FullPath);
-            if (!hashes.ContainsKey(hash))
-            {
-                hashes.Add(hash, new List<FileEnvelope>());
-            }
-
-            hashes[hash].Add(file);
             file.Properties.Add("Md5Hash", hash);
         }
 

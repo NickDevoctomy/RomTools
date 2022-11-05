@@ -2,6 +2,7 @@
 
 public interface IFileFilter
 {
+    public int Priority { get; }
     public string Description { get; }
 
     public List<FileEnvelope> Filter(
