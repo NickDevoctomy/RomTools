@@ -3,6 +3,8 @@ using RomTools.Services.CommandLineParser;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Diagnostics.CodeAnalysis;
+using RomTools.Services.DuplicateFileFilters;
+using RomTools.Extensions;
 
 namespace RomTools;
 
@@ -22,7 +24,11 @@ public static class Program
         .ConfigureServices((_, services) => services
         .AddSingleton<ICommandLineArgumentService, CommandLineArgumentsService>()
         .AddSingleton<ICommandLineParserService, CommandLineParserService>((IServiceProvider _) => { return CommandLineParserService.CreateDefaultInstance(); })
-        .AddSingleton<IHelpMessageFormatter, HelpMessageFormatter>()
-        .AddSingleton<IPruneRomsService, PruneRomsService>()
+        .AddTransient<IHelpMessageFormatter, HelpMessageFormatter>()
+        .AddTransient<IMd5HasherService, Md5HasherService>()
+        .AddFileFilters()
+        .AddTransient<IPruneRomsService, PruneRomsService>()
         .AddSingleton<IProgram, RomToolsProgram>());
+
+
 }
