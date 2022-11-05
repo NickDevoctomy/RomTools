@@ -2,7 +2,7 @@
   "profiles": {
     "RomTools": {
       "commandName": "Project",
-      "commandLineArgs": "pruneroms -p=D:\\mastersystem -v=false"
+      "commandLineArgs": "pruneroms -p=D:\\Roms\\mastersystem -v=true"
     }
   }
 }

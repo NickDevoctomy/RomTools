@@ -16,10 +16,28 @@ namespace RomTools.Services.FileFilters
             List<FileEnvelope> files,
             Action<string, bool> log)
         {
+            log($"Files before filtering ({files.Count}):", true);
+            files.ForEach(x => log(x.FullPath, true));
+
             var groupedBySimilarNames = GroupBySimilarNames(files);
 
-            // group by similarly named, i.e. up to first open brace
-            return files;
+            // Only english
+            var filteredByLanguage = groupedBySimilarNames
+                .Where(x => x.Value.Count > 0)
+                .Select(x => GetMostSuitable(x.Value, false, "(u)", "(w)", "(e)", "(ue)"))
+                .ToList();
+
+            // Only verified
+            filteredByLanguage = filteredByLanguage
+                .Select(x => GetMostSuitable(x, true, "[!]"))
+                .ToList();
+
+            var postFiltered = filteredByLanguage.SelectMany(x => x).ToList();
+
+            log($"Files after filtering ({postFiltered.Count}):", true);
+            postFiltered.ForEach(x => log(x.FullPath, true));
+
+            return postFiltered;
         }
 
         private Dictionary<string, List<FileEnvelope>> GroupBySimilarNames(List<FileEnvelope> files)
@@ -43,7 +61,6 @@ namespace RomTools.Services.FileFilters
             string fullPath,
             params char[] delimiter)
         {
-            Console.WriteLine($"Truncating '{fullPath}'");
             var name = new FileInfo(fullPath).Name;
             var orderedDelimiters = delimiter.ToDictionary(a => a, b => name.IndexOf(b)).OrderBy(c => c.Value).ToList();
             if(!orderedDelimiters.Any(x => x.Value > 0))
@@ -55,13 +72,14 @@ namespace RomTools.Services.FileFilters
             return name.Substring(0, name.IndexOf(firstDelimiter.Key));
         }
 
-        private static List<string> GetMostSuitable(
-            List<string> duplicates,
+        private static List<FileEnvelope> GetMostSuitable(
+            List<FileEnvelope> duplicates,
+            bool allowNone,
             params string[] priorityTokens)
         {
-            if (duplicates.Count == 1)
+            if (!allowNone && duplicates.Count == 1)
             {
-                return new List<string>
+                return new List<FileEnvelope>
                 {
                     duplicates[0]
                 };
@@ -69,14 +87,13 @@ namespace RomTools.Services.FileFilters
 
             foreach (var curToken in priorityTokens)
             {
-                if (duplicates.Any(s => s.Contains(curToken, StringComparison.InvariantCultureIgnoreCase)))
+                if (duplicates.Any(x => x.FullPath.Contains(curToken, StringComparison.InvariantCultureIgnoreCase)))
                 {
-                    return duplicates.Where(s => s.Contains(curToken, StringComparison.InvariantCultureIgnoreCase)).ToList();
+                    return duplicates.Where(x => x.FullPath.Contains(curToken, StringComparison.InvariantCultureIgnoreCase)).ToList();
                 }
             }
 
-            Console.WriteLine($"None suitable for '{duplicates[0]}'.");
-            return new List<string>();
+            return new List<FileEnvelope>();
         }
     }
 }
