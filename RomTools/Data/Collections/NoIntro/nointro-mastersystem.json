@@ -1,0 +1,2934 @@
+{
+  "Name": "NoIntro-MasterSystem-2022",
+  "Description": "NoIntro rom collection for Sega Master System",
+  "CreatedAt": "2022-11-06T15:04:09.6310206Z",
+  "HashingAlgorithm": "Md5",
+  "Files": [
+    {
+      "FileName": "20 em 1 (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "20 em 1 (Brazil).sms",
+      "ArchivedRomMd5Hash": "kanc1PWcKdtyyTG+L+YLUQ==",
+      "RawMd5Hash": "M0/6W5zKmlSCqZyEposlQg=="
+    },
+    {
+      "FileName": "3 in 1 - The Best Game Collection (A) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3 in 1 - The Best Game Collection (A) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "v3YJkpvMKFapK/NaWkgCJQ==",
+      "RawMd5Hash": "1aiFwgcUPhoi1Ore4aPuPw=="
+    },
+    {
+      "FileName": "3 in 1 - The Best Game Collection (B) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3 in 1 - The Best Game Collection (B) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "KUnjUhbOOzbOJq81uA23Og==",
+      "RawMd5Hash": "hAVe5JEO3Z5gAOrkP3wquw=="
+    },
+    {
+      "FileName": "3 in 1 - The Best Game Collection (C) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3 in 1 - The Best Game Collection (C) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "hlWeG6kiXXyq+Gu0Eumotw==",
+      "RawMd5Hash": "c1ebr/DGvIYOijhanWqnuA=="
+    },
+    {
+      "FileName": "3 in 1 - The Best Game Collection (D) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3 in 1 - The Best Game Collection (D) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "AmYq9XALp3nhc58kvwi/dw==",
+      "RawMd5Hash": "b2pHvZJXZYEdneV2VPoXpg=="
+    },
+    {
+      "FileName": "3 in 1 - The Best Game Collection (E) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3 in 1 - The Best Game Collection (E) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "XiPUdxwfb/oN6ONjLoIvOA==",
+      "RawMd5Hash": "SDzsaqjs7UlzfBdV4EXTxQ=="
+    },
+    {
+      "FileName": "3 in 1 - The Best Game Collection (F) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3 in 1 - The Best Game Collection (F) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "HJIeVGCzyZKKP4P4zmCsOQ==",
+      "RawMd5Hash": "zHrz7oP/26mlCE8ulXRidQ=="
+    },
+    {
+      "FileName": "3D Gunner (USA) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "3D Gunner (USA) (Demo).sms",
+      "ArchivedRomMd5Hash": "SG3qSGBmZrRMfm2516FFTA==",
+      "RawMd5Hash": "jQMGcUl0xzaJ31FDGAMFgQ=="
+    },
+    {
+      "FileName": "4 PAK All Action (Australia) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "4 PAK All Action (Australia) (Unl).sms",
+      "ArchivedRomMd5Hash": "TqZOOyrVfvdTGJBYPFHeMA==",
+      "RawMd5Hash": "9IhelA4Ab9cJT9zFq0W4nA=="
+    },
+    {
+      "FileName": "8 in 1 - The Best Game Collection (A) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "8 in 1 - The Best Game Collection (A) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "FRolw5CbdfvmdPxs2oXZtA==",
+      "RawMd5Hash": "KxLJIt4yy3ywN9v5ZJtsHg=="
+    },
+    {
+      "FileName": "8 in 1 - The Best Game Collection (B) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "8 in 1 - The Best Game Collection (B) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "CYVRdLZ+SBsT/BNwABe21Q==",
+      "RawMd5Hash": "WRrj1RE7TvxuTMKNmph4LA=="
+    },
+    {
+      "FileName": "8 in 1 - The Best Game Collection (C) (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "8 in 1 - The Best Game Collection (C) (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "bEcp56x7IHRuulGrFic5RQ==",
+      "RawMd5Hash": "mxmxfYvOsui9Y1bTVTFt0w=="
+    },
+    {
+      "FileName": "94 Super World Cup Soccer (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "94 Super World Cup Soccer (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "NHUcV5jn20vDiu6l9qVuRQ==",
+      "RawMd5Hash": "o1QhxJj70nYvcH8PQ0qejQ=="
+    },
+    {
+      "FileName": "Ace of Aces (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ace of Aces (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "zia0NyZV818bfJ0MO3APkw==",
+      "RawMd5Hash": "ERzpV/mtzwmVFM/5acDmUQ=="
+    },
+    {
+      "FileName": "Action Fighter (USA, Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Action Fighter (USA, Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "R9c2V1+aIvdJDWLHbtfJMw==",
+      "RawMd5Hash": "yVPRRUFcbKsgTSfRJjRN2A=="
+    },
+    {
+      "FileName": "Addams Family, The (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Addams Family, The (Europe).sms",
+      "ArchivedRomMd5Hash": "CSArwm/PGevT/8vYDiPtnQ==",
+      "RawMd5Hash": "gGgawKTqe1+R1sp9xahggg=="
+    },
+    {
+      "FileName": "Aerial Assault (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Aerial Assault (USA).sms",
+      "ArchivedRomMd5Hash": "i2A8kxQYo2gLhyOGH1WntQ==",
+      "RawMd5Hash": "PgwagPwoDq1fF6sKiPtIVQ=="
+    },
+    {
+      "FileName": "After Burner (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "After Burner (World).sms",
+      "ArchivedRomMd5Hash": "YnHBg1E+C+BUPjJkGe6Yng==",
+      "RawMd5Hash": "CQXkhnsgwVYqy8xWF9JAEQ=="
+    },
+    {
+      "FileName": "Air Rescue (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Air Rescue (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "TxRdYXuRkcvA4AV4bKmT9g==",
+      "RawMd5Hash": "8w9rASSf1FoNeHLqXt09cQ=="
+    },
+    {
+      "FileName": "Aladdin (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Aladdin (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "4/YAcgKOtvAsKwVYgErtgw==",
+      "RawMd5Hash": "CESEPJ7U/BewpH8wIvCNRg=="
+    },
+    {
+      "FileName": "Alex Kidd - High-Tech World (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alex Kidd - High-Tech World (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "D26/orJLuZ2+oRQjEv0zyQ==",
+      "RawMd5Hash": "wmcItowShMMbFiCwUfbxPQ=="
+    },
+    {
+      "FileName": "Alex Kidd - The Lost Stars (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alex Kidd - The Lost Stars (World).sms",
+      "ArchivedRomMd5Hash": "6lDc3RJBZn8y051gap9wgw==",
+      "RawMd5Hash": "ookUZfwGCApbnYdPJubFvQ=="
+    },
+    {
+      "FileName": "Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alex Kidd in Miracle World (USA, Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "9D50/+xY3fYvC4Zn0x8iwA==",
+      "RawMd5Hash": "Slz6BG4a3wJRcaqRkZyKdw=="
+    },
+    {
+      "FileName": "Alex Kidd in Miracle World 2 (World) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alex Kidd in Miracle World 2 (World) (Unl).sms",
+      "ArchivedRomMd5Hash": "6bU9iTv4/JQBXeci9hDH6w==",
+      "RawMd5Hash": "/7vXNrFFOD0EwX6iqAjAQw=="
+    },
+    {
+      "FileName": "Alex Kidd in Shinobi World (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alex Kidd in Shinobi World (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "1itjFQaRNxKiED9UkSRYpQ==",
+      "RawMd5Hash": "x57tUhSeB/MznlNh2U1fRg=="
+    },
+    {
+      "FileName": "Alf (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alf (USA).sms",
+      "ArchivedRomMd5Hash": "vBNgr6mc2J+6tOpVvvCKrg==",
+      "RawMd5Hash": "kHyj0tPA9IVOUc/eiAyELA=="
+    },
+    {
+      "FileName": "Alibaba and 40 Thieves (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alibaba and 40 Thieves (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "dS7WzGoGGFpEP7H4Ss+Lag==",
+      "RawMd5Hash": "sgyw+eoGZHWVhFJJ/vXGmA=="
+    },
+    {
+      "FileName": "Alien 3 (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alien 3 (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "fWszUeggtq+nz4BxPcE54w==",
+      "RawMd5Hash": "sUyeKPlWaINW6DCxDhF9+g=="
+    },
+    {
+      "FileName": "Alien Storm (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alien Storm (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "xgOAZCqJgF9WkSSodSSNcQ==",
+      "RawMd5Hash": "JO+FXVYo7T4EVS26kXe7lw=="
+    },
+    {
+      "FileName": "Alien Syndrome (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Alien Syndrome (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "cygIpEqQt4BFSh62rb85Vw==",
+      "RawMd5Hash": "S3Duj33jcVwLw0/ek6paTQ=="
+    },
+    {
+      "FileName": "Altered Beast (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Altered Beast (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "JGGMpKIjo20r/aEPQkVGhw==",
+      "RawMd5Hash": "YLQxPADPHZLkhfzvAHUFbg=="
+    },
+    {
+      "FileName": "Andre Agassi Tennis (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Andre Agassi Tennis (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "tgxPielVhaCgG0/5mpYtiw==",
+      "RawMd5Hash": "h7syNg2kyx/IPU/Y5cXgJQ=="
+    },
+    {
+      "FileName": "Arcade Smash Hits (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Arcade Smash Hits (Europe).sms",
+      "ArchivedRomMd5Hash": "x04L4T3D+9CF+5oevW5q/A==",
+      "RawMd5Hash": "GhDp092pYQRoyEQAC/1lCA=="
+    },
+    {
+      "FileName": "Argos no Juujiken (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Argos no Juujiken (Japan).sms",
+      "ArchivedRomMd5Hash": "josEtan+e2zbJbZVDnqDHg==",
+      "RawMd5Hash": "Tipnf1YbIbIOXCH8fwpK2g=="
+    },
+    {
+      "FileName": "Ariel the Little Mermaid (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ariel the Little Mermaid (Brazil).sms",
+      "ArchivedRomMd5Hash": "nv31pxI/WlKWcZk4HpN1nQ==",
+      "RawMd5Hash": "8iYBIqepTwnGtGma1ws35g=="
+    },
+    {
+      "FileName": "Assault City (USA, Europe, Brazil) (Light Phaser).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Assault City (USA, Europe, Brazil) (Light Phaser).sms",
+      "ArchivedRomMd5Hash": "Q1QRmxUdkSnTGRiGXbmxyQ==",
+      "RawMd5Hash": "7YOi3CTGI3tyjKtdMiOwUg=="
+    },
+    {
+      "FileName": "Asterix (Europe, Brazil) (En,Fr) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Asterix (Europe, Brazil) (En,Fr) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "aDHpr+E5/tsTyBpUkms8DQ==",
+      "RawMd5Hash": "wQp03Vf2eko4aqcLjPoCZg=="
+    },
+    {
+      "FileName": "Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It).sms",
+      "ArchivedRomMd5Hash": "Nr1f4uTRYg9aQ+phDEWMhg==",
+      "RawMd5Hash": "kP8ReMH8YHBRzA7CSEHUgw=="
+    },
+    {
+      "FileName": "Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De).sms",
+      "ArchivedRomMd5Hash": "fMi+ILCi7jlByYRgJsKHrg==",
+      "RawMd5Hash": "dk1SPDsyIx0hqST16VXC6w=="
+    },
+    {
+      "FileName": "Astro Warrior & Pit Pot (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Astro Warrior & Pit Pot (Europe).sms",
+      "ArchivedRomMd5Hash": "hxI2bal6uA9M0qo2IDpYhQ==",
+      "RawMd5Hash": "0UT4UVOGt6eOYjgLsOjCJQ=="
+    },
+    {
+      "FileName": "Aventuras da TV Colosso, As (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Aventuras da TV Colosso, As (Brazil).sms",
+      "ArchivedRomMd5Hash": "gCBYTKrbZkpZJOlAtqnFvA==",
+      "RawMd5Hash": "TMiVnZ+dliVBb/XK9jnLzA=="
+    },
+    {
+      "FileName": "Ayrton Senna's Super Monaco GP II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ayrton Senna's Super Monaco GP II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "BKvFJKO39+LpbrkQSQ537A==",
+      "RawMd5Hash": "2uzS6j1SeW4yb00/LAcwpw=="
+    },
+    {
+      "FileName": "Aztec Adventure ~ Nazca '88 - The Golden Road to Paradise (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Aztec Adventure ~ Nazca '88 - The Golden Road to Paradise (World).sms",
+      "ArchivedRomMd5Hash": "Es4E/1V6lq3UbwSxKw1HzA==",
+      "RawMd5Hash": "zZpIfH6uQY/Q1m6ZE8dQrQ=="
+    },
+    {
+      "FileName": "Back to the Future Part II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Back to the Future Part II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "8lNd+b3DqEIhMD+mLWGtbg==",
+      "RawMd5Hash": "18fxw9+BQjQ7q3XCAVMpmw=="
+    },
+    {
+      "FileName": "Back to the Future Part III (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Back to the Future Part III (Europe).sms",
+      "ArchivedRomMd5Hash": "PSSlLpjmyF18BZOGRRznSQ==",
+      "RawMd5Hash": "6d0z2KTb5yROP9L4swwXew=="
+    },
+    {
+      "FileName": "Baku Baku (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Baku Baku (Brazil).sms",
+      "ArchivedRomMd5Hash": "ipTe09lapG2uiAC5LmbT7g==",
+      "RawMd5Hash": "aI+gxAeciS/P5iOY22N/cw=="
+    },
+    {
+      "FileName": "Bank Panic (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bank Panic (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "el07mWPjFst/c7vcKnMRxg==",
+      "RawMd5Hash": "95XiZoIKZIlHKUDVN7rpzQ=="
+    },
+    {
+      "FileName": "Basketball Nightmare (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Basketball Nightmare (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "AGmxvZxba4is5jJNfmFTnw==",
+      "RawMd5Hash": "ULwla8FBKvL7U+FyZDVUEw=="
+    },
+    {
+      "FileName": "Batman Returns (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Batman Returns (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "IVh2pi08pI0o6YzYoscKFQ==",
+      "RawMd5Hash": "fI85cwhnB25X0O8qUVjwEA=="
+    },
+    {
+      "FileName": "Battle Out Run (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Battle Out Run (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "g2Cet2DDr2SRX9bnPufZng==",
+      "RawMd5Hash": "fAWNZzUpDKAv7Jbk9YJHyA=="
+    },
+    {
+      "FileName": "Battle Wings (World) (Sample).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Battle Wings (World) (Sample).sms",
+      "ArchivedRomMd5Hash": "RTWxYWyfitVDSPrbGrtDnA==",
+      "RawMd5Hash": "pbPEFNOaH0S2xjmZfm8j7Q=="
+    },
+    {
+      "FileName": "Battlemaniacs (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Battlemaniacs (Brazil).sms",
+      "ArchivedRomMd5Hash": "VAHdzHiMDxpd/iblbyOfvw==",
+      "RawMd5Hash": "xBNzxkdQjWiclKkEZoe5IQ=="
+    },
+    {
+      "FileName": "Black Belt (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Black Belt (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Fua0odcZYNZL0gqvcCTorA==",
+      "RawMd5Hash": "Ji1f/ZFNB8cJXkshITYBIw=="
+    },
+    {
+      "FileName": "Blade Eagle ~ Blade Eagle 3-D (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Blade Eagle ~ Blade Eagle 3-D (World).sms",
+      "ArchivedRomMd5Hash": "ogeYsSSBKE93zuZ85eJfKw==",
+      "RawMd5Hash": "hbTWe/rvFNeST7BLannMbQ=="
+    },
+    {
+      "FileName": "BMX Trial - Alex Kidd (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "BMX Trial - Alex Kidd (Japan).sms",
+      "ArchivedRomMd5Hash": "Vx8Y9J5nmhKLSiNwAXYNbA==",
+      "RawMd5Hash": "57CzDYK8avJ4Nv0neesGpg=="
+    },
+    {
+      "FileName": "Bobble Bobble (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bobble Bobble (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "GkvVhd3y8m4sBIBw8RMG0Q==",
+      "RawMd5Hash": "+0VqfVoN8qOHXsVB7wdB3w=="
+    },
+    {
+      "FileName": "Bomber Raid (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bomber Raid (World).sms",
+      "ArchivedRomMd5Hash": "0RUd5uoKJUfwR84xsi/hjw==",
+      "RawMd5Hash": "XYivaPN5lHt+Wly6ZMpIWg=="
+    },
+    {
+      "FileName": "Bonanza Bros. (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bonanza Bros. (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "5Y9vN0s0Bf0qXluA5jmpgA==",
+      "RawMd5Hash": "D3Hgtr2WDCYsuyi/P8JLzQ=="
+    },
+    {
+      "FileName": "Bonkers Wax Up! (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bonkers Wax Up! (Brazil).sms",
+      "ArchivedRomMd5Hash": "BEt5peTPWPuStg/AnPTzFg==",
+      "RawMd5Hash": "/102YS+vFArfRO3umBFpMg=="
+    },
+    {
+      "FileName": "Bram Stoker's Dracula (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bram Stoker's Dracula (Europe).sms",
+      "ArchivedRomMd5Hash": "SzyTSz2qmaazQdpXOIp1Qw==",
+      "RawMd5Hash": "d0e4qCqa+2oOMKw7dM7KYw=="
+    },
+    {
+      "FileName": "Bubble Bobble ~ Dragon Maze (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Bubble Bobble ~ Dragon Maze (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "15wYanRVCHZpHpfKgwxmxw==",
+      "RawMd5Hash": "vhSqP0e7kD5Ncd5BbGBDRw=="
+    },
+    {
+      "FileName": "Buggy Run (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Buggy Run (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "20GxfzJo2QduCSiRGieR4A==",
+      "RawMd5Hash": "Bo4fJOgU+Wwzq92bV3zZ6g=="
+    },
+    {
+      "FileName": "California Games II (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "California Games II (Europe).sms",
+      "ArchivedRomMd5Hash": "WsWLOn/aIxYasRhbPueXrA==",
+      "RawMd5Hash": "sQQn24h9PbS35c9coQDcUg=="
+    },
+    {
+      "FileName": "California Games ~ Jogos de Verao (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "California Games ~ Jogos de Verao (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "GCsXmhIm+1seHPa7LzUcUA==",
+      "RawMd5Hash": "MTeMugWOPG9Zbwv9ayLyQw=="
+    },
+    {
+      "FileName": "Captain Silver (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Captain Silver (USA).sms",
+      "ArchivedRomMd5Hash": "Hfqtv+fYAZ5zvZgP1LgZ6g==",
+      "RawMd5Hash": "IaZMU40trZM6GQIZ7Sf27w=="
+    },
+    {
+      "FileName": "Casino Games (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Casino Games (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "7BZCi5CKLAA2t5nlVhS+PQ==",
+      "RawMd5Hash": "V1MWm69jXp7eQGViq2/Srw=="
+    },
+    {
+      "FileName": "Castelo Ra-Tim-Bum (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Castelo Ra-Tim-Bum (Brazil).sms",
+      "ArchivedRomMd5Hash": "R/UT0PnSiWvxqHJUM31bKQ==",
+      "RawMd5Hash": "EDS1mGPJhapIFaGTixibbw=="
+    },
+    {
+      "FileName": "Castle of Illusion Starring Mickey Mouse (USA, Brazil) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Castle of Illusion Starring Mickey Mouse (USA, Brazil) (Demo).sms",
+      "ArchivedRomMd5Hash": "o4GOTlAbPPuEI66wJLeV5A==",
+      "RawMd5Hash": "nDxk+jA5rNVPFUvjS2dezQ=="
+    },
+    {
+      "FileName": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "5+HvCp4gWF4iZuituvS4yQ==",
+      "RawMd5Hash": "VM4adD/zGPqguTQrpSUdbw=="
+    },
+    {
+      "FileName": "Champions of Europe (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Champions of Europe (Europe).sms",
+      "ArchivedRomMd5Hash": "woqoBImkZ79U/BQDApqD0w==",
+      "RawMd5Hash": "yNcsMHIVoFtjTz4BYjf+pQ=="
+    },
+    {
+      "FileName": "Championship Hockey (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Championship Hockey (Europe).sms",
+      "ArchivedRomMd5Hash": "H3BhYvgz8dzpUTmIYB0xSw==",
+      "RawMd5Hash": "OKPLcS/bnW7573sgP+I4qA=="
+    },
+    {
+      "FileName": "Chapolim x Dracula - Um Duelo Assustador (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Chapolim x Dracula - Um Duelo Assustador (Brazil).sms",
+      "ArchivedRomMd5Hash": "LHCbqM3DobetxbyDjqv28w==",
+      "RawMd5Hash": "cx2lxW8gs13jzu+TAZeb3w=="
+    },
+    {
+      "FileName": "Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es).sms",
+      "ArchivedRomMd5Hash": "+QuGR4RF0iDThkYOVfO3Tw==",
+      "RawMd5Hash": "uAic9DE9tR92J8n3PmMtJQ=="
+    },
+    {
+      "FileName": "Choplifter (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Choplifter (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "dHogbqqt9IcUaV6LTM6tfg==",
+      "RawMd5Hash": "CbGOXdV9kP8u8zhkzvDg8g=="
+    },
+    {
+      "FileName": "Chuck Rock (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Chuck Rock (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "JZTzPyEO5M9jVqx7KrjE5w==",
+      "RawMd5Hash": "JfyXivnEXclppy2DOrXyvg=="
+    },
+    {
+      "FileName": "Chuck Rock II - Son of Chuck (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Chuck Rock II - Son of Chuck (Europe).sms",
+      "ArchivedRomMd5Hash": "rWxv/ibZMpiuVr3qjq/IeQ==",
+      "RawMd5Hash": "yvHta/hxHPWJEmYLR3BRLw=="
+    },
+    {
+      "FileName": "Cloud Master (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cloud Master (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "RJivwfzlHr1GF5j75hqm+A==",
+      "RawMd5Hash": "St1PqrpqAitbfWb2YfgDmg=="
+    },
+    {
+      "FileName": "Color & Switch Test (Japan) (En) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Color & Switch Test (Japan) (En) (Proto).sms",
+      "ArchivedRomMd5Hash": "UUKoctoEeAmp4SFWOn98vw==",
+      "RawMd5Hash": "oU0xhx0oybeipTed1H6DUg=="
+    },
+    {
+      "FileName": "Columns ~ Shapes and Columns (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Columns ~ Shapes and Columns (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "1EPVIQNtUn01kmgJ8jAQbA==",
+      "RawMd5Hash": "fEoh4MWxgiHHDNOwX+1iKQ=="
+    },
+    {
+      "FileName": "Comical Machine Gun Joe (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Comical Machine Gun Joe (Japan).sms",
+      "ArchivedRomMd5Hash": "LVmz0n8CKwSll+dn5mYMqQ==",
+      "RawMd5Hash": "uuNyUZQfmko7/fQHiWGUaQ=="
+    },
+    {
+      "FileName": "Cool Spot (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cool Spot (Europe).sms",
+      "ArchivedRomMd5Hash": "tMM726JHIAP4ftGT5Rssmw==",
+      "RawMd5Hash": "141nINMBw0qHdQ1ywZsQnw=="
+    },
+    {
+      "FileName": "Cosmic Spacehead (Europe) (En,Fr,De,Es).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cosmic Spacehead (Europe) (En,Fr,De,Es).sms",
+      "ArchivedRomMd5Hash": "fev5b2nIlthXGmrWz6z1Ag==",
+      "RawMd5Hash": "HkNn85T2T/MaEwpsVFOxKg=="
+    },
+    {
+      "FileName": "Cyber Shinobi, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cyber Shinobi, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "mHjCmAd754t2WsImSBUQCw==",
+      "RawMd5Hash": "r6FWndP+1xr0CEfkhPjIKw=="
+    },
+    {
+      "FileName": "Cyborg Hunter (USA, Europe, Brazil) (Sample).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cyborg Hunter (USA, Europe, Brazil) (Sample).sms",
+      "ArchivedRomMd5Hash": "0vJqDrAseLJQWEa6XekIiQ==",
+      "RawMd5Hash": "EdTfrGNIq4bEULXH/RzCaQ=="
+    },
+    {
+      "FileName": "Cyborg Hunter (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cyborg Hunter (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "rJDXl0PKwa/NcEn3tOc7xA==",
+      "RawMd5Hash": "5+LFe3/W3TJxxCPwhWCiPg=="
+    },
+    {
+      "FileName": "Cyborg Z (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Cyborg Z (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ACerO3R5yxOF5D0fQbzd1g==",
+      "RawMd5Hash": "cr+lBpbc9NQwyvbKQx4M9A=="
+    },
+    {
+      "FileName": "C_So! (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "C_So! (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "3QtqTxEBj/PS5qK52YiFdg==",
+      "RawMd5Hash": "2QJA2/COl64CUQE2qwxr2w=="
+    },
+    {
+      "FileName": "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It).sms",
+      "ArchivedRomMd5Hash": "dZVbii0qIlZSP7JtrGKl4g==",
+      "RawMd5Hash": "huSnqh/SuZ+VvMHDLAdmVQ=="
+    },
+    {
+      "FileName": "Dallyeora Pigu-Wang (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dallyeora Pigu-Wang (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "Otez4jQA7hC3I54i1FrKTg==",
+      "RawMd5Hash": "eRoU0MVIbCsiWI7ukppBHw=="
+    },
+    {
+      "FileName": "Danan - The Jungle Fighter (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Danan - The Jungle Fighter (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "aw/GCqiGwGC/Ghbql7T0QQ==",
+      "RawMd5Hash": "HloB3HLmi8nE3YzPA4sO/w=="
+    },
+    {
+      "FileName": "Dead Angle (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dead Angle (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "jV6TcVutMrqLvKydIeh9iQ==",
+      "RawMd5Hash": "Y6Oryok+wDHBUiZcXhzJKw=="
+    },
+    {
+      "FileName": "Deep Duck Trouble Starring Donald Duck (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Deep Duck Trouble Starring Donald Duck (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "BeMHGq2cNrbhjxZWWS7rPQ==",
+      "RawMd5Hash": "ynxfLVlnAx7+YFaLuitrIw=="
+    },
+    {
+      "FileName": "Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It).sms",
+      "ArchivedRomMd5Hash": "j+Va3ns0qk5CxfY/Q2hJfw==",
+      "RawMd5Hash": "rZ+pOjFKnXleic8eRyEKPQ=="
+    },
+    {
+      "FileName": "Desert Strike (Europe) (En,Fr,De,Es).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Desert Strike (Europe) (En,Fr,De,Es).sms",
+      "ArchivedRomMd5Hash": "34mqHrxfQtsh+40S2eeFEQ==",
+      "RawMd5Hash": "3Ykl3m2wiM10UWnP9xIRxA=="
+    },
+    {
+      "FileName": "Dick Tracy (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dick Tracy (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Hcr30ep8qqpxbw7EPD+Cig==",
+      "RawMd5Hash": "LQnImQFwRt0pDNPfqwO2ww=="
+    },
+    {
+      "FileName": "Dinobasher Starring Bignose the Caveman (Europe) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dinobasher Starring Bignose the Caveman (Europe) (Proto).sms",
+      "ArchivedRomMd5Hash": "u0SMpc4ex9hmNsZXHW6Uyw==",
+      "RawMd5Hash": "mKJoiRkPgtcPIewalMIDlw=="
+    },
+    {
+      "FileName": "Dinosaur Dooley, The (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dinosaur Dooley, The (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "5ce6GipuHp3ll0ea3WQdHQ==",
+      "RawMd5Hash": "rwzIDPIUlRCIjXqeHgrUCg=="
+    },
+    {
+      "FileName": "Double Dragon (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Double Dragon (World).sms",
+      "ArchivedRomMd5Hash": "/pqoBElRsQ+HaxX0RWFhqQ==",
+      "RawMd5Hash": "IjB0mBv5DaCWK/qd7NCT6w=="
+    },
+    {
+      "FileName": "Double Hawk (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Double Hawk (Europe).sms",
+      "ArchivedRomMd5Hash": "Pm5suHKZZf39u0IvBmrXBg==",
+      "RawMd5Hash": "mU2DvQEtgYkGtiZ/2aGCaQ=="
+    },
+    {
+      "FileName": "Dr. HELLO (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dr. HELLO (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "n5XrU03Yor1X6fxqRF4vTA==",
+      "RawMd5Hash": "8lcXJp2off78sAXTnM1Yyw=="
+    },
+    {
+      "FileName": "Dr. Robotnik's Mean Bean Machine (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dr. Robotnik's Mean Bean Machine (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "A9A/HoFtE3/mofX+Rf7oLQ==",
+      "RawMd5Hash": "1ONg06N7sun2KXfwQQCvMQ=="
+    },
+    {
+      "FileName": "Dragon - The Bruce Lee Story (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dragon - The Bruce Lee Story (Europe).sms",
+      "ArchivedRomMd5Hash": "+G4JnKjkB6Zad1HYTC7lGQ==",
+      "RawMd5Hash": "esRe25S4r4ZYpmRrApkL/Q=="
+    },
+    {
+      "FileName": "Dragon Crystal (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dragon Crystal (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "4FSE+TARBVxbdv+r/qhDZw==",
+      "RawMd5Hash": "FmcaKFJ4Jxc30oT7hIBvhg=="
+    },
+    {
+      "FileName": "Dynamite Duke (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dynamite Duke (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Mae+WFKIqLd7eSOiAnUqtw==",
+      "RawMd5Hash": "SQ5M8JU8PebZShxkoHuNOg=="
+    },
+    {
+      "FileName": "Dynamite Dux (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dynamite Dux (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "XLfrruWVLr/NxC5wkwcgYw==",
+      "RawMd5Hash": "+8DDPJBcTcjmxAJsmkbQuQ=="
+    },
+    {
+      "FileName": "Dynamite Headdy (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Dynamite Headdy (Brazil).sms",
+      "ArchivedRomMd5Hash": "f1dIHYcEZfw6ZBLYfwqOOA==",
+      "RawMd5Hash": "06onxlE21/JfXf9pJr0C3g=="
+    },
+    {
+      "FileName": "E-SWAT (USA, Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "E-SWAT (USA, Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "NqUznO+X0KV1fbT9gbSr8w==",
+      "RawMd5Hash": "UsOpIavnv30UNexNupJKYw=="
+    },
+    {
+      "FileName": "E.I. - Exa Innova (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "E.I. - Exa Innova (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "r33Peiv7l9kHealQ5NcLEg==",
+      "RawMd5Hash": "LPmkHtV9NQpBwL+LZgcrlw=="
+    },
+    {
+      "FileName": "Eagles 5 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Eagles 5 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "k6lsGqVAzWXci+aaewdO3A==",
+      "RawMd5Hash": "aMob7ejSpbK1U85PIJkP7g=="
+    },
+    {
+      "FileName": "Earthworm Jim (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Earthworm Jim (Brazil).sms",
+      "ArchivedRomMd5Hash": "8mv41B4LYVn8Q2VntEc2Pw==",
+      "RawMd5Hash": "2zCfW/bp0RU2acJgqZ96rA=="
+    },
+    {
+      "FileName": "Ecco - The Tides of Time (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ecco - The Tides of Time (Brazil).sms",
+      "ArchivedRomMd5Hash": "/li0sj1YOGytcRH9Uiy/dQ==",
+      "RawMd5Hash": "H94jxtnMPb2yQBYvqdDRIw=="
+    },
+    {
+      "FileName": "Ecco the Dolphin (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ecco the Dolphin (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "vqAPm3OsJIuvp+QGpUibMg==",
+      "RawMd5Hash": "3XrMvNNMt+Io9E54lxQD1Q=="
+    },
+    {
+      "FileName": "Enduro Racer ~ Super Cross (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Enduro Racer ~ Super Cross (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "BneaGp262mDvsfN+NwQKWw==",
+      "RawMd5Hash": "waUHPOjVCBq4pMihPfY0ig=="
+    },
+    {
+      "FileName": "Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Excellent Dizzy Collection, The (Europe) (En,Fr,De,Es,It) (Proto).sms",
+      "ArchivedRomMd5Hash": "xouGcGeEgB7/U6TKRQD/IQ==",
+      "RawMd5Hash": "gATSckeW8OUe8w8c1GH4Gw=="
+    },
+    {
+      "FileName": "F-1 Spirit - The Way to Formula-1 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "F-1 Spirit - The Way to Formula-1 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "KT7wOYlwz/CltM1Bm2Q/PA==",
+      "RawMd5Hash": "j/ruD3BnK12zjldDO5sfSQ=="
+    },
+    {
+      "FileName": "F-16 Fighting Falcon ~ F-16 Fighter ~ F16 Falcon Fighter (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "F-16 Fighting Falcon ~ F-16 Fighter ~ F16 Falcon Fighter (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "uIdnszhgc/p3WoORuJEgEA==",
+      "RawMd5Hash": "aJC6vVsEisKtk4w4/IIYlg=="
+    },
+    {
+      "FileName": "F1 (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "F1 (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "XWdQS4M0oONvYRlRWShxfA==",
+      "RawMd5Hash": "gTxpnmgBQ2FtAcMlJzayxA=="
+    },
+    {
+      "FileName": "FA Tetris (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "FA Tetris (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "89DQei7qIxddmo0rQoFR6A==",
+      "RawMd5Hash": "WvFl9qWVzQhJiLXeZ8y6oQ=="
+    },
+    {
+      "FileName": "Fantastic Dizzy (Europe) (En,Fr,De,Es,It).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Fantastic Dizzy (Europe) (En,Fr,De,Es,It).sms",
+      "ArchivedRomMd5Hash": "uOsMtqnRbP0I2cAyl/zURQ==",
+      "RawMd5Hash": "59eyJzoSKPjo4FoxFt2ZsA=="
+    },
+    {
+      "FileName": "Fantasy Zone (World) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Fantasy Zone (World) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "/thpDuX7iVwJyqjiuHnr1g==",
+      "RawMd5Hash": "HgiCNy7PdES2v1ZSkZ+fCg=="
+    },
+    {
+      "FileName": "Fantasy Zone - The Maze (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Fantasy Zone - The Maze (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "03+GxniyrQAYUY6nJ42ySw==",
+      "RawMd5Hash": "pQpWgXQ/JmQEvxHXuB8Szw=="
+    },
+    {
+      "FileName": "Fantasy Zone II (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Fantasy Zone II (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "SBoBxOdoxTXuGNbXiBX8iQ==",
+      "RawMd5Hash": "VeruohSE6+HjuLvWX+MxQg=="
+    },
+    {
+      "FileName": "Ferias Frustradas do Pica Pau (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ferias Frustradas do Pica Pau (Brazil).sms",
+      "ArchivedRomMd5Hash": "NwbVP0fj4ClKd4vJtzL0FA==",
+      "RawMd5Hash": "X2jhdRQyQTwa1WslupJwMw=="
+    },
+    {
+      "FileName": "FIFA International Soccer (Brazil) (En,Es,Pt).zip",
+      "Archived": "True",
+      "ArchivedRomName": "FIFA International Soccer (Brazil) (En,Es,Pt).sms",
+      "ArchivedRomMd5Hash": "kHvIQt7Ol870Sv/wya2ncA==",
+      "RawMd5Hash": "Lrwgb3dzSw4Ja+mlUxm50w=="
+    },
+    {
+      "FileName": "Fire & Forget II (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Fire & Forget II (Europe).sms",
+      "ArchivedRomMd5Hash": "0n2P7o9xHbNhpxgXhkvROQ==",
+      "RawMd5Hash": "xLIfbMXJSPUCtE4gvIQ9NQ=="
+    },
+    {
+      "FileName": "Fire & Ice (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Fire & Ice (Brazil).sms",
+      "ArchivedRomMd5Hash": "haz5PtulRIVGauuECWYIKw==",
+      "RawMd5Hash": "KGEZ7JUd+c35KNkLL5g7og=="
+    },
+    {
+      "FileName": "Flash, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Flash, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "qWkI+rX1mbEf6BB8P5O2sQ==",
+      "RawMd5Hash": "ZqqVhqJH1CdqxzQjew1d7Q=="
+    },
+    {
+      "FileName": "Flashpoint (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Flashpoint (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "50MoyM3XGvAu2ZsXE5EmzQ==",
+      "RawMd5Hash": "Ah01Idk7+0lcjNNghwL8Qg=="
+    },
+    {
+      "FileName": "Flintstones, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Flintstones, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "I6WkLApKS87/vRhpGS8ynQ==",
+      "RawMd5Hash": "JOKc2gntS6nJGg7nVfVs0g=="
+    },
+    {
+      "FileName": "Forgotten Worlds (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Forgotten Worlds (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "aMwXEbuJkh2h8hXzI/O7LQ==",
+      "RawMd5Hash": "cBH7aOeKTLE68XNuGS9+aw=="
+    },
+    {
+      "FileName": "G-LOC Air Battle (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "G-LOC Air Battle (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "fM0ohQOespHl74eJFztOEw==",
+      "RawMd5Hash": "J6+/BMU6fU+c2fu9XdPDcQ=="
+    },
+    {
+      "FileName": "Gaegujangi Ggachi (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Gaegujangi Ggachi (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ijeeD4EvG3h7cSbkFz++Ng==",
+      "RawMd5Hash": "3bfvdcLoHiaWMss2QNA4rw=="
+    },
+    {
+      "FileName": "Gain Ground (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Gain Ground (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "fVQjB0j6QbtitvCOXc7eCA==",
+      "RawMd5Hash": "hWypDyM5e7xwjKcSVU23zg=="
+    },
+    {
+      "FileName": "Galactic Protector (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Galactic Protector (Japan).sms",
+      "ArchivedRomMd5Hash": "jWG1kpaHchbPfksEpov6Zg==",
+      "RawMd5Hash": "P5XA/z4o+xCj9Sm+TTPS+w=="
+    },
+    {
+      "FileName": "Galaxian (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Galaxian (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "OHnSyVRYSCEZAnHzwHQ82A==",
+      "RawMd5Hash": "LoPVVbkRpaMxKLeWykxdqw=="
+    },
+    {
+      "FileName": "Galaxy Force (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Galaxy Force (USA).sms",
+      "ArchivedRomMd5Hash": "26rHxy6z4L+ebXC3mdYnmQ==",
+      "RawMd5Hash": "GRgoCb2QOqsngKfHASd6rA=="
+    },
+    {
+      "FileName": "Game Box Serie Esportes Radicais (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Game Box Serie Esportes Radicais (Brazil).sms",
+      "ArchivedRomMd5Hash": "uvODgm5HK7GVmusPx/+FPQ==",
+      "RawMd5Hash": "JxeyAIdwTIeZpu/rVv7n4Q=="
+    },
+    {
+      "FileName": "Game de Check! Koutsuu Anzen (Japan) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Game de Check! Koutsuu Anzen (Japan) (Proto).sms",
+      "ArchivedRomMd5Hash": "hAupbPd7Rl09DTidrHhh1w==",
+      "RawMd5Hash": "bqPboLEGM+NcXRtzdYp+uQ=="
+    },
+    {
+      "FileName": "Gangcheol RoboCop (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Gangcheol RoboCop (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "OhmoUILnszC3WwoILcliiw==",
+      "RawMd5Hash": "Dhxmf5Bf6Q/lhL/ZEqqNaQ=="
+    },
+    {
+      "FileName": "Gangster Town (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Gangster Town (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "M5YlnKAy7U8UmdH3N+deDQ==",
+      "RawMd5Hash": "iIJF+qgn/cXo7XNt8WUBpw=="
+    },
+    {
+      "FileName": "Gauntlet (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Gauntlet (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "/dQBmD60IgD5/sZyN0WXrw==",
+      "RawMd5Hash": "5XqWRmdiNfCy9jGjA1pmew=="
+    },
+    {
+      "FileName": "Geraldinho (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Geraldinho (Brazil).sms",
+      "ArchivedRomMd5Hash": "p/fYuNM5TUFDC4JAFR+R9g==",
+      "RawMd5Hash": "Ys00hytngUCNRH6fwXJGdg=="
+    },
+    {
+      "FileName": "Ghost House (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ghost House (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "WArbc67NNTSIYvtu1DrpVg==",
+      "RawMd5Hash": "5plR9L0Ak+Wt01fGc/muYA=="
+    },
+    {
+      "FileName": "Ghostbusters (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ghostbusters (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "264a1tORepW5bSi/xvP5Cg==",
+      "RawMd5Hash": "HLyTHmk9HnAfGQVukNvu6Q=="
+    },
+    {
+      "FileName": "Ghouls'n Ghosts (USA, Europe, Brazil) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ghouls'n Ghosts (USA, Europe, Brazil) (Demo).sms",
+      "ArchivedRomMd5Hash": "rc0Z5Pg6RzvBKqKEPq2FSA==",
+      "RawMd5Hash": "gfB0E0cNKu+Rc8WlEs8DBA=="
+    },
+    {
+      "FileName": "Ghouls'n Ghosts (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ghouls'n Ghosts (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "hXB7OnRIORBpnMxLogxk/w==",
+      "RawMd5Hash": "4oh7pz5mCr2tBtJERZ/Xog=="
+    },
+    {
+      "FileName": "Global Defense (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Global Defense (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "erSF7jfqfOU499ugi2TZXg==",
+      "RawMd5Hash": "zPfwLEP7Q5Fz1V5eIi+Dyw=="
+    },
+    {
+      "FileName": "Global Gladiators (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Global Gladiators (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "c1adKr77fNy+mhNFbfUlwg==",
+      "RawMd5Hash": "ZAJSNi04UbQNxU6gkYKe8Q=="
+    },
+    {
+      "FileName": "Golden Axe (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Golden Axe (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "tJEa1qnSulZJfNWwHaOTig==",
+      "RawMd5Hash": "QcKkFYcU13Ue2CbuU02v3Q=="
+    },
+    {
+      "FileName": "Golden Axe Warrior (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Golden Axe Warrior (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "1G5Au7cpuiM/FxrXv2Fp9Q==",
+      "RawMd5Hash": "CA+z+WDmEAqSeG4JMHEx4g=="
+    },
+    {
+      "FileName": "Golfamania (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Golfamania (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "VVT59nED4NWxpAdaLSbRWw==",
+      "RawMd5Hash": "k1ao6z7YpEhjEoN24wtjoQ=="
+    },
+    {
+      "FileName": "Golvellius - Valley of Doom (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Golvellius - Valley of Doom (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "IQEpXCWMtrhFvbcr5hdpHQ==",
+      "RawMd5Hash": "IyNv3QgkKjpUszrgiQi5qw=="
+    },
+    {
+      "FileName": "GP Rider (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "GP Rider (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "GvHN+NQMMF+TbnK1HLR0DQ==",
+      "RawMd5Hash": "Rnp9p4wTFt/GyEaUbVa/jw=="
+    },
+    {
+      "FileName": "Great Baseball (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Baseball (Japan).sms",
+      "ArchivedRomMd5Hash": "lMp51OsnCa2YuFDTNyigRQ==",
+      "RawMd5Hash": "WQYRe/ye5lKorIGEcnRy6A=="
+    },
+    {
+      "FileName": "Great Baseball (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Baseball (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "HRJsasjk17YS6ds9Vtnnjg==",
+      "RawMd5Hash": "joiw+ltYkgOWIBxM0vlM1A=="
+    },
+    {
+      "FileName": "Great Basketball (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Basketball (World).sms",
+      "ArchivedRomMd5Hash": "RQ1oRg1K4Hp8yY02SR/U+A==",
+      "RawMd5Hash": "/zskQ9/EQNcUCLdPFGsySQ=="
+    },
+    {
+      "FileName": "Great Football (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Football (World).sms",
+      "ArchivedRomMd5Hash": "LPTWXLCcJ2qWrXPnJPuCXA==",
+      "RawMd5Hash": "6Es0KFQ1bT3muyRGcoUnWg=="
+    },
+    {
+      "FileName": "Great Golf (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Golf (Japan).sms",
+      "ArchivedRomMd5Hash": "wKmiJh6n75O/gSD1Mo3q7A==",
+      "RawMd5Hash": "nVQ64/1Ci5yBL75+BmTIFw=="
+    },
+    {
+      "FileName": "Great Golf ~ Masters Golf (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Golf ~ Masters Golf (World).sms",
+      "ArchivedRomMd5Hash": "djWA8q9X6nut32cftReH2g==",
+      "RawMd5Hash": "U3mGk3eipFL/SCw0+U4L0Q=="
+    },
+    {
+      "FileName": "Great Ice Hockey (Japan, USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Ice Hockey (Japan, USA).sms",
+      "ArchivedRomMd5Hash": "JmISk6iNVf7a9xuwl8JGUw==",
+      "RawMd5Hash": "iBmCWYY/eFbV+cI9EdaSMQ=="
+    },
+    {
+      "FileName": "Great Soccer (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Soccer (Europe).sms",
+      "ArchivedRomMd5Hash": "XJgVtFtcs9mzQ2xWxvytrw==",
+      "RawMd5Hash": "I0AWngDQt6TdtD46EbYDeg=="
+    },
+    {
+      "FileName": "Great Volleyball (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Great Volleyball (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "OCtifvoGyVi47FyF6WS/EA==",
+      "RawMd5Hash": "6cGELlFUb6ZgCCR2yvU0QQ=="
+    },
+    {
+      "FileName": "Gun.Smoke (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Gun.Smoke (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "D+tNHCSDuvWR3qNNpY/5xg==",
+      "RawMd5Hash": "hPuAKF7R2U7MgEuMubtQVw=="
+    },
+    {
+      "FileName": "Hang On & Astro Warrior (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Hang On & Astro Warrior (USA).sms",
+      "ArchivedRomMd5Hash": "NwHLWd/RNyRtFjRi0Y6N1A==",
+      "RawMd5Hash": "XweL+Gf2tQ9WGPYOerHs2w=="
+    },
+    {
+      "FileName": "Heroes of the Lance (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Heroes of the Lance (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "HcrLWWn7Sg1OnH/sZyJ8zg==",
+      "RawMd5Hash": "WO2Xzf+V2SYVIEIpIxkK2w=="
+    },
+    {
+      "FileName": "High School! Kimengumi (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "High School! Kimengumi (Japan).sms",
+      "ArchivedRomMd5Hash": "qzi1NYTIlHbNRkYQWxYIOg==",
+      "RawMd5Hash": "KMastP+g3BINkMUxIcvwuQ=="
+    },
+    {
+      "FileName": "Home Alone (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Home Alone (Europe).sms",
+      "ArchivedRomMd5Hash": "sBAK2fGDgzKxXQQ0v6n+KQ==",
+      "RawMd5Hash": "zq00sZZjZKNAFc6SqItAbg=="
+    },
+    {
+      "FileName": "Hong Kil Dong (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Hong Kil Dong (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "Nyt+3wjzvCNe9TUcEW5cmw==",
+      "RawMd5Hash": "4gf31jvknxyIx/xcQ8gIOA=="
+    },
+    {
+      "FileName": "Hook (Europe) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Hook (Europe) (Proto).sms",
+      "ArchivedRomMd5Hash": "egfj5Z9RtiDYxRvvRo1N9Q==",
+      "RawMd5Hash": "/FsTZwTnA00a2Pd0tcZAmQ=="
+    },
+    {
+      "FileName": "Hoshi wo Sagashite... (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Hoshi wo Sagashite... (Japan).sms",
+      "ArchivedRomMd5Hash": "m2J03VVfhLPyH6JZSygKBg==",
+      "RawMd5Hash": "o4Xf3GiC6O2GMTzrRm0qGg=="
+    },
+    {
+      "FileName": "Impossible Mission (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Impossible Mission (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "r1GrA6Fz3sKMkkFTIifNZA==",
+      "RawMd5Hash": "y+JM4XbEXRi4gvPKOgxPOg=="
+    },
+    {
+      "FileName": "Incredible Crash Dummies, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Incredible Crash Dummies, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Qpc40ZkRiB9ENYKjA+zX9Q==",
+      "RawMd5Hash": "ZDQTmXQvOySSTJzi0JLPzw=="
+    },
+    {
+      "FileName": "Incredible Hulk, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Incredible Hulk, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "KF2ZbB19vzhFjfYcKLuqAQ==",
+      "RawMd5Hash": "KgipCXINQDVB4LxwC+VKRQ=="
+    },
+    {
+      "FileName": "Indiana Jones and the Last Crusade (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Indiana Jones and the Last Crusade (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "6D+MmYguISO9NECQQh6Eww==",
+      "RawMd5Hash": "Y/D64p1N0aRD0kOMzk61+A=="
+    },
+    {
+      "FileName": "James 'Buster' Douglas Knockout Boxing (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "James 'Buster' Douglas Knockout Boxing (USA).sms",
+      "ArchivedRomMd5Hash": "s6SBXKn9yQDPf+atlh+BJQ==",
+      "RawMd5Hash": "KBphky22NoUa8lX1MA2rMQ=="
+    },
+    {
+      "FileName": "James Bond 007 - The Duel (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "James Bond 007 - The Duel (Europe).sms",
+      "ArchivedRomMd5Hash": "xS5JbEl9QndHdpqu37uNqw==",
+      "RawMd5Hash": "1EWo+QjfgxjcUq5+zp9IQA=="
+    },
+    {
+      "FileName": "James Pond 2 - Codename RoboCod (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "James Pond 2 - Codename RoboCod (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "c7kjYMPv3p0mUoD24Vf8Mw==",
+      "RawMd5Hash": "CXOw4j3LX+faQdxYpn1sqg=="
+    },
+    {
+      "FileName": "Jang Pung 3 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Jang Pung 3 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "81XsnQFxpNATVhZdK6umoQ==",
+      "RawMd5Hash": "I730FXo0sIM2hum5xRDBrg=="
+    },
+    {
+      "FileName": "Jang Pung II (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Jang Pung II (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "xnxfBFGQADlL1SXsy3dJWA==",
+      "RawMd5Hash": "2TZx0oOOzCclSRrXGYP4Zw=="
+    },
+    {
+      "FileName": "Janggun-ui Adeul (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Janggun-ui Adeul (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "Lbeqq8p/Ytad9GZ5fA1j2Q==",
+      "RawMd5Hash": "cig1+uWztJFlSZ2DU6qTHg=="
+    },
+    {
+      "FileName": "Joe Montana Football (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Joe Montana Football (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Ds6PnA/eLrqSu+mlABFv8A==",
+      "RawMd5Hash": "/uDJpYRrn8IGjZeU68Fm5Q=="
+    },
+    {
+      "FileName": "Jungle Book, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Jungle Book, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "7SJImL77T7JGF15G+ZgoIQ==",
+      "RawMd5Hash": "0SjIK1BBE0Gsxa9H7Q43Dw=="
+    },
+    {
+      "FileName": "Jurassic Park (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Jurassic Park (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "sFAU3v6NDD0K1vZ4UcoV1w==",
+      "RawMd5Hash": "EYsmP6o2UEOTeY4xe/Mo3w=="
+    },
+    {
+      "FileName": "Kenseiden (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Kenseiden (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "aujwEXAWCK6Ldlom6wt84Q==",
+      "RawMd5Hash": "7KfyH40yidaHPYnZxxUx6g=="
+    },
+    {
+      "FileName": "King & Balloon (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "King & Balloon (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "6g8+59VA2ShFytQNW8U++Q==",
+      "RawMd5Hash": "cot6e1AtIW7J0qH+0f2Czw=="
+    },
+    {
+      "FileName": "King's Quest - Quest for the Crown (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "King's Quest - Quest for the Crown (USA).sms",
+      "ArchivedRomMd5Hash": "L1efWjIW38d66mNpMDdrpw==",
+      "RawMd5Hash": "AyfWGyZYmgzLi4KNlEQHLw=="
+    },
+    {
+      "FileName": "KLAX (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "KLAX (Europe).sms",
+      "ArchivedRomMd5Hash": "3Opx7ahWh9GDW+1cST+Bog==",
+      "RawMd5Hash": "lnvkGrGmCsGKiQBBcInutw=="
+    },
+    {
+      "FileName": "Knightmare II - The Maze of Galious (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Knightmare II - The Maze of Galious (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "CdYi7/qTRpVWbkfx+x1Ldw==",
+      "RawMd5Hash": "yYV20notByhZib/lzu+GFw=="
+    },
+    {
+      "FileName": "Krusty's Fun House (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Krusty's Fun House (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "ht7rrMZBPyP+Ee5UARz0vw==",
+      "RawMd5Hash": "uW5O6bjp9dKDj8CSlYYq1Q=="
+    },
+    {
+      "FileName": "Kung Fu Kid (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Kung Fu Kid (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "EmaHA3vxchdPaX0WzX5ylg==",
+      "RawMd5Hash": "AW9C+psdr6RsW6MetyPxdg=="
+    },
+    {
+      "FileName": "Land of Illusion Starring Mickey Mouse (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Land of Illusion Starring Mickey Mouse (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "B/rB1hvCDPbrKY9m7C/+SQ==",
+      "RawMd5Hash": "56lPqYaV4jc42yH0uNDGkg=="
+    },
+    {
+      "FileName": "Laser Ghost (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Laser Ghost (Europe).sms",
+      "ArchivedRomMd5Hash": "F/nFDERNyU4Iuhc6swZgiw==",
+      "RawMd5Hash": "x9SlRg46Ru6L3eBVe1DL2g=="
+    },
+    {
+      "FileName": "Legend of Illusion Starring Mickey Mouse (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Legend of Illusion Starring Mickey Mouse (Brazil).sms",
+      "ArchivedRomMd5Hash": "Smmlao7/94Y/7KEfHWVH4w==",
+      "RawMd5Hash": "se8qbWE7NoxQwAtEKZXriA=="
+    },
+    {
+      "FileName": "Lemmings (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Lemmings (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "sZDxeka6nMZmducXQgnCTg==",
+      "RawMd5Hash": "8Qz9LXNWP6RyFkj74Vd1FA=="
+    },
+    {
+      "FileName": "Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04).sms",
+      "ArchivedRomMd5Hash": "PaX1Ei89lDYN5hvLhHjhaQ==",
+      "RawMd5Hash": "zaDdGCE9aCvVSa72k7qQ1w=="
+    },
+    {
+      "FileName": "Line of Fire (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Line of Fire (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "FZetcFmQpm6QJi73sRQbZA==",
+      "RawMd5Hash": "rA/34c7jM1SS6CswnFzURQ=="
+    },
+    {
+      "FileName": "Lion King, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Lion King, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "5QM2wNFG6KNBx64ZigFlJw==",
+      "RawMd5Hash": "VniPfQUXg+LVnuO1dxwQSw=="
+    },
+    {
+      "FileName": "Lord of the Sword (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Lord of the Sword (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "uA+HiHiBND5XBf88zpPF8Q==",
+      "RawMd5Hash": "2LWuKFt3SCgx2vZwFb/3KQ=="
+    },
+    {
+      "FileName": "Loretta no Shouzou - Sherlock Holmes (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Loretta no Shouzou - Sherlock Holmes (Japan).sms",
+      "ArchivedRomMd5Hash": "jc3YPli+Y0o3NZEaGvBbsw==",
+      "RawMd5Hash": "c/FoJfnuPpvI4UveH7q7WA=="
+    },
+    {
+      "FileName": "Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "ZT8QBCpe5YVMz5cUVmQaTQ==",
+      "RawMd5Hash": "CnMBrquxWnYRGBedJOt4mg=="
+    },
+    {
+      "FileName": "Mahjong Sengoku Jidai ~ Mahjong (Japan, Hong Kong).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mahjong Sengoku Jidai ~ Mahjong (Japan, Hong Kong).sms",
+      "ArchivedRomMd5Hash": "rjeyfzeiXFIw9Q6LjVjrog==",
+      "RawMd5Hash": "np2TtBzRJ1jWwEHNlZjh/w=="
+    },
+    {
+      "FileName": "Marble Madness (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Marble Madness (Europe).sms",
+      "ArchivedRomMd5Hash": "l4Mpmd1tK6RntWJQBrAYoA==",
+      "RawMd5Hash": "O90fqPtUVrNwFUx/0fEaIQ=="
+    },
+    {
+      "FileName": "Marksman Shooting & Trap Shooting & Safari Hunt (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Marksman Shooting & Trap Shooting & Safari Hunt (Europe).sms",
+      "ArchivedRomMd5Hash": "v36nmsDfPr5yVtpjMbIcNA==",
+      "RawMd5Hash": "fd9GyOioPqelyMXtSw9HwQ=="
+    },
+    {
+      "FileName": "Marksman Shooting & Trap Shooting (USA, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Marksman Shooting & Trap Shooting (USA, Brazil).sms",
+      "ArchivedRomMd5Hash": "CijP17FRUx+3pDGBwk4dPQ==",
+      "RawMd5Hash": "Bl5kZbs9mhhrxKD9gJcPqA=="
+    },
+    {
+      "FileName": "Master of Darkness (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Master of Darkness (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "g1STKn8g6EqAhHGzckpW+A==",
+      "RawMd5Hash": "U9DXwWwSwKxQBXbSxDXtFw=="
+    },
+    {
+      "FileName": "Masters of Combat (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Masters of Combat (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "f0x6V65Gg38B75oMhQZSUA==",
+      "RawMd5Hash": "dtz1UIzwb1UBO9tPQfblvw=="
+    },
+    {
+      "FileName": "Maze Hunter 3-D (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Maze Hunter 3-D (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "I0nuQqCQiKSlkOLGVHTNrw==",
+      "RawMd5Hash": "n2sOP/RZyCBboBvwEAjA7Q=="
+    },
+    {
+      "FileName": "Megumi Rescue (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Megumi Rescue (Japan).sms",
+      "ArchivedRomMd5Hash": "/YNNu4doLGdPfX7ZFzVQIQ==",
+      "RawMd5Hash": "8QZ0On7Fu7tOinHuOd0hDw=="
+    },
+    {
+      "FileName": "Mercs (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mercs (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "fVaWw9oNvtBLNVQ/e9vvQA==",
+      "RawMd5Hash": "2TRmQkOi7FNAksWyw2+v5Q=="
+    },
+    {
+      "FileName": "Michael Jackson's Moonwalker (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Michael Jackson's Moonwalker (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "qjvIRn6ApqqrAgUYGOywNQ==",
+      "RawMd5Hash": "w/jhQVHGH03EnEFXeEQszQ=="
+    },
+    {
+      "FileName": "Mickey's Ultimate Challenge (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mickey's Ultimate Challenge (Brazil).sms",
+      "ArchivedRomMd5Hash": "f/qKcM57/Iqr/hDiBt8sKQ==",
+      "RawMd5Hash": "LhsxH50DdogvNPzfWp18Rw=="
+    },
+    {
+      "FileName": "Micro Machines (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Micro Machines (Europe).sms",
+      "ArchivedRomMd5Hash": "qQz41o+osfC6APDdudVHtw==",
+      "RawMd5Hash": "QM53SnyB2A1Zra7vsNUs0g=="
+    },
+    {
+      "FileName": "Micro Xevious, The (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Micro Xevious, The (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "TVgV0bDHs3Eje7DpgoHV8w==",
+      "RawMd5Hash": "AeXDZ69WbR0k+QLWmrNrNw=="
+    },
+    {
+      "FileName": "Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Miracle Warriors - Seal of the Dark Lord (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "4KnPiJwn88sUkDKI9kbRgw==",
+      "RawMd5Hash": "UgM7RJKpDBOZPbZC10TJhw=="
+    },
+    {
+      "FileName": "Missile Defense 3-D (USA, Europe, Brazil) (Sample).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Missile Defense 3-D (USA, Europe, Brazil) (Sample).sms",
+      "ArchivedRomMd5Hash": "bD1U4TOBEv05QYyo2mcplA==",
+      "RawMd5Hash": "Hx9iLcEX9b6O5VXTR/VhdQ=="
+    },
+    {
+      "FileName": "Missile Defense 3-D (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Missile Defense 3-D (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "sXyiRVXMecX32J8Va5nkUg==",
+      "RawMd5Hash": "8+iKczMAtAPOYmmTyTQorw=="
+    },
+    {
+      "FileName": "Monopoly (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Monopoly (USA).sms",
+      "ArchivedRomMd5Hash": "uIeDaYP8y17HBmMM+DWTnw==",
+      "RawMd5Hash": "KKagZP5ForOT9oKlO8SIbw=="
+    },
+    {
+      "FileName": "Montezuma's Revenge featuring Panama Joe (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Montezuma's Revenge featuring Panama Joe (USA).sms",
+      "ArchivedRomMd5Hash": "/iDZg9Gxj/GYbDdkiYQ/Mg==",
+      "RawMd5Hash": "+WaH+BjOZaD2/UQSvMQoZA=="
+    },
+    {
+      "FileName": "Mopiranger (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mopiranger (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ilkL/3OXABceWZbJ3U4Brg==",
+      "RawMd5Hash": "MeVvk8zffZ2dBLQyG7zc5g=="
+    },
+    {
+      "FileName": "Mortal Kombat (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mortal Kombat (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "pCntN7UcyfRslD+WjYjinw==",
+      "RawMd5Hash": "DmpSUv0fb82Yi4sDs/mGDw=="
+    },
+    {
+      "FileName": "Mortal Kombat 3 (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mortal Kombat 3 (Brazil).sms",
+      "ArchivedRomMd5Hash": "O6c8CfNeqRvzbNCwG8HARA==",
+      "RawMd5Hash": "Nis1/zXsEpzHSV3ujxSGtA=="
+    },
+    {
+      "FileName": "Mortal Kombat II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Mortal Kombat II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "xg9i8TpgvFhYIr/S1ounXA==",
+      "RawMd5Hash": "1iRBLCbXebfnliw7t9AfPg=="
+    },
+    {
+      "FileName": "Ms. Pac-Man (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ms. Pac-Man (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "5JKiN/YupqW35x/xo/wPMw==",
+      "RawMd5Hash": "U7yx97Tr3ZQL3Aji/WRkfw=="
+    },
+    {
+      "FileName": "My Hero (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "My Hero (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "7+9zYcnDe81qe4S8Ehr18g==",
+      "RawMd5Hash": "+ElyY4YC0XSSm8T/K+kk5w=="
+    },
+    {
+      "FileName": "NBA Jam (Europe) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "NBA Jam (Europe) (Proto).sms",
+      "ArchivedRomMd5Hash": "PYR79iVnAmviNRKWGleAYw==",
+      "RawMd5Hash": "qo0UUZ/AWAOooagkhRxdSA=="
+    },
+    {
+      "FileName": "Nekkyuu Koushien (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Nekkyuu Koushien (Japan).sms",
+      "ArchivedRomMd5Hash": "3qyJZyqYxUAAMOZld8u0VA==",
+      "RawMd5Hash": "8jtwkUAfVP+eb5m8pWdNrQ=="
+    },
+    {
+      "FileName": "Nemesis (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Nemesis (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "H5ta4hQ4TBXkPh2O7gDDHw==",
+      "RawMd5Hash": "l+3bDxDBI/OozbLlFPilHQ=="
+    },
+    {
+      "FileName": "Nemesis 2 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Nemesis 2 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "9rCExibZb01IIDyq7QrmsQ==",
+      "RawMd5Hash": "CDg0RBAu5neCKpHefVIXTQ=="
+    },
+    {
+      "FileName": "New Boggle Boggle 2 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "New Boggle Boggle 2 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "oS0zcQMNyKoNAdiyHq57Uw==",
+      "RawMd5Hash": "qS5k5/eFVsQcVpAwvv7REQ=="
+    },
+    {
+      "FileName": "NewZealand Story, The (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "NewZealand Story, The (Europe).sms",
+      "ArchivedRomMd5Hash": "BeUFTi6oGNS361PWJFYtzw==",
+      "RawMd5Hash": "Vhr10znM5xWQFtfAzq9QTA=="
+    },
+    {
+      "FileName": "Ninja Gaiden (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ninja Gaiden (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "LNJbPZoc7TKaVR1/w8DwHg==",
+      "RawMd5Hash": "Mn9zFbfQIuYYyvEuYNEggA=="
+    },
+    {
+      "FileName": "Ninja, The (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ninja, The (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "LGILpk/KrJQLSxVmczA3sw==",
+      "RawMd5Hash": "AlzNW8FT00R8i9e20dhn2Q=="
+    },
+    {
+      "FileName": "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sms",
+      "ArchivedRomMd5Hash": "KgcX8BSy/ZnezZIwgXVljw==",
+      "RawMd5Hash": "xhC5IdGKHRNTiNA9hI5F9g=="
+    },
+    {
+      "FileName": "Operation Wolf (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Operation Wolf (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "LKIGQwL1H3JOHyWTNpoGlg==",
+      "RawMd5Hash": "/SG+Tg1YQPQa6riQbmrWkA=="
+    },
+    {
+      "FileName": "Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It).sms",
+      "ArchivedRomMd5Hash": "9k6hWRIMAY4F+5WshTPp6w==",
+      "RawMd5Hash": "H/zlAulnxtBF+ygAjjnyXg=="
+    },
+    {
+      "FileName": "OutRun (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "OutRun (World).sms",
+      "ArchivedRomMd5Hash": "Ap7pIVUkf4ooLWO4pt0jxA==",
+      "RawMd5Hash": "Atl7uQyuYeXSpNuUqQhRiA=="
+    },
+    {
+      "FileName": "OutRun 3-D (Europe, Brazil) (Sample).zip",
+      "Archived": "True",
+      "ArchivedRomName": "OutRun 3-D (Europe, Brazil) (Sample).sms",
+      "ArchivedRomMd5Hash": "yOS2scqNk+iKZlBuVfSJ+Q==",
+      "RawMd5Hash": "2TKQu26Do0sOS6CjRmqoLQ=="
+    },
+    {
+      "FileName": "OutRun 3-D (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "OutRun 3-D (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "VYx5OqsJtGvteEMTSBkQYA==",
+      "RawMd5Hash": "cFD/c38gaoT61JEJdgAUBA=="
+    },
+    {
+      "FileName": "OutRun Europa (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "OutRun Europa (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "RY/Cl2WGX9qvP1aAjJTYpg==",
+      "RawMd5Hash": "2kHY4uquXdj73nWITuaD5Q=="
+    },
+    {
+      "FileName": "Pac-Mania (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Pac-Mania (Europe).sms",
+      "ArchivedRomMd5Hash": "lG8+bC8PVGqOvlXIFw7MeA==",
+      "RawMd5Hash": "n8Bm03TI+l9zp95Vt6KZrA=="
+    },
+    {
+      "FileName": "Paperboy (USA, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Paperboy (USA, Brazil).sms",
+      "ArchivedRomMd5Hash": "m2lNdlA4/7h7NhdEEkUliA==",
+      "RawMd5Hash": "GzhNmDr5yJ5rQInJnNeeXw=="
+    },
+    {
+      "FileName": "Parlour Games (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Parlour Games (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "a+x5WRDFqRrBRrkF33wX9Q==",
+      "RawMd5Hash": "dLMKbTkB/YuCXObMyyaZOA=="
+    },
+    {
+      "FileName": "Pat Riley Basketball (USA) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Pat Riley Basketball (USA) (Proto).sms",
+      "ArchivedRomMd5Hash": "CuJQcC0nO83GWyTp4S7gxA==",
+      "RawMd5Hash": "di5b/TR7j0ONMPHFMwEcug=="
+    },
+    {
+      "FileName": "Penguin Adventure (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Penguin Adventure (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ytqPvVW2RE8jCOdwx56szA==",
+      "RawMd5Hash": "86U3kBHG/hdD+Zwi1uy+Jw=="
+    },
+    {
+      "FileName": "Penguin Land (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Penguin Land (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "jd7Fifcs3PLNTKr7B17I5A==",
+      "RawMd5Hash": "8hWoAAyx7Vmvqc23lDj6HA=="
+    },
+    {
+      "FileName": "PGA Tour Golf (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "PGA Tour Golf (Europe).sms",
+      "ArchivedRomMd5Hash": "QMWcCN8GXjT/8bN5SR5gEw==",
+      "RawMd5Hash": "6z7cP4ZS5rT1NzQ8CV8BPw=="
+    },
+    {
+      "FileName": "Phantasy Star (USA, Europe) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Phantasy Star (USA, Europe) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "ERCTjfgPTkTIIT1/hc+15g==",
+      "RawMd5Hash": "+N2PFlHTinJNMC2kTzubIQ=="
+    },
+    {
+      "FileName": "Pit-Fighter (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Pit-Fighter (Europe).sms",
+      "ArchivedRomMd5Hash": "WFrtE7pUjQJYpFfNZ2hRGw==",
+      "RawMd5Hash": "RJxME/O7FOXHjHK89cGdFA=="
+    },
+    {
+      "FileName": "Pooyan (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Pooyan (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ymFnm0EOrYQtcrhSG565qA==",
+      "RawMd5Hash": "37cziWDwNqoWnkFFtlIdcg=="
+    },
+    {
+      "FileName": "Populous (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Populous (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "zGlMqUxNdLSHmDMy+syLhg==",
+      "RawMd5Hash": "otvXNfumA96H6adkCLJRbA=="
+    },
+    {
+      "FileName": "Poseidon Wars 3-D (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Poseidon Wars 3-D (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "NYZBasbyqh+n3qNRr7isHA==",
+      "RawMd5Hash": "G5/kHj5Pz0Ze+DTWklCkDA=="
+    },
+    {
+      "FileName": "Power Boggle Boggle (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Power Boggle Boggle (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "oR+MJ1yA/Dl9Efd25Bl5Zg==",
+      "RawMd5Hash": "/uNNn36eCGN/ER7p25/uFQ=="
+    },
+    {
+      "FileName": "Power Strike (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Power Strike (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "jZ8C3P6o+XKKNmXKErBE0Q==",
+      "RawMd5Hash": "YQ6lj9dll5tUdnGaJ3Epvg=="
+    },
+    {
+      "FileName": "Power Strike II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Power Strike II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "vXiYOTtxav9pEyk0v33MuA==",
+      "RawMd5Hash": "2H0v7k3mwQF5B3Pvo9SX9g=="
+    },
+    {
+      "FileName": "Ppang Gongjang (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ppang Gongjang (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "yjjvtNtD2Yg5L0ECrH8bvw==",
+      "RawMd5Hash": "xZxtu0KP1KCyHyq5p6LKhQ=="
+    },
+    {
+      "FileName": "Predator 2 (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Predator 2 (Europe).sms",
+      "ArchivedRomMd5Hash": "E4lBnZCDTTcAt3LphBQ/3g==",
+      "RawMd5Hash": "fQ7npRhFdx7qVlGMemxAEw=="
+    },
+    {
+      "FileName": "Prince of Persia (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Prince of Persia (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "cOmzMN1qkecxDzyNmpNOzA==",
+      "RawMd5Hash": "VrC2HTzJ9BKIeeyRN2FYPw=="
+    },
+    {
+      "FileName": "Pro Wrestling (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Pro Wrestling (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "DuKTcQTpZnvonDjm6ZktSw==",
+      "RawMd5Hash": "H2LYeZxggiKu/xu0YiEDfA=="
+    },
+    {
+      "FileName": "Pro Yakyuu, The - Pennant Race (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Pro Yakyuu, The - Pennant Race (Japan).sms",
+      "ArchivedRomMd5Hash": "DgJXaNtuanRZCZrdcRaQqw==",
+      "RawMd5Hash": "5raIPlsnBNiMq8eEVUeeNA=="
+    },
+    {
+      "FileName": "Promocao Especial M. System III Compact (Brazil) (Sample).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Promocao Especial M. System III Compact (Brazil) (Sample).sms",
+      "ArchivedRomMd5Hash": "hsYJtjDIvAGMjrrndUbDwQ==",
+      "RawMd5Hash": "7nRQ4SUVnTB24qZbaycO5A=="
+    },
+    {
+      "FileName": "Psychic World (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Psychic World (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "EHb2NYUn0c7B4edRQ5lykw==",
+      "RawMd5Hash": "dwYc+9RUYF7ozZuA+Zks8A=="
+    },
+    {
+      "FileName": "Psycho Fox (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Psycho Fox (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "qcL6z571NtCVQUzi584vTw==",
+      "RawMd5Hash": "y9IGVSFHjb9XmoVyuz/gfA=="
+    },
+    {
+      "FileName": "Putt & Putter ~ Minigolf (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Putt & Putter ~ Minigolf (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "wT2raKhf71uiiuD1uk/QXw==",
+      "RawMd5Hash": "+v0lvcHIWfooWJ5CgBg+ZQ=="
+    },
+    {
+      "FileName": "Puzzle (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Puzzle (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "1hVSYDBdLqHuDTJYaR0R+g==",
+      "RawMd5Hash": "YFoVg7VIP1kyqxgtDcnBkw=="
+    },
+    {
+      "FileName": "Quartet (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Quartet (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "Y69/zlEGzD3h4bEWwRIJWw==",
+      "RawMd5Hash": "0ul732TUPAFepWrQ3kQpPA=="
+    },
+    {
+      "FileName": "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (Brazil).sms",
+      "ArchivedRomMd5Hash": "WLidYkOEB/JCu+cT8dlFyg==",
+      "RawMd5Hash": "kqe4bR/qlmjHyOjatqWx+Q=="
+    },
+    {
+      "FileName": "R-Type (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "R-Type (World).sms",
+      "ArchivedRomMd5Hash": "nlUH1RrG8kxwKlKnq84NPA==",
+      "RawMd5Hash": "qRiERBzzsQ90teDeMnUO4g=="
+    },
+    {
+      "FileName": "R.C. Grand Prix (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "R.C. Grand Prix (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "sw5guRlgoPKon8EzQQdw3w==",
+      "RawMd5Hash": "2GKEKE4hNJIZfb72ZuWi5Q=="
+    },
+    {
+      "FileName": "Rainbow Islands (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rainbow Islands (Europe).sms",
+      "ArchivedRomMd5Hash": "/7qYaZSOLO8r2m+AXMcghw==",
+      "RawMd5Hash": "CV2Ubl/AYllvAmgptghkug=="
+    },
+    {
+      "FileName": "Rambo - First Blood Part II (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rambo - First Blood Part II (USA).sms",
+      "ArchivedRomMd5Hash": "eggKFVrWqAbaiKodNXbXjA==",
+      "RawMd5Hash": "27nHyZqeLgKHgGZ6J6BeuA=="
+    },
+    {
+      "FileName": "Rambo III (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rambo III (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "T85OMkdjnQ71TrVNDvIRUw==",
+      "RawMd5Hash": "uPmBy8DDs+lbDaad4tFzyQ=="
+    },
+    {
+      "FileName": "Rampage (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rampage (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "VO6IS8ZY262I6sGOReDq/A==",
+      "RawMd5Hash": "+SK63wmkowIMj+VCJjyWFw=="
+    },
+    {
+      "FileName": "Rampart (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rampart (Europe).sms",
+      "ArchivedRomMd5Hash": "+GWvt7XDLhMAFuLTV1aDnA==",
+      "RawMd5Hash": "hV3dnc5a8TfW7YOCVQQ6eA=="
+    },
+    {
+      "FileName": "Rastan (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rastan (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Wzp4XeQDwxHbfxfq4nyq5g==",
+      "RawMd5Hash": "KZzgZuvryafN7QiMcBzr8w=="
+    },
+    {
+      "FileName": "Reggie Jackson Baseball (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Reggie Jackson Baseball (USA).sms",
+      "ArchivedRomMd5Hash": "s6N9YBBQylxzLcQWDYdYIQ==",
+      "RawMd5Hash": "sCintSV+fRdU7EtTFpREhQ=="
+    },
+    {
+      "FileName": "Renegade (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Renegade (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "u86LisJuL1gt7+AFY0bwNQ==",
+      "RawMd5Hash": "lZGEEW4JOh9449Khbh+WCg=="
+    },
+    {
+      "FileName": "Rescue Mission (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rescue Mission (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "cX/fhoyPEacSaXJg6322cA==",
+      "RawMd5Hash": "g2KXaCsXTjHJpcf74k8IHg=="
+    },
+    {
+      "FileName": "Road Fighter (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Road Fighter (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "DlKkPJoCrSbiUmcGCR3HjQ==",
+      "RawMd5Hash": "3Fd6AA2DJ7PxWiYhfCM9cg=="
+    },
+    {
+      "FileName": "Road Rash (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Road Rash (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "MlV1N00ts3Vfg7unKJkOvg==",
+      "RawMd5Hash": "5CrkW1sh0WGQzBccXpD0MQ=="
+    },
+    {
+      "FileName": "RoboCop 3 (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "RoboCop 3 (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "xlbcn5ATh8xRJ25HCcNA+A==",
+      "RawMd5Hash": "UAVs+fOnzNDMxpPUtp4iSw=="
+    },
+    {
+      "FileName": "RoboCop versus The Terminator (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "RoboCop versus The Terminator (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "fimrfa4ASeHjlEr32idX+w==",
+      "RawMd5Hash": "6GS/myZTWpTF23fd9C2T9A=="
+    },
+    {
+      "FileName": "Rocky (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Rocky (World).sms",
+      "ArchivedRomMd5Hash": "WC1Y2VyXdM1QVVNmwlOgUA==",
+      "RawMd5Hash": "MUJXI2pwdn5EkMOVqkFHJQ=="
+    },
+    {
+      "FileName": "Running Battle (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Running Battle (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "wyyVIiznBcDJNzKoki90Uw==",
+      "RawMd5Hash": "a+5D9d673OCTwfhWEHsgrA=="
+    },
+    {
+      "FileName": "Sagaia (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sagaia (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "2KTJUgO74pR2AIUYn5VE+g==",
+      "RawMd5Hash": "ZmD/fe+WXv54eHduDvnC/Q=="
+    },
+    {
+      "FileName": "Sagak-ui Bimil (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sagak-ui Bimil (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "MZV8lg4QO9lZgkBQk7Sc6A==",
+      "RawMd5Hash": "TspBbKRnppEx/nTO/La1Qg=="
+    },
+    {
+      "FileName": "Samgukji 3 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Samgukji 3 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "UXw3GpKasBLulaIIQ8Xxwg==",
+      "RawMd5Hash": "eSnBpUyJTZppm1z4tsiebg=="
+    },
+    {
+      "FileName": "Sapo Xule - O Mestre do Kung Fu (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sapo Xule - O Mestre do Kung Fu (Brazil).sms",
+      "ArchivedRomMd5Hash": "OHmDoCAyj1K0IpOzCFYuuA==",
+      "RawMd5Hash": "Bz4Qd63JUkMeaICqEt9HAA=="
+    },
+    {
+      "FileName": "Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sapo Xule - S.O.S. Lagoa Poluida (Brazil, Portugal).sms",
+      "ArchivedRomMd5Hash": "TMEk8RWtuJpXSZCHh9yyMA==",
+      "RawMd5Hash": "/Omw/UbwbagWaFxB2j6T6g=="
+    },
+    {
+      "FileName": "Sapo Xule vs. Os Invasores do Brejo (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sapo Xule vs. Os Invasores do Brejo (Brazil).sms",
+      "ArchivedRomMd5Hash": "QJZj47xHzVVdRjCEsxfWAA==",
+      "RawMd5Hash": "z+vOKK//Ee4xfHolEO7p1g=="
+    },
+    {
+      "FileName": "Satellite 7 (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Satellite 7 (Japan).sms",
+      "ArchivedRomMd5Hash": "6saoQ5dcUOOesy92TaKlrA==",
+      "RawMd5Hash": "gGJifSOF91Uk1x64Y7+20A=="
+    },
+    {
+      "FileName": "Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es).sms",
+      "ArchivedRomMd5Hash": "hoBruirPegeq0SX27wLNUQ==",
+      "RawMd5Hash": "eJLR5cs+f6dZwrNXUQTcQA=="
+    },
+    {
+      "FileName": "Scramble Spirits (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Scramble Spirits (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "grnuCSDDxGeY7NZZvgpdmg==",
+      "RawMd5Hash": "k8oOzs9aIsnsjg1IUo81EQ=="
+    },
+    {
+      "FileName": "Sega Chess (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sega Chess (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "kjNOnlLuuNJ2BuMZsfi2Fw==",
+      "RawMd5Hash": "bO4tOOTX7PHPsuIfeh8q0g=="
+    },
+    {
+      "FileName": "Sega Graphic Board (USA) (v2.0) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sega Graphic Board (USA) (v2.0) (Proto).sms",
+      "ArchivedRomMd5Hash": "U/RwqhycJJcNsLvSPy98ww==",
+      "RawMd5Hash": "DZtByI47gx5+DuN9gFnV1Q=="
+    },
+    {
+      "FileName": "Sega World Tournament Golf (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sega World Tournament Golf (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "+cUmr8rMcn5F5yKp2AdRCQ==",
+      "RawMd5Hash": "145CeFUZLfKdQb/vc/QLxQ=="
+    },
+    {
+      "FileName": "Sensible Soccer (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sensible Soccer (Europe).sms",
+      "ArchivedRomMd5Hash": "XKCisz247tzdsdWuqo6lpA==",
+      "RawMd5Hash": "UEAEtT+IFBOrs8TTeOcYvg=="
+    },
+    {
+      "FileName": "Shadow Dancer - The Secret of Shinobi ~ Shadow Dancer (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Shadow Dancer - The Secret of Shinobi ~ Shadow Dancer (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "wgVdXGbdOUS5lkLBgDLrxA==",
+      "RawMd5Hash": "uRWKhg7YXzHK501uVgGwVw=="
+    },
+    {
+      "FileName": "Shadow of the Beast (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Shadow of the Beast (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "q8ip5DxYjH0FNcyDBb2/lA==",
+      "RawMd5Hash": "Mwg4aBLR+Xnaev3HCTQliQ=="
+    },
+    {
+      "FileName": "Shanghai (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Shanghai (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "8FlfvTNMuOlcBIaliKJPew==",
+      "RawMd5Hash": "Tyy+K5sGUmNwgKeonAeZhQ=="
+    },
+    {
+      "FileName": "Shinobi (USA, Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Shinobi (USA, Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "PdLAJRheGayb8e0WtpXGKQ==",
+      "RawMd5Hash": "ty7kXs9xy6G+9ai8LNSYjw=="
+    },
+    {
+      "FileName": "Shooting Gallery ~ Shooting G. (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Shooting Gallery ~ Shooting G. (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "+OqLjmQcq/8yIQ6mWD+flA==",
+      "RawMd5Hash": "B3squM37A8yLntjyjORqcg=="
+    },
+    {
+      "FileName": "Simpsons, The - Bart vs. the Space Mutants (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Simpsons, The - Bart vs. the Space Mutants (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Jt9EBJUMuNpHI1gzwMEBxg==",
+      "RawMd5Hash": "B3vxVdJn16CRgyryGZH3pw=="
+    },
+    {
+      "FileName": "Simpsons, The - Bart vs. the World (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Simpsons, The - Bart vs. the World (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "y6LsKUBhmVY1mAFhjnqrFw==",
+      "RawMd5Hash": "ek+WfrB68Qq6cVrHZ8KB2w=="
+    },
+    {
+      "FileName": "Sitio do Picapau Amarelo (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sitio do Picapau Amarelo (Brazil).sms",
+      "ArchivedRomMd5Hash": "hepSosvK4HjcOgT42xMEqQ==",
+      "RawMd5Hash": "v4Lqt7a7CPDrPyeXr9cgCQ=="
+    },
+    {
+      "FileName": "Sky Fighter (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sky Fighter (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "XG0B51NHJuAvJ2ZMRMSR1g==",
+      "RawMd5Hash": "zrspFhyo0ubW5vwwQgyuvw=="
+    },
+    {
+      "FileName": "Sky Jaguar (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sky Jaguar (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "g20LTJq5KWzHil+OLLN11w==",
+      "RawMd5Hash": "x0FWL3kdNLpjBUPRuuA7Cg=="
+    },
+    {
+      "FileName": "Slap Shot (USA, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Slap Shot (USA, Brazil).sms",
+      "ArchivedRomMd5Hash": "ICfQle5cHywBJViI4LQ27Q==",
+      "RawMd5Hash": "YCEMbphk5gv/meT4lht7WQ=="
+    },
+    {
+      "FileName": "Smurfs, The (Europe, Brazil) (En,Fr,De,Es).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Smurfs, The (Europe, Brazil) (En,Fr,De,Es).sms",
+      "ArchivedRomMd5Hash": "/iqgQC6zDOwXs79FBPghmw==",
+      "RawMd5Hash": "Hqvm3U6muTf9snWow61V5w=="
+    },
+    {
+      "FileName": "Solomon no Kagi - Oujo Rihita no Namida (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Solomon no Kagi - Oujo Rihita no Namida (Japan).sms",
+      "ArchivedRomMd5Hash": "z6hIBgdeAX4p/83QEn/mRw==",
+      "RawMd5Hash": "BxrHHgRjxnyiuG0pQDmj+Q=="
+    },
+    {
+      "FileName": "Sonic Blast (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sonic Blast (Brazil).sms",
+      "ArchivedRomMd5Hash": "zn8xSmV+Dw/lBvt66gFvMQ==",
+      "RawMd5Hash": "V8z3FsxSgQ3amaGvZw7Qqw=="
+    },
+    {
+      "FileName": "Sonic Chaos (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sonic Chaos (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "HWYRNLFO7fa0rhyQdYH9lg==",
+      "RawMd5Hash": "sCbCyaurJVi+b/piefV3gQ=="
+    },
+    {
+      "FileName": "Sonic Spinball (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sonic Spinball (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "IbS89rJZ1FUJEq1vSur1UA==",
+      "RawMd5Hash": "OLNXdMB/C+yaRRH9SFjvUQ=="
+    },
+    {
+      "FileName": "Sonic The Hedgehog (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sonic The Hedgehog (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "3BOmHq/nXBPBW17OQZrFew==",
+      "RawMd5Hash": "5WCU/rjwPpGeEI+XGZ2PEQ=="
+    },
+    {
+      "FileName": "Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sonic The Hedgehog 2 (Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "CsFXtrfoOZU/yOunU4+3Sg==",
+      "RawMd5Hash": "PsqtmmZu7gk6yT2jCS/uMQ=="
+    },
+    {
+      "FileName": "Sonic's Edusoft (Unknown) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sonic's Edusoft (Unknown) (Proto).sms",
+      "ArchivedRomMd5Hash": "WRmxAWJNRxChCCXDTnU7og==",
+      "RawMd5Hash": "IMUBFnr+nlzl3xZwpdjlEw=="
+    },
+    {
+      "FileName": "Space Gun (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Space Gun (Europe).sms",
+      "ArchivedRomMd5Hash": "67C0Fh/6hzp/qAykHROcVw==",
+      "RawMd5Hash": "B8Qe4wi/VMcU/xmAQ8aOHg=="
+    },
+    {
+      "FileName": "Space Harrier (Japan, USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Space Harrier (Japan, USA).sms",
+      "ArchivedRomMd5Hash": "suUEffGGr3wC2hfxsoWuTw==",
+      "RawMd5Hash": "BxkSLvdsSc1V5BE+7MCnLQ=="
+    },
+    {
+      "FileName": "Space Harrier 3-D ~ Space Harrier 3D (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Space Harrier 3-D ~ Space Harrier 3D (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "lFpCAhgavoxQCCplIR73xw==",
+      "RawMd5Hash": "SxRVeSzGvHssakaXX4DG+A=="
+    },
+    {
+      "FileName": "Special Criminal Investigation (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Special Criminal Investigation (Europe).sms",
+      "ArchivedRomMd5Hash": "dMgQjnIH1bcUmmmw/JDYdw==",
+      "RawMd5Hash": "xti5ufHsCbO9s1C/m9gCow=="
+    },
+    {
+      "FileName": "Speedball (Europe) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Speedball (Europe) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "rlefumPg2py5aZgKwXKmAA==",
+      "RawMd5Hash": "UlWwBlegR5k7ZTXgl3ejsA=="
+    },
+    {
+      "FileName": "Speedball 2 (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Speedball 2 (Europe).sms",
+      "ArchivedRomMd5Hash": "s34MgXfEeSWUNWsRdX+axQ==",
+      "RawMd5Hash": "vUfje0Usv7+Y+AU7ynNr/Q=="
+    },
+    {
+      "FileName": "SpellCaster (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "SpellCaster (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "DhRJ3X30/QmVzPgCu3TLoA==",
+      "RawMd5Hash": "r0JAAc8q2WGxNN+9G/eICQ=="
+    },
+    {
+      "FileName": "Spider-Man (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Spider-Man (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "+hDucOQzheiOXRoAhxZmiw==",
+      "RawMd5Hash": "U7hZKo+qpb3HVYh5nSRiww=="
+    },
+    {
+      "FileName": "Spider-Man - Return of the Sinister Six (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Spider-Man - Return of the Sinister Six (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "CUYott0DQiU1lLCtsHd8ew==",
+      "RawMd5Hash": "+cnfqNYeMFf7HV+dJn0AWA=="
+    },
+    {
+      "FileName": "Sports Pad Football (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sports Pad Football (USA).sms",
+      "ArchivedRomMd5Hash": "Mxf2RPNhWeLcY66pt1ySfQ==",
+      "RawMd5Hash": "8Qhp+bmAng2DZQ1Web7GHw=="
+    },
+    {
+      "FileName": "Spy vs Spy (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Spy vs Spy (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "xq3F20DQ23XJwWfkuy7ZGA==",
+      "RawMd5Hash": "J/hM52YZTyGHYJ1gpMQdXg=="
+    },
+    {
+      "FileName": "Star Wars (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Star Wars (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "IBKgDS7wEoXnvwd/eOl19Q==",
+      "RawMd5Hash": "4Oh4ve19giaHVESuJnWr7A=="
+    },
+    {
+      "FileName": "Street Fighter II' (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Street Fighter II' (Brazil).sms",
+      "ArchivedRomMd5Hash": "ekzaFN04pI/Da8xuEEz11w==",
+      "RawMd5Hash": "+m6MzY7N93xAmOcgmHp+iQ=="
+    },
+    {
+      "FileName": "Street Master (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Street Master (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "6oM5XIEaseQOnz9rR5CK5w==",
+      "RawMd5Hash": "RkbIIIAgUxb9KXGokQF0gA=="
+    },
+    {
+      "FileName": "Streets of Rage (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Streets of Rage (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "KaUZXVeoL7E0mnQD8dZdfg==",
+      "RawMd5Hash": "EwTB0FBQNUVna/zshiaGzw=="
+    },
+    {
+      "FileName": "Streets of Rage II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Streets of Rage II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "5oCxCOZ8rwLk+3fUGfSDWA==",
+      "RawMd5Hash": "a6KqIMMdkIJiiU0SSv5yNw=="
+    },
+    {
+      "FileName": "Strider (USA, Europe, Brazil) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Strider (USA, Europe, Brazil) (Demo).sms",
+      "ArchivedRomMd5Hash": "Ntk20lcVEDpPg4jetKH+0w==",
+      "RawMd5Hash": "Ft0EkIayqspKJfcwTZQAww=="
+    },
+    {
+      "FileName": "Strider (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Strider (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "SK9a4srXxIyB18JVOo7UJg==",
+      "RawMd5Hash": "aOhqCYIcJMqRKe16IY+IDw=="
+    },
+    {
+      "FileName": "Strider II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Strider II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "gzbJpIOQiJ+z4XzW+Uca4Q==",
+      "RawMd5Hash": "JD4lY++C28vo6TPt9QVWZw=="
+    },
+    {
+      "FileName": "Submarine Attack (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Submarine Attack (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "XqpQUZ6H1X9A9Qcxyv9fYg==",
+      "RawMd5Hash": "i/ujAbn0eV1oRHjr2BU5vQ=="
+    },
+    {
+      "FileName": "Suho Jeonsa (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Suho Jeonsa (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "AXZACHNIQYMGI7Q8bjpSiw==",
+      "RawMd5Hash": "ac5ts4RSjWV7MrrbdQqa5w=="
+    },
+    {
+      "FileName": "Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan).sms",
+      "ArchivedRomMd5Hash": "6AzpibaLH6peQAFs57CW/g==",
+      "RawMd5Hash": "0zZMS9TkXFnid5bQMpjGKw=="
+    },
+    {
+      "FileName": "Summer Games ~ Jogos Olimpicos (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Summer Games ~ Jogos Olimpicos (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "EPKnUGrmQC9CuAg7JMDRBQ==",
+      "RawMd5Hash": "k0KdrjRzbTqwD+OpGzisrQ=="
+    },
+    {
+      "FileName": "Super Basketball (USA) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Basketball (USA) (Demo).sms",
+      "ArchivedRomMd5Hash": "VShjGoLSXU648OkBT9Y2DA==",
+      "RawMd5Hash": "jLR7Z5Lg5i23DzL9JywK0A=="
+    },
+    {
+      "FileName": "Super Bioman I (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Bioman I (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "FF9OYY53rdDfEaSqef4IwA==",
+      "RawMd5Hash": "BhjvMOd5IQlIUmEKsaFoIg=="
+    },
+    {
+      "FileName": "Super Boy 4 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Boy 4 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "6319tauYsLeBJVJkT7lf6A==",
+      "RawMd5Hash": "bSlNqV7+12g+QC1bNKE+tQ=="
+    },
+    {
+      "FileName": "Super Boy I (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Boy I (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ELPRI+1fJDey0xz4uOYBeQ==",
+      "RawMd5Hash": "1MOJDfOaEwsdhnX2lL/URw=="
+    },
+    {
+      "FileName": "Super Boy II (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Boy II (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "YSDJug8sJAMcmoNgNQYHFw==",
+      "RawMd5Hash": "VbloCUzDrZShiFXDBNuhtQ=="
+    },
+    {
+      "FileName": "Super Boy III (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Boy III (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "yh4Oe90qC+cBKbHel3RuQA==",
+      "RawMd5Hash": "dkNJek/WEUMPUmldzTUekA=="
+    },
+    {
+      "FileName": "Super Bubble Bobble (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Bubble Bobble (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "DDav1y4YymcgqYITA0m5Uw==",
+      "RawMd5Hash": "pin2vTeHYEVQ5+CAf/3k7Q=="
+    },
+    {
+      "FileName": "Super Columns & Tetris (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Columns & Tetris (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "n/EOuSCPn+sBu/1z7fY2JQ==",
+      "RawMd5Hash": "fQ6zdgCz/TEaLrFDLuN6sg=="
+    },
+    {
+      "FileName": "Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).sms",
+      "ArchivedRomMd5Hash": "bCA8eqcAOogLgKkNlvxKMw==",
+      "RawMd5Hash": "JKgDrtfkJ8NWEJzhu3gSZA=="
+    },
+    {
+      "FileName": "Super Monaco GP (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Monaco GP (USA).sms",
+      "ArchivedRomMd5Hash": "rtMA8yOq5tAIeOtrohwutw==",
+      "RawMd5Hash": "TIl1BHZKTmesN8RGEJxCJg=="
+    },
+    {
+      "FileName": "Super Off Road (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Off Road (Europe).sms",
+      "ArchivedRomMd5Hash": "49Pf3mk0Xh9izOUS6QEL+A==",
+      "RawMd5Hash": "rfKOlNVFEM7qjxJ8EQsm7Q=="
+    },
+    {
+      "FileName": "Super Racing (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Racing (Japan).sms",
+      "ArchivedRomMd5Hash": "vMLfBMrEtxPuSKBWac373Q==",
+      "RawMd5Hash": "Pmf7TC2VcESEkGjPWgxisg=="
+    },
+    {
+      "FileName": "Super Smash T.V. (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Smash T.V. (Europe).sms",
+      "ArchivedRomMd5Hash": "/WW2eU1neMeUjNm4sCoS9Q==",
+      "RawMd5Hash": "obRKngNSFk4R3v+aoF7Iaw=="
+    },
+    {
+      "FileName": "Super Space Invaders (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Space Invaders (Europe).sms",
+      "ArchivedRomMd5Hash": "826XWDkO0reB6ainqVjn4w==",
+      "RawMd5Hash": "bNS6jHyCy8vhgzIa0e9bqQ=="
+    },
+    {
+      "FileName": "Super Tennis (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Tennis (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "LblAT+eVk/0jeZIcqCIQOg==",
+      "RawMd5Hash": "07fTM9InvFy3xMdve9kGAw=="
+    },
+    {
+      "FileName": "Super Tetris (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Super Tetris (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "OquDpkG/OibWjtRPScKHFA==",
+      "RawMd5Hash": "Ph96zwrnCmi4IyplfDnKPA=="
+    },
+    {
+      "FileName": "Superman - The Man of Steel (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Superman - The Man of Steel (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "3BVB5U2iN2eB42kXhL76qQ==",
+      "RawMd5Hash": "xFTPcyiiFDALg0F8TRSjfA=="
+    },
+    {
+      "FileName": "T2 - The Arcade Game (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "T2 - The Arcade Game (Europe).sms",
+      "ArchivedRomMd5Hash": "8Zg8Mfllqo3nffZEg4g1UA==",
+      "RawMd5Hash": "Rs/STv2NBHu82RIZXqGBEQ=="
+    },
+    {
+      "FileName": "Taito Chase H.Q. (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Taito Chase H.Q. (Europe).sms",
+      "ArchivedRomMd5Hash": "CFEcXPDfCUGxDr8oBQr+UQ==",
+      "RawMd5Hash": "09SsTTthwnQzbb64jq8pXg=="
+    },
+    {
+      "FileName": "Taz in Escape from Mars (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Taz in Escape from Mars (Brazil).sms",
+      "ArchivedRomMd5Hash": "XxcGd9wNAinsPsfzBrtjAw==",
+      "RawMd5Hash": "HjrEmd92GIITDxvjEo4N5A=="
+    },
+    {
+      "FileName": "Taz-Mania (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Taz-Mania (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "z8h48BY5M/z8yJ4TT76zHw==",
+      "RawMd5Hash": "y8QhU6xQoWcBHUygKgRtRw=="
+    },
+    {
+      "FileName": "Tecmo World Cup '93 (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Tecmo World Cup '93 (Europe).sms",
+      "ArchivedRomMd5Hash": "gfUw0WnFwEyPr42zZ7vNYw==",
+      "RawMd5Hash": "B1lUgNJpnRgEa63JN3yi0w=="
+    },
+    {
+      "FileName": "Teddy Boy (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Teddy Boy (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "ZrrqCkI1P/0/ExWG4MnE1A==",
+      "RawMd5Hash": "XTc5mgYAYNhKOKx1GrIZQw=="
+    },
+    {
+      "FileName": "Tennis Ace ~ Super Tennis (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Tennis Ace ~ Super Tennis (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "iRRgU7FHSDPpIYNckHqi0w==",
+      "RawMd5Hash": "9kDxylG2NxIIpTp+KIEHrg=="
+    },
+    {
+      "FileName": "Tensai Bakabon (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Tensai Bakabon (Japan).sms",
+      "ArchivedRomMd5Hash": "7Yv8PRftyOeWjlU6mm3STA==",
+      "RawMd5Hash": "KNQOACJL5G53iaxFIkFW+g=="
+    },
+    {
+      "FileName": "Terminator 2 - Judgment Day (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Terminator 2 - Judgment Day (Europe).sms",
+      "ArchivedRomMd5Hash": "zCRU7ru/q3upmFGpI9/arw==",
+      "RawMd5Hash": "UyAQ/QO/ErAw5cmsFWUR6g=="
+    },
+    {
+      "FileName": "Terminator, The (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Terminator, The (Europe).sms",
+      "ArchivedRomMd5Hash": "8iSQdnagnH8EBMlcMW8VAw==",
+      "RawMd5Hash": "fA+CpbAMMV8Hvnu7D/xsww=="
+    },
+    {
+      "FileName": "Three Dragon Story, The (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Three Dragon Story, The (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "ms2LLqtUUzgCQqs6ZBfBZQ==",
+      "RawMd5Hash": "iXjs3gozBP2pH4VmRk1tuQ=="
+    },
+    {
+      "FileName": "Thunder Blade (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Thunder Blade (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "cNzuPHfpXYP89t8NrjCkqA==",
+      "RawMd5Hash": "G7gPdMjElmf36z3AsLKzIg=="
+    },
+    {
+      "FileName": "Time Soldiers (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Time Soldiers (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "28kmAAndCDjQ4x3lHVfQeA==",
+      "RawMd5Hash": "1zfBefBRcmUku+W8pbJKHA=="
+    },
+    {
+      "FileName": "Tom and Jerry - The Movie (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Tom and Jerry - The Movie (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "ll5VdtVpeUqifokEiFVhXw==",
+      "RawMd5Hash": "t+/jyO/dytsUo91Vw736HA=="
+    },
+    {
+      "FileName": "Toto World 3 (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Toto World 3 (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "LI162cZITxYd2VdGcLWYpA==",
+      "RawMd5Hash": "0AFzFNNNLjnVmmjOQUHbIw=="
+    },
+    {
+      "FileName": "TransBot (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "TransBot (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "k7seHuFKxTrbnmueDBNQQw==",
+      "RawMd5Hash": "LtqJ1AJkdXFOJvBqaRqxlw=="
+    },
+    {
+      "FileName": "Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es).sms",
+      "ArchivedRomMd5Hash": "h9RPNBbU8xlZtYPQ1GDH+w==",
+      "RawMd5Hash": "fuwoQBelZg/OtOPh3LIX3w=="
+    },
+    {
+      "FileName": "Ultima IV - Quest of the Avatar (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ultima IV - Quest of the Avatar (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "xUwaJVnOwYn1PnlBd9ACrw==",
+      "RawMd5Hash": "qJ2/NB7Uc4Y6ScePi7aDNg=="
+    },
+    {
+      "FileName": "Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It).sms",
+      "ArchivedRomMd5Hash": "wsmnlCrbBV7whnHANkjtBg==",
+      "RawMd5Hash": "35H7cDhXH+8YmsZD/00z1g=="
+    },
+    {
+      "FileName": "Vigilante (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Vigilante (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "beq/wV2a60yO0bZB+5UN5Q==",
+      "RawMd5Hash": "GkG+pukZe+ya6Atb/zhanA=="
+    },
+    {
+      "FileName": "Virtua Fighter Animation (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Virtua Fighter Animation (Brazil).sms",
+      "ArchivedRomMd5Hash": "/ckO20TSoiNqucKdLwc9PA==",
+      "RawMd5Hash": "8IN4MMRB9KoZLGcytpaDOw=="
+    },
+    {
+      "FileName": "Walter Payton Football (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Walter Payton Football (USA).sms",
+      "ArchivedRomMd5Hash": "XSkvnC+liT+lIMgUW0N6KA==",
+      "RawMd5Hash": "TOZZ41zQ5cjxjHejfsDYdg=="
+    },
+    {
+      "FileName": "Wanted (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wanted (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "AHBzfdsKLl6CLx2PRkN7Bw==",
+      "RawMd5Hash": "TCx9CJX3aLlbWvrOYllT3w=="
+    },
+    {
+      "FileName": "Where in the World is Carmen Sandiego (USA).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Where in the World is Carmen Sandiego (USA).sms",
+      "ArchivedRomMd5Hash": "Kdz893POue8ptSQYOtidjA==",
+      "RawMd5Hash": "t/hN7aE+xGXvhqjt/9xwpg=="
+    },
+    {
+      "FileName": "Wimbledon (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wimbledon (Europe).sms",
+      "ArchivedRomMd5Hash": "p/EEmBKkzR8YDc1kSxAUXw==",
+      "RawMd5Hash": "B1EF/Ld406kaSG1JsRQzFA=="
+    },
+    {
+      "FileName": "Wimbledon II ~ Wimbledon (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wimbledon II ~ Wimbledon (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "Qfp8N2Mn5/qFEQPAQH6OUw==",
+      "RawMd5Hash": "j2nNvZ4pIqDGkTjKOPCkZQ=="
+    },
+    {
+      "FileName": "Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No).sms",
+      "ArchivedRomMd5Hash": "YEbZ7kOfPHbrZxPuqLqYSw==",
+      "RawMd5Hash": "ZTsUolAU78Rb6zvHQuPkwA=="
+    },
+    {
+      "FileName": "Wolfchild (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wolfchild (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "COub8C9etOI495HyfWVEmg==",
+      "RawMd5Hash": "18imgYJNIe/qvJy1jaohMw=="
+    },
+    {
+      "FileName": "Wonder Boy (USA, Europe, Brazil) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wonder Boy (USA, Europe, Brazil) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "foBapRv7XyBslQoy682rfA==",
+      "RawMd5Hash": "bXFaQVqeObBTjZkUFiEcCw=="
+    },
+    {
+      "FileName": "Wonder Boy III - The Dragon's Trap (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wonder Boy III - The Dragon's Trap (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "5/hsBJ5L2LJoRP9ivQZ9Vw==",
+      "RawMd5Hash": "GYKbUHjs5MgS+LVHGSXZUw=="
+    },
+    {
+      "FileName": "Wonder Boy in Monster Land (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wonder Boy in Monster Land (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "j4qqxJLelvLP3bnRpX3ZeQ==",
+      "RawMd5Hash": "MDNRLI9h8BR1mwXCtn8iwA=="
+    },
+    {
+      "FileName": "Wonder Boy in Monster World (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wonder Boy in Monster World (Europe).sms",
+      "ArchivedRomMd5Hash": "WDd2TBcsjEPIx7IfIUTPJw==",
+      "RawMd5Hash": "VeeR0/1+kMlky6TV1FYo8w=="
+    },
+    {
+      "FileName": "Wonsiin (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Wonsiin (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "xTCR5gtb1HMULKIx3Zb26w==",
+      "RawMd5Hash": "uUBG3EXVfYwSO0xE2nNd7A=="
+    },
+    {
+      "FileName": "Woody Pop - Shinjinrui no Block Kuzushi (Japan).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Woody Pop - Shinjinrui no Block Kuzushi (Japan).sms",
+      "ArchivedRomMd5Hash": "GxtgUQJ4BqmOmUe1rl8Adg==",
+      "RawMd5Hash": "emRdkl+/TsxnjBYdK75Jmw=="
+    },
+    {
+      "FileName": "World Class Leader Board (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Class Leader Board (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "3QRgiytk8R3Z3E99t5cmUA==",
+      "RawMd5Hash": "hpHY0PcFnl3kGFE7E3mTvQ=="
+    },
+    {
+      "FileName": "World Cup Italia '90 (USA) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Cup Italia '90 (USA) (Demo).sms",
+      "ArchivedRomMd5Hash": "OuDm49K4HDESz1VtHfrXwg==",
+      "RawMd5Hash": "TXQoI6F3OAlvrzqXq6SNOg=="
+    },
+    {
+      "FileName": "World Cup Italia '90 ~ Super Futebol II (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Cup Italia '90 ~ Super Futebol II (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "oZ1KFr4kEGzUiyg7W61QIw==",
+      "RawMd5Hash": "5rc4xSQO2rJIi2ehLf/D5A=="
+    },
+    {
+      "FileName": "World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).sms",
+      "ArchivedRomMd5Hash": "qo3fRyqbDEsm+RqxP7xm3g==",
+      "RawMd5Hash": "AEMpeCn3TC0QiPtRyP+Lkg=="
+    },
+    {
+      "FileName": "World Games (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Games (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "h6R51m6IRk1F2Hytd8Kz/g==",
+      "RawMd5Hash": "gKsx8bPAUrZw+BlAzdDmjw=="
+    },
+    {
+      "FileName": "World Grand Prix (USA, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Grand Prix (USA, Brazil).sms",
+      "ArchivedRomMd5Hash": "dVUPyoNkFM5yhsKU0DwbBA==",
+      "RawMd5Hash": "pOc2rdckBvObptruSj/7Lg=="
+    },
+    {
+      "FileName": "World Soccer ~ Great Soccer ~ Super Futebol (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "World Soccer ~ Great Soccer ~ Super Futebol (World).sms",
+      "ArchivedRomMd5Hash": "XwCEI65qRUvHDpSoyfM9HA==",
+      "RawMd5Hash": "yAP83buO+HWVW0qTuJ6SmQ=="
+    },
+    {
+      "FileName": "WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "XbFogI07R1bIxfi4NqewWg==",
+      "RawMd5Hash": "AbV4CgPKuFUdRYh9uSLUzg=="
+    },
+    {
+      "FileName": "X-Men - Mojo World (Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "X-Men - Mojo World (Brazil).sms",
+      "ArchivedRomMd5Hash": "dYoeg35RZpcAwKI3npDZkw==",
+      "RawMd5Hash": "LQwex5BbQsH8ohFH93/KtA=="
+    },
+    {
+      "FileName": "Xenon 2 - Megablast (Europe) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Xenon 2 - Megablast (Europe) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "J/ukt9uYnGY92hHCVc9J8w==",
+      "RawMd5Hash": "NVegUtEMfrOOU3BylgfPaA=="
+    },
+    {
+      "FileName": "Xyzolog (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Xyzolog (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "IbVjAxuwNfEX0V3FP0BsLQ==",
+      "RawMd5Hash": "t9b5ZOHXBJSPvFF0dpLd4g=="
+    },
+    {
+      "FileName": "Ys - The Vanished Omens (USA, Europe) (Demo).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ys - The Vanished Omens (USA, Europe) (Ja) (Demo).sms",
+      "ArchivedRomMd5Hash": "H7Jt5/4lgDd4zcA5HH+2bw==",
+      "RawMd5Hash": "x0ZtAZ+VB0M2CtL67bgxWA=="
+    },
+    {
+      "FileName": "Ys - The Vanished Omens ~ Y's (USA, Europe, Brazil).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Ys - The Vanished Omens ~ Y's (USA, Europe, Brazil).sms",
+      "ArchivedRomMd5Hash": "d9L/BUQp95cBNOZ4AFOaeA==",
+      "RawMd5Hash": "pukNkaFBY6D8NkxpwE2wgg=="
+    },
+    {
+      "FileName": "Zaxxon 3-D (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Zaxxon 3-D (World).sms",
+      "ArchivedRomMd5Hash": "iC3BCweSvleadFw/OAEGQg==",
+      "RawMd5Hash": "uhRHJiof602JsP8sPSpevA=="
+    },
+    {
+      "FileName": "Zillion (USA, Europe) (Rev 1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Zillion (USA, Europe) (Rev 1).sms",
+      "ArchivedRomMd5Hash": "1L+ee8+aSNpTeF0q57xCcA==",
+      "RawMd5Hash": "QXOABcdVXewfzW9gyOdxFw=="
+    },
+    {
+      "FileName": "Zillion II - The Tri Formation (World).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Zillion II - The Tri Formation (World).sms",
+      "ArchivedRomMd5Hash": "YFsMNgB1h2tKC+R5Z50QdQ==",
+      "RawMd5Hash": "ilIV2fk6lnrnEehnMS0q0w=="
+    },
+    {
+      "FileName": "Zool - Ninja of the 'Nth' Dimension (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "Zool - Ninja of the 'Nth' Dimension (Europe).sms",
+      "ArchivedRomMd5Hash": "QvtEyaLIK4xK74GRwbVnbw==",
+      "RawMd5Hash": "tT35HgPYIBeeWFtEZ6JJnA=="
+    },
+    {
+      "FileName": "[BIOS] Alex Kidd in Miracle World (Korea) (Unl).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Alex Kidd in Miracle World (Korea) (Unl).sms",
+      "ArchivedRomMd5Hash": "5J5jMox4/j0krjK/kDWD4A==",
+      "RawMd5Hash": "GLJkjp2A3TAu3D13drq06Q=="
+    },
+    {
+      "FileName": "[BIOS] Alex Kidd in Miracle World (USA, Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Alex Kidd in Miracle World (USA, Europe).sms",
+      "ArchivedRomMd5Hash": "6LJocWKbk4iHdXpkeY323A==",
+      "RawMd5Hash": "dMPawhP1W1vaY1oqCiSufA=="
+    },
+    {
+      "FileName": "[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil) (v2.4).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Hang On & Safari Hunt (USA, Europe, Brazil) (v2.4).sms",
+      "ArchivedRomMd5Hash": "Asuy40iUXJrEHjdQKljKdg==",
+      "RawMd5Hash": "SsRUs+GI8dbYwCmpJCZyJA=="
+    },
+    {
+      "FileName": "[BIOS] Hang On (USA, Europe) (v3.4).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Hang On (USA, Europe) (v3.4).sms",
+      "ArchivedRomMd5Hash": "XNj2LNh4avAibm0iSCeTOA==",
+      "RawMd5Hash": "D4LuL+01cW9K2hUwdUC7XA=="
+    },
+    {
+      "FileName": "[BIOS] Missile Defense 3-D (USA, Europe) (v4.4).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Missile Defense 3-D (USA, Europe) (v4.4).sms",
+      "ArchivedRomMd5Hash": "CLgapr4YuS2u8bh13uz4JA==",
+      "RawMd5Hash": "bgnH6089fYofanB3JvxegA=="
+    },
+    {
+      "FileName": "[BIOS] Sega Master System (Europe) (v2.0).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sega Master System (Europe) (v2.0).sms",
+      "ArchivedRomMd5Hash": "vbNPLEceXQw1ju7GIfnQKQ==",
+      "RawMd5Hash": "V+qFcAdaBYZePXfzVZzo9Q=="
+    },
+    {
+      "FileName": "[BIOS] Sega Master System (Japan) (v2.1).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sega Master System (Japan) (v2.1).sms",
+      "ArchivedRomMd5Hash": "JKUZxT9nsAZA0ASO9wiRBQ==",
+      "RawMd5Hash": "POBy8CHwGUUsck/Hay5Wyw=="
+    },
+    {
+      "FileName": "[BIOS] Sega Master System (USA) (M404) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sega Master System (USA) (M404) (Proto).sms",
+      "ArchivedRomMd5Hash": "MVNEfRVfuL/Gak0cQeOZuQ==",
+      "RawMd5Hash": "rmeHEPX389BQ3bAK3TJblA=="
+    },
+    {
+      "FileName": "[BIOS] Sega Master System (USA) (Store Display Unit).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sega Master System (USA) (Store Display Unit).sms",
+      "ArchivedRomMd5Hash": "smS++b2iZP/oOvzrrCG4Hw==",
+      "RawMd5Hash": "QMHllAuZkZVssGs19kumsw=="
+    },
+    {
+      "FileName": "[BIOS] Sega Master System (USA) (v1.0) (Proto).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sega Master System (USA) (v1.0) (Proto).sms",
+      "ArchivedRomMd5Hash": "Yms0U2E+Q9WkeQiolEulgw==",
+      "RawMd5Hash": "2HrANgrvLc4XAuaKWW8aHQ=="
+    },
+    {
+      "FileName": "[BIOS] Sega Master System (USA, Europe) (v1.3).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sega Master System (USA, Europe) (v1.3).sms",
+      "ArchivedRomMd5Hash": "hASBF3Jw1WQqFMpx7nKETA==",
+      "RawMd5Hash": "ciD17xoKohxEGOSxL1Qbmg=="
+    },
+    {
+      "FileName": "[BIOS] Sonic The Hedgehog (Europe).zip",
+      "Archived": "True",
+      "ArchivedRomName": "[BIOS] Sonic The Hedgehog (Europe).sms",
+      "ArchivedRomMd5Hash": "QYfZa+rzY4XmgaPPO9FmPQ==",
+      "RawMd5Hash": "Z0yy7v1hzmK28zGCVXXOvw=="
+    }
+  ]
+}

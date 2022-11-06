@@ -40,7 +40,7 @@ public class CommandLineParserService : ICommandLineParserService
 
     public bool TryParseArgumentsAsOptions(
         Type optionsType,
-        string argumentString,
+        string argumentString,                  // !!! This needs to be changed to string[] to prevent us doing the hacky flattening code which should result in less code ultimately
         out ParseResults results)
     {
         if (string.IsNullOrWhiteSpace(argumentString))
