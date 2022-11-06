@@ -27,7 +27,7 @@ namespace RomTools.Services
             _createHashedCollectionService = createHashedCollectionService;
         }
 
-        public async Task<int> Run()
+        public async Task<int> Run(CancellationToken cancellationToken)
         {
             var returnCode = 0;
             var arguments = _commandLineArgumentService.GetArguments(Environment.CommandLine);
@@ -42,7 +42,9 @@ namespace RomTools.Services
                                 arguments,
                                 out var pruneRomsOptions))
                             {
-                                returnCode = await _pruneRomsService.Process((PruneRomsOptions)pruneRomsOptions.Options);
+                                returnCode = await _pruneRomsService.ProcessAsync(
+                                    (PruneRomsOptions)pruneRomsOptions.Options,
+                                    cancellationToken);
                             }
                             else
                             {
@@ -59,7 +61,9 @@ namespace RomTools.Services
                                 arguments,
                                 out var createHashedCollectionOptions))
                             {
-                                returnCode = await _createHashedCollectionService.Create((CreateHashedCollectionOptions)createHashedCollectionOptions.Options);
+                                returnCode = await _createHashedCollectionService.CreateAsync(
+                                    (CreateHashedCollectionOptions)createHashedCollectionOptions.Options,
+                                    cancellationToken);
                             }
                             else
                             {

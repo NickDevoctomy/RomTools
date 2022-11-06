@@ -1,4 +1,5 @@
-﻿using RomTools.Models;
+﻿using Newtonsoft.Json;
+using RomTools.Models;
 using RomTools.Services.Enums;
 
 namespace RomTools.Services
@@ -13,7 +14,9 @@ namespace RomTools.Services
             _md5HasherService = md5HasherService;
         }
 
-        public async Task<int> Create(CreateHashedCollectionOptions options)
+        public async Task<int> CreateAsync(
+            CreateHashedCollectionOptions options,
+            CancellationToken cancellationToken)
         {
             await Task.Yield();
             _options = options;
@@ -28,7 +31,22 @@ namespace RomTools.Services
             _md5HasherService.HashAll(allFiles);
             LogMessage($"All files hashed.", false, options);
 
+            var collectionFiles = allFiles.Select(x => new
+            {
+                FileName = new FileInfo(x.FullPath).Name,
+                Hash = x.Properties["Md5Hash"]
+            });
+            var collection = new
+            {
+                CreatedAt = DateTime.UtcNow,
+                HashingAlgorithm = options.Algorithm.ToString(),
+                Files = collectionFiles
+            };
 
+            LogMessage($"Generating collection json at '{options.Output}'.", false, options);
+            var collectionJson = JsonConvert.SerializeObject(collection, Formatting.Indented);
+            await File.WriteAllTextAsync(options.Output, collectionJson, cancellationToken);
+            LogMessage($"Finished generating collection json at '{options.Output}'.", false, options);
 
             return (int)ReturnCodes.Success;
         }

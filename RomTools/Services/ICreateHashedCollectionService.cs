@@ -9,6 +9,8 @@ namespace RomTools.Services
 {
     public interface ICreateHashedCollectionService
     {
-        public Task<int> Create(CreateHashedCollectionOptions options);
+        public Task<int> CreateAsync(
+            CreateHashedCollectionOptions options,
+            CancellationToken cancellationToken);
     }
 }

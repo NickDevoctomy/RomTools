@@ -19,7 +19,9 @@ namespace RomTools.Services
             _md5HasherService = md5HasherService;
         }
 
-        public async Task<int> Process(PruneRomsOptions options)
+        public async Task<int> ProcessAsync(
+            PruneRomsOptions options,
+            CancellationToken cancellationToken)
         {
             await Task.Yield();
             _options = options;

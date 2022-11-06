@@ -21,7 +21,7 @@ public static class Program
         Config = JsonConvert.DeserializeObject<Config>(configRaw);
 
         var program = host.Services.GetService<IProgram>(); ;
-        return await program.Run();
+        return await program.Run(CancellationToken.None);       // We should bind a hot key to use for cancellation token
     }
 
     static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -33,6 +33,7 @@ public static class Program
         .AddTransient<IMd5HasherService, Md5HasherService>()
         .AddFileFilters()
         .AddTransient<IPruneRomsService, PruneRomsService>()
+        .AddTransient<ICreateHashedCollectionService, CreateHashedCollectionService>()
         .AddSingleton<IProgram, RomToolsProgram>());
 
 

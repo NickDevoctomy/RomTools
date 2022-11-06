@@ -2,7 +2,7 @@
   "profiles": {
     "RomTools": {
       "commandName": "Project",
-      "commandLineArgs": "pruneroms -p=D:\\mastersystem -v=false"
+      "commandLineArgs": "CreateHashedCollection -p=D:\\mastersystem -o=D:\\output\\collection.json -v=false"
     }
   }
 }
