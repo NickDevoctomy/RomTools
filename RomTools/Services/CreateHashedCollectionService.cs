@@ -34,8 +34,12 @@ namespace RomTools.Services
             var collectionFiles = allFiles.Select(x => new
             {
                 FileName = new FileInfo(x.FullPath).Name,
-                Hash = x.Properties["Md5Hash"]
+                Archived = x.Properties["Archived"],
+                ArchivedRomName = x.Properties["ArchivedRomName"],
+                ArchivedMd5Hash = x.Properties["ArchivedMd5Hash"],
+                RawMd5Hash = x.Properties["RawMd5Hash"],
             });
+
             var collection = new
             {
                 Name = options.Name,

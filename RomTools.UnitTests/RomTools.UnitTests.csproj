@@ -11,8 +11,12 @@
   <ItemGroup>
     <None Remove="Data\CommandLineTestOptionsHelpMessage.txt" />
     <None Remove="Data\Roms\romfile1.rom" />
+    <None Remove="Data\Roms\romfile2.7z" />
     <None Remove="Data\Roms\romfile2.rom" />
     <None Remove="Data\Roms\romfile3.rom" />
+    <None Remove="Data\Roms\romfile3.zip" />
+    <None Remove="Data\Roms\romfile4.zip" />
+    <None Remove="Data\Roms\romfile5.7z" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,10 +26,16 @@
     <Content Include="Data\Roms\romfile1.rom">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Data\Roms\romfile2.7z">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Roms\romfile2.rom">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\Roms\romfile3.rom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roms\romfile3.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
