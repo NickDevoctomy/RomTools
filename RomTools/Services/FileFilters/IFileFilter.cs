@@ -7,5 +7,6 @@ public interface IFileFilter
 
     public List<FileEnvelope> Filter(
         List<FileEnvelope> files,
+        Dictionary<string, object> options,
         Action<string, bool> log);
 }

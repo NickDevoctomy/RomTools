@@ -7,6 +7,7 @@ public class FileExtensionFilter : IFileFilter
 
     public List<FileEnvelope> Filter(
         List<FileEnvelope> files,
+        Dictionary<string, object> options,
         Action<string, bool> log)
     {
         var filtered = files

@@ -6,10 +6,16 @@ namespace RomTools.Services
     [ExcludeFromCodeCoverage]
     public class PruneRomsOptions : PreOptions
     {
-        [CommandLineParserOption(Required = true, ShortName = "p", LongName = "path")]
+        [CommandLineParserOption(HelpText = "Path containing the rom set", Required = true, ShortName = "p", LongName = "path")]
         public string Path { get; set; }
 
-        [CommandLineParserOption(Required = false, ShortName = "v", LongName = "verbose", DefaultValue = false)]
+        [CommandLineParserOption(HelpText = "Prioritise these languages, discard everything else", Required = false, ShortName = "l", LongName = "languages", DefaultValue = "en")]
+        public string Languages { get; set; }
+
+        [CommandLineParserOption(HelpText = "Only include verified dumps", Required = false, ShortName = "d", LongName = "verified", DefaultValue = true)]
+        public bool Verified { get; set; }
+
+        [CommandLineParserOption(HelpText = "Verbose logging", Required = false, ShortName = "v", LongName = "verbose", DefaultValue = false)]
         public bool Verbose { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using RomTools.Services.FileFilters;
+﻿using RomTools.Services.Enums;
+using RomTools.Services.FileFilters;
 
 namespace RomTools.Services
 {
@@ -23,7 +24,9 @@ namespace RomTools.Services
             _options = options;
 
             LogMessage($"Getting all files from path '{options.Path}'.", false, options);
-            var allFiles = GetAllFilesFromPath(options.Path);
+            var sourceFiles = GetAllFilesFromPath(options.Path);
+            var allFiles = sourceFiles.ToList();
+
             LogMessage($"Got {allFiles.Count} files.", false, options);
 
             LogMessage($"Hashing all files.", false, options);
@@ -31,15 +34,35 @@ namespace RomTools.Services
             LogMessage($"All files hashed.", false, options);
 
             LogMessage($"Processing file filters", false, options);
+            var filterOptions = new Dictionary<string, object>();
+            filterOptions.Add("language", options.Languages);
+            filterOptions.Add("verified", options.Verified);
             foreach (var curFileFilter in _fileFilters)
             {
                 LogMessage($"Processing file filer: {curFileFilter.Description}", true, options);
-                allFiles = curFileFilter.Filter(allFiles, LogAction);
+                allFiles = curFileFilter.Filter(allFiles, filterOptions, LogAction);
                 LogMessage($"{allFiles.Count} Files remaining after filtering.", true, options);
             }
             LogMessage($"{allFiles.Count} Files remaining after processing all filters.", false, options);
 
-            return -1;
+            var filesToDelete = sourceFiles.Where(x => !allFiles.Contains(x)).ToList();
+            if(filesToDelete.Count == 0)
+            {
+                LogMessage("Analysis complete, there is nothing to do!", false, options);
+                return (int)ReturnCodes.Success;
+            }
+
+            LogMessage("Analysis complete, the following files will be deleted,", false, options);
+            filesToDelete.ForEach(x => LogMessage(x.FullPath, false, options));
+            LogMessage("WARNING! This operation cannot be undone.", false, options);
+            LogMessage("Are you sure (y/n)?", false, options);
+            var prompt = Console.ReadKey();
+            if(prompt.Key == ConsoleKey.Y)
+            {
+                filesToDelete.ForEach(x => File.Delete(x.FullPath));
+            }
+
+            return (int)ReturnCodes.Success;
         }
 
         private static List<FileEnvelope> GetAllFilesFromPath(string path)

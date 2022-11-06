@@ -4,15 +4,21 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Diagnostics.CodeAnalysis;
 using RomTools.Extensions;
+using Newtonsoft.Json;
 
 namespace RomTools;
 
 [ExcludeFromCodeCoverage]
 public static class Program
 {
+    public static Config Config { get; private set; }
+
     static async Task<int> Main()
     {
         using IHost host = CreateHostBuilder(null).Build();
+
+        var configRaw = await File.ReadAllTextAsync("config/config.json");
+        Config = JsonConvert.DeserializeObject<Config>(configRaw);
 
         var program = host.Services.GetService<IProgram>(); ;
         return await program.Run();
