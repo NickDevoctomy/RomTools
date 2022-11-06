@@ -11,17 +11,20 @@ namespace RomTools.Services
         private readonly ICommandLineParserService _commandLineParserService;
         private readonly IHelpMessageFormatter _helpMessageFormatter;
         private readonly IPruneRomsService _pruneRomsService;
+        private readonly ICreateHashedCollectionService _createHashedCollectionService;
 
         public RomToolsProgram(
             ICommandLineArgumentService commandLineArgumentService,
             ICommandLineParserService commandLineParserService,
             IHelpMessageFormatter helpMessageFormatter,
-            IPruneRomsService pruneRomsService)
+            IPruneRomsService pruneRomsService,
+            ICreateHashedCollectionService createHashedCollectionService)
         {
             _commandLineArgumentService = commandLineArgumentService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
             _pruneRomsService = pruneRomsService;
+            _createHashedCollectionService = createHashedCollectionService;
         }
 
         public async Task<int> Run()
@@ -44,6 +47,23 @@ namespace RomTools.Services
                             else
                             {
                                 Console.WriteLine($"{pruneRomsOptions.Exception.Message}");
+                            }
+
+                            break;
+                        }
+
+                    case Command.CreateHashedCollection:
+                        {
+                            if (_commandLineParserService.TryParseArgumentsAsOptions(
+                                typeof(CreateHashedCollectionOptions),
+                                arguments,
+                                out var createHashedCollectionOptions))
+                            {
+                                returnCode = await _createHashedCollectionService.Create((CreateHashedCollectionOptions)createHashedCollectionOptions.Options);
+                            }
+                            else
+                            {
+                                Console.WriteLine($"{createHashedCollectionOptions.Exception.Message}");
                             }
 
                             break;
