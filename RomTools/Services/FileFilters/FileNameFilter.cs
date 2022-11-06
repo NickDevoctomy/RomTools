@@ -18,6 +18,9 @@ namespace RomTools.Services.FileFilters
             Dictionary<string, object> options,
             Action<string, bool> log)
         {
+            log($"Files before filtering ({files.Count}):", true);
+            files.ForEach(x => log(x.FullPath, true));
+
             var groupedBySimilarNames = GroupBySimilarNames(files);
 
             var language = options["language"].ToString();
