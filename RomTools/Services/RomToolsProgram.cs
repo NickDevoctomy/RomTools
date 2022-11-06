@@ -1,4 +1,5 @@
-﻿using RomTools.Services.CommandLineParser;
+﻿using RomTools.Models;
+using RomTools.Services.CommandLineParser;
 using RomTools.Services.Enums;
 using System.Text;
 

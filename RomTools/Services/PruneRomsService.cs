@@ -1,4 +1,5 @@
-﻿using RomTools.Services.Enums;
+﻿using RomTools.Models;
+using RomTools.Services.Enums;
 using RomTools.Services.FileFilters;
 
 namespace RomTools.Services

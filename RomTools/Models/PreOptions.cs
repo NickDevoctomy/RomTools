@@ -2,7 +2,7 @@
 using RomTools.Services.Enums;
 using System.Diagnostics.CodeAnalysis;
 
-namespace RomTools.Services;
+namespace RomTools.Models;
 
 [ExcludeFromCodeCoverage]
 public class PreOptions

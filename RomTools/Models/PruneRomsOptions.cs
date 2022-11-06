@@ -1,7 +1,7 @@
 ﻿using RomTools.Services.CommandLineParser;
 using System.Diagnostics.CodeAnalysis;
 
-namespace RomTools.Services
+namespace RomTools.Models
 {
     [ExcludeFromCodeCoverage]
     public class PruneRomsOptions : PreOptions
