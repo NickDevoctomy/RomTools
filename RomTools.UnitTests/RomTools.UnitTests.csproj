@@ -10,10 +10,22 @@
 
   <ItemGroup>
     <None Remove="Data\CommandLineTestOptionsHelpMessage.txt" />
+    <None Remove="Data\Roms\romfile1.rom" />
+    <None Remove="Data\Roms\romfile2.rom" />
+    <None Remove="Data\Roms\romfile3.rom" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Data\CommandLineTestOptionsHelpMessage.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roms\romfile1.rom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roms\romfile2.rom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Roms\romfile3.rom">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
