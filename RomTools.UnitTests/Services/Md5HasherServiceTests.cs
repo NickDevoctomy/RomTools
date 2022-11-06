@@ -42,13 +42,13 @@ namespace RomTools.UnitTests.Services
             // Assert
             Assert.Equal("True", enveloped.Single(x => x.FullPath.EndsWith("romfile3.zip")).Properties["Archived"]);
             Assert.Equal("romfile3.rom", enveloped.Single(x => x.FullPath.EndsWith("romfile3.zip")).Properties["ArchivedRomName"]);
-            Assert.Equal("d8vX5VuXrD5bBeUksL1pug==", enveloped.Single(x => x.FullPath.EndsWith("romfile3.zip")).Properties["ArchivedMd5Hash"]);
+            Assert.Equal("d8vX5VuXrD5bBeUksL1pug==", enveloped.Single(x => x.FullPath.EndsWith("romfile3.zip")).Properties["ArchivedRomMd5Hash"]);
             Assert.Equal("cf+7O/j3vm7zmIxn4/gikg==", enveloped.Single(x => x.FullPath.EndsWith("romfile3.zip")).Properties["RawMd5Hash"]);
 
             // !!! Need to add support for 7zip files here
             Assert.Equal("True", enveloped.Single(x => x.FullPath.EndsWith("romfile2.7z")).Properties["Archived"]);
             Assert.Equal("romfile2.rom", enveloped.Single(x => x.FullPath.EndsWith("romfile2.7z")).Properties["ArchivedRomName"]);
-            Assert.Equal("QmNjnEg5Ci5WJcNKyRddHg==", enveloped.Single(x => x.FullPath.EndsWith("romfile2.7z")).Properties["ArchivedMd5Hash"]);
+            Assert.Equal("QmNjnEg5Ci5WJcNKyRddHg==", enveloped.Single(x => x.FullPath.EndsWith("romfile2.7z")).Properties["ArchivedRomMd5Hash"]);
             Assert.Equal("???", enveloped.Single(x => x.FullPath.EndsWith("romfile2.7z")).Properties["RawMd5Hash"]);
         }
     }

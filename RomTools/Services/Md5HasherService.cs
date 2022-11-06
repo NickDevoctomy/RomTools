@@ -22,7 +22,7 @@ namespace RomTools.Services
 
             file.Properties.Add("Archived", isArchived.ToString());
             file.Properties.Add("ArchivedRomName", archivedRomName);
-            file.Properties.Add("ArchivedMd5Hash", archivedRomHash);
+            file.Properties.Add("ArchivedRomMd5Hash", archivedRomHash);
             file.Properties.Add("RawMd5Hash", unarchivedRomHash);
         }
 
