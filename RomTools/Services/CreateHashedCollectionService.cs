@@ -36,7 +36,7 @@ namespace RomTools.Services
                 FileName = new FileInfo(x.FullPath).Name,
                 Archived = x.Properties["Archived"],
                 ArchivedRomName = x.Properties["ArchivedRomName"],
-                ArchivedMd5Hash = x.Properties["ArchivedMd5Hash"],
+                ArchivedRomMd5Hash = x.Properties["ArchivedRomMd5Hash"],
                 RawMd5Hash = x.Properties["RawMd5Hash"],
             });
 
