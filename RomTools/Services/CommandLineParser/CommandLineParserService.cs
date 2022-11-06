@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
+﻿using System.Reflection;
 
 namespace RomTools.Services.CommandLineParser;
 
@@ -13,11 +10,11 @@ public class CommandLineParserService : ICommandLineParserService
 
     public CommandLineParserService(
         IDefaultArgumentParserService defaultArgumentParserService,
-        IArgumentMapperService arumentMapper,
+        IArgumentMapperService argumentMapper,
         IOptionalArgumentSetterService optionalArgumentSetterSevice)
     {
         _defaultArgumentParserService = defaultArgumentParserService;
-        _argumentMapper = arumentMapper;
+        _argumentMapper = argumentMapper;
         _optionalArgumentSetterSevice = optionalArgumentSetterSevice;
     }
 

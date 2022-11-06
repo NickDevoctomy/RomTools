@@ -7,7 +7,8 @@ namespace RomTools.UnitTests.Services.CommandLineParser;
 public class CommandLineArgumentsServiceTests
 {
     [Theory]
-    [InlineData(@"{currentexepath} hello -a=1 -b=2 -c=3", "hello -a=1 -b=2 -c=3")]
+    [InlineData("{currentexepath} hello -a=1 -b=2 -c=3", "hello -a=1 -b=2 -c=3")]
+    [InlineData("{currentexepath} hello -a=\"1\" -b=\"2\" -c=\"3\"", "hello -a=\"1\" -b=\"2\" -c=\"3\"")]
     public void GivenFullCommandLine_WhenGetArguments_ThenOnlyArgumentsReturned(
         string fullCommandLine,
         string expectedArguments)

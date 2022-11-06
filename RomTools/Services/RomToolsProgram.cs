@@ -7,30 +7,30 @@ namespace RomTools.Services
 {
     public class RomToolsProgram : IProgram
     {
-        private readonly ICommandLineArgumentService _commandLineArgumentService;
+        private readonly IArgumentsFlattenerService _argumentsFlattenerService;
         private readonly ICommandLineParserService _commandLineParserService;
         private readonly IHelpMessageFormatter _helpMessageFormatter;
         private readonly IPruneRomsService _pruneRomsService;
         private readonly ICreateHashedCollectionService _createHashedCollectionService;
 
         public RomToolsProgram(
-            ICommandLineArgumentService commandLineArgumentService,
+            IArgumentsFlattenerService argumentFlattenerService,
             ICommandLineParserService commandLineParserService,
             IHelpMessageFormatter helpMessageFormatter,
             IPruneRomsService pruneRomsService,
             ICreateHashedCollectionService createHashedCollectionService)
         {
-            _commandLineArgumentService = commandLineArgumentService;
+            _argumentsFlattenerService = argumentFlattenerService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
             _pruneRomsService = pruneRomsService;
             _createHashedCollectionService = createHashedCollectionService;
         }
 
-        public async Task<int> Run(CancellationToken cancellationToken)
+        public async Task<int> Run(string[] args, CancellationToken cancellationToken)
         {
             var returnCode = 0;
-            var arguments = _commandLineArgumentService.GetArguments(Environment.CommandLine);
+            var arguments = _argumentsFlattenerService.Flatten(args);
             if (_commandLineParserService.TryParseArgumentsAsOptions(typeof(PreOptions), arguments, out var preOptions))
             {
                 switch (preOptions.OptionsAs<PreOptions>().Command)

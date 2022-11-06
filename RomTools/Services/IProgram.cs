@@ -4,5 +4,5 @@ namespace RomTools.Services;
 
 public interface IProgram
 {
-    Task<int> Run(CancellationToken cancellationToken);
+    Task<int> Run(string[] arguments, CancellationToken cancellationToken);
 }

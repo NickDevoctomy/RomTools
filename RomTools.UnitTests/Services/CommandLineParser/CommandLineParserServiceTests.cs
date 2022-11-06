@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Xunit;
+using RomTools.Models;
 
 namespace RomTools.UnitTests.Services.CommandLineParser;
 
@@ -196,6 +197,22 @@ public class CommandLineParserServiceTests
             It.IsAny<string>(),
             It.IsAny<List<CommandLineParserOptionAttribute>>()), Times.Once);
     }
+
+    //[Theory]
+    //[InlineData("CreateHashedCollection -p=\"D:\\roms\\megadrive\" -o=\"D:\\roms\\nointro-megadrive.json\" -n=\"NoIntro-MegaDrive-2022\" -d=\"NoIntro rom collection for Sega Mega Drive\" -v=false")]
+    //public void Given_When_Then(string arguments)
+    //{
+    //    // Arrange
+    //    var sut = CommandLineParserService.CreateDefaultInstance();
+
+    //    // Act
+    //    var result = sut.TryParseArgumentsAsOptions(
+    //        typeof(CommandLineTestOptions3),
+    //        arguments,
+    //        out var commandLineTestOptions3);
+
+    //    // Assert
+    //}
 
     private static Dictionary<PropertyInfo, CommandLineParserOptionAttribute> GetAllOptions<T>()
     {
