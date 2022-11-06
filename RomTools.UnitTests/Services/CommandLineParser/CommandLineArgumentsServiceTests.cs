@@ -2,7 +2,7 @@
 using System.Reflection;
 using Xunit;
 
-namespace RomTools.UnitTests.Services;
+namespace RomTools.UnitTests.Services.CommandLineParser;
 
 public class CommandLineArgumentsServiceTests
 {

@@ -1,4 +1,4 @@
-﻿namespace RomTools.Services;
+﻿namespace RomTools.Services.CommandLineParser;
 
 public interface ICommandLineArgumentService
 {
