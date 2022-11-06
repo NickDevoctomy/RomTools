@@ -9,10 +9,22 @@
 
   <ItemGroup>
     <None Remove="config\Config.json" />
+    <None Remove="Data\Collections\NoIntro\nointro-mastersystem-arch.json" />
+    <None Remove="Data\Collections\NoIntro\nointro-megadrive-arch.json" />
+    <None Remove="Data\Collections\NoIntro\nointro-snes-arch.json" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="config\config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Collections\NoIntro\nointro-mastersystem-arch.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Collections\NoIntro\nointro-megadrive-arch.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Collections\NoIntro\nointro-snes-arch.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
