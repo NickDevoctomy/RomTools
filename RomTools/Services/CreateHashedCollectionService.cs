@@ -38,6 +38,8 @@ namespace RomTools.Services
             });
             var collection = new
             {
+                Name = options.Name,
+                Description = options.Description,
                 CreatedAt = DateTime.UtcNow,
                 HashingAlgorithm = options.Algorithm.ToString(),
                 Files = collectionFiles

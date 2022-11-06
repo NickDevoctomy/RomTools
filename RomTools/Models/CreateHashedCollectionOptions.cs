@@ -13,6 +13,12 @@ namespace RomTools.Models
         [CommandLineParserOption(HelpText = "Path to the output json file to create", Required = true, ShortName = "o", LongName = "output")]
         public string Output { get; set; }
 
+        [CommandLineParserOption(HelpText = "Name of the rom set collection", Required = false, ShortName = "n", LongName = "name", DefaultValue = "NewCollection1")]
+        public string Name { get; set; }
+
+        [CommandLineParserOption(HelpText = "Description of the rom set collection", Required = false, ShortName = "d", LongName = "description", DefaultValue = "New rom set collection")]
+        public string Description { get; set; }
+
         [CommandLineParserOption(HelpText = "Algorithm to use for generating the hashes", Required = false, ShortName = "a", LongName = "alg", DefaultValue = HashingAlgorithm.Md5)]
         public HashingAlgorithm Algorithm { get; set; }
 

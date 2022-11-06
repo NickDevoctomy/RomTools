@@ -20,8 +20,8 @@ public static class Program
         var configRaw = await File.ReadAllTextAsync("config/config.json");
         Config = JsonConvert.DeserializeObject<Config>(configRaw);
 
-        var program = host.Services.GetService<IProgram>(); ;
-        return await program.Run(CancellationToken.None);       // We should bind a hot key to use for cancellation token
+        var program = host.Services.GetService<IProgram>();
+        return await program.Run(CancellationToken.None);       // Somehow we should bind a hot key to use for cancellation token
     }
 
     static IHostBuilder CreateHostBuilder(string[] args) =>
