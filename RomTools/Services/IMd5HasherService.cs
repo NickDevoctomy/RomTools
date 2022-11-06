@@ -1,4 +1,6 @@
-﻿namespace RomTools.Services
+﻿using RomTools.Models;
+
+namespace RomTools.Services
 {
     public interface IMd5HasherService
     {

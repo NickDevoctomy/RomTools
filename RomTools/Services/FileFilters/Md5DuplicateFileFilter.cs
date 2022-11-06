@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using RomTools.Models;
+using System.Security.Cryptography;
 
 namespace RomTools.Services.FileFilters;
 

@@ -1,4 +1,6 @@
-﻿namespace RomTools.Services.FileFilters;
+﻿using RomTools.Models;
+
+namespace RomTools.Services.FileFilters;
 
 public interface IFileFilter
 {
