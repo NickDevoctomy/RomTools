@@ -24,6 +24,7 @@ namespace RomTools.Services
             file.Properties.Add("ArchivedRomName", archivedRomName);
             file.Properties.Add("ArchivedRomMd5Hash", archivedRomHash);
             file.Properties.Add("RawMd5Hash", unarchivedRomHash);
+            file.Properties.Add("Md5Hash", isArchived ? archivedRomHash : unarchivedRomHash);
         }
 
         private bool IsArchived(

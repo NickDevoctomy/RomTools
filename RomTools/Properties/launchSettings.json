@@ -2,7 +2,7 @@
   "profiles": {
     "RomTools": {
       "commandName": "Project",
-      "commandLineArgs": "CreateHashedCollection -p=D:\\roms\\snes -o=D:\\roms\\nointro-snes.json -n=\"NoIntro-Snes-2022\" -d=\"NoIntro rom collection for Super Nintendo Entertainment System\" -v=false"
+      "commandLineArgs": "pruneroms -p=\"d:/roms/snes\" -l=en -d=false -h=true -v=true"
     }
   }
 }

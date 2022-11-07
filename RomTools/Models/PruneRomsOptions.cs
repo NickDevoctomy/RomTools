@@ -12,8 +12,11 @@ namespace RomTools.Models
         [CommandLineParserOption(HelpText = "Prioritise these languages, discard everything else", Required = false, ShortName = "l", LongName = "languages", DefaultValue = "en")]
         public string Languages { get; set; }
 
-        [CommandLineParserOption(HelpText = "Only include verified dumps", Required = false, ShortName = "d", LongName = "verified", DefaultValue = true)]
+        [CommandLineParserOption(HelpText = "Only include verified dumps", Required = false, ShortName = "d", LongName = "verified", DefaultValue = false)]
         public bool Verified { get; set; }
+
+        [CommandLineParserOption(HelpText = "Hash the files to determine binary duplicates", Required = false, ShortName = "h", LongName = "hash", DefaultValue = false)]
+        public bool HashFiles { get; set; }
 
         [CommandLineParserOption(HelpText = "Verbose logging", Required = false, ShortName = "v", LongName = "verbose", DefaultValue = false)]
         public bool Verbose { get; set; }

@@ -14,6 +14,11 @@ namespace RomTools.Services.FileFilters
         public int Priority => 2;
         public string Description => "Filter files by their file names.";
 
+        public bool IsApplicable(PruneRomsOptions options)
+        {
+            return true;
+        }
+
         public List<FileEnvelope> Filter(
             List<FileEnvelope> files,
             Dictionary<string, object> options,

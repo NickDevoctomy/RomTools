@@ -7,6 +7,11 @@ public class FileExtensionFilter : IFileFilter
     public int Priority => 1;
     public string Description => "Filter files by their file extension.";
 
+    public bool IsApplicable(PruneRomsOptions options)
+    {
+        return true;
+    }
+
     public List<FileEnvelope> Filter(
         List<FileEnvelope> files,
         Dictionary<string, object> options,

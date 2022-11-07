@@ -15,6 +15,10 @@ public class Md5DuplicateFileFilter : IFileFilter
     {
         _md5HasherService = md5HasherService;
     }
+    public bool IsApplicable(PruneRomsOptions options)
+    {
+        return options.HashFiles;
+    }
 
     public List<FileEnvelope> Filter(
         List<FileEnvelope> files,

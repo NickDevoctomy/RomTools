@@ -8,16 +8,18 @@ This command will reduce the number of ROM files within a specific folder, attem
 all redundant and unwanted files by performing the following steps.
 
 1. Listing all files (not recursively)
-
 2. Md5 hashing all files
-
 3. Run the following filters on the hashed files,
+  a. Filtering by extension
+  b. Filtering by filename (see 'Filtering by Filename' below for more details)
+  c. Filtering binary identical duplicates (will have different filenames)
 
-   a. Filtering by extension
+Limitations:
 
-   b. Filtering by filename (see 'Filtering by Filename' below for more details)
-
-   c. Filterning binary identical duplicates (will have different filenames)
+* 7z archives contents hashing not currently supported
+  * Disable hashing to workaround
+* Zip archives contents hashing containing more than 1 file not currently supported (e.g Amiga archives can contain multiple files)
+  * Disable hashing to workaround
 
 ## Filtering by Filename
 

@@ -1,7 +1,7 @@
 ﻿{
   "languages": {
-    "en": "e,uk,u,4",
-    "en-gb": "uk,e",
-    "en-us": "u,4,"
+    "en": "e,uk,europe,u,usa,4,world",
+    "en-gb": "europe,uk,e",
+    "en-us": "usa,u,4"
   }
 }

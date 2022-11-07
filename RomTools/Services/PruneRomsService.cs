@@ -32,15 +32,18 @@ namespace RomTools.Services
 
             LogMessage($"Got {allFiles.Count} files.", false, options);
 
-            LogMessage($"Hashing all files.", false, options);
-            _md5HasherService.HashAll(allFiles);
-            LogMessage($"All files hashed.", false, options);
+            if(options.HashFiles)
+            {
+                LogMessage($"Hashing all files.", false, options);
+                _md5HasherService.HashAll(allFiles);
+                LogMessage($"All files hashed.", false, options);
+            }
 
             LogMessage($"Processing file filters", false, options);
             var filterOptions = new Dictionary<string, object>();
             filterOptions.Add("language", options.Languages);
             filterOptions.Add("verified", options.Verified);
-            foreach (var curFileFilter in _fileFilters)
+            foreach (var curFileFilter in _fileFilters.Where(x => x.IsApplicable(options)))
             {
                 LogMessage($"Processing file filer: {curFileFilter.Description}", true, options);
                 allFiles = curFileFilter.Filter(allFiles, filterOptions, LogAction);
@@ -55,8 +58,10 @@ namespace RomTools.Services
                 return (int)ReturnCodes.Success;
             }
 
-            LogMessage("Analysis complete, the following files will be deleted,", false, options);
+            LogMessage($"Analysis complete, the following {filesToDelete.Count} files will be deleted,", false, options);
             filesToDelete.ForEach(x => LogMessage(x.FullPath, false, options));
+            var remainingCount = sourceFiles.Count - filesToDelete.Count;
+            LogMessage($"There will be {remainingCount} remaining after deletion.", false, options);
             LogMessage("WARNING! This operation cannot be undone.", false, options);
             LogMessage("Are you sure (y/n)?", false, options);
             var prompt = Console.ReadKey();
