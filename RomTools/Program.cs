@@ -5,6 +5,7 @@ using Microsoft.Extensions.Hosting;
 using System.Diagnostics.CodeAnalysis;
 using RomTools.Extensions;
 using Newtonsoft.Json;
+using RomTools.Services.Commands;
 
 namespace RomTools;
 
@@ -35,6 +36,7 @@ public static class Program
         .AddFileFilters()
         .AddTransient<IPruneRomsService, PruneRomsService>()
         .AddTransient<ICreateHashedCollectionService, CreateHashedCollectionService>()
+        .AddTransient<IListAllLanguagesService, ListAllLanguagesService>()
         .AddSingleton<IProgram, RomToolsProgram>());
 
 

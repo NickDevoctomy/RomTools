@@ -27,18 +27,20 @@ namespace RomTools.Services.FileFilters
             log($"Files before filtering ({files.Count}):", true);
             files.ForEach(x => log(x.FullPath, true));
 
-            var groupedBySimilarNames = GroupBySimilarNames(files);
+            var excludeTokens = Program.Config.Exclusions.ToArray();
+            var groupedBySimilarNames = GroupBySimilarNames(files, excludeTokens);
 
             var language = options["language"].ToString();
             var languageTokens = Program.Config.Languages[language].Split(',');
+            var excludedLanguageTokens = Program.Config.Languages["exclusions"].Split(',');
             var mostSuitable = groupedBySimilarNames
-                .Select(x => GetMostSuitableByToken(x.Value, "()", languageTokens))
+                .Select(x => GetMostSuitableByToken(x.Value, "()", languageTokens, excludedLanguageTokens))
                 .ToList();
 
             if ((bool)options["verified"])
             {
                 mostSuitable = mostSuitable
-                .Select(x => GetMostSuitableByToken(x, "[]", "!"))
+                .Select(x => GetMostSuitableByToken(x, "[]", new[] { "!" }, null))
                 .ToList();
             }
             
@@ -50,11 +52,19 @@ namespace RomTools.Services.FileFilters
             return filtered;
         }
 
-        private Dictionary<string, List<FileEnvelope>> GroupBySimilarNames(List<FileEnvelope> files)
+        private Dictionary<string, List<FileEnvelope>> GroupBySimilarNames(
+            List<FileEnvelope> files,
+            string[] excludedTokens)
         {
             var grouped = new Dictionary<string, List<FileEnvelope>>();
             foreach (var curFile in files)
             {
+                var containsExcluded = excludedTokens.Any(x => curFile.FullPath.Contains($"({x})", StringComparison.InvariantCultureIgnoreCase));
+                if(containsExcluded)
+                {
+                    continue;
+                }
+
                 var truncatedFileName = TruncateFileNameUptoFirst(curFile.FullPath, '(', '[', '.');
                 if(!grouped.ContainsKey(truncatedFileName))
                 {
@@ -85,7 +95,8 @@ namespace RomTools.Services.FileFilters
         private static List<FileEnvelope> GetMostSuitableByToken(
             List<FileEnvelope> duplicates,
             string braces,
-            params string[] priorityTokens)
+            string[] priorityTokens,
+            string[] excludeTokens)
         {
             if(braces.Length != 2)
             {
@@ -96,14 +107,33 @@ namespace RomTools.Services.FileFilters
             foreach (var curToken in priorityTokens)
             {
                 var regex = $"[{braces[0]}].*({tokens}).*[{braces[1]}]";
-                if (duplicates.Any(x => Regex.IsMatch(x.FullPath, regex, RegexOptions.IgnoreCase)))
+                if (duplicates.Any(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)))
                 {
-                    return duplicates.Where(x => Regex.IsMatch(x.FullPath, regex, RegexOptions.IgnoreCase)).ToList();
+                    return duplicates.Where(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)).ToList();
                 }
             }
 
             //Console.WriteLine($"None suitable for '{duplicates[0].FullPath}'.");
             return new List<FileEnvelope>();
+        }
+
+        private static string RemoveExclusions(
+            string value,
+            string[] exclusions)
+        {
+            if(exclusions == null ||
+                exclusions.Length == 0)
+            {
+                return value;
+            }
+
+            var excluded = value;
+            foreach(var curExclusion in exclusions)
+            {
+                excluded = excluded.Replace($"({curExclusion})", string.Empty, StringComparison.InvariantCultureIgnoreCase);
+            }
+
+            return excluded.Trim();
         }
     }
 }

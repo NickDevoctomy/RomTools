@@ -1,6 +1,6 @@
 ﻿using RomTools.Models;
 
-namespace RomTools.Services;
+namespace RomTools.Services.Commands;
 
 public interface IPruneRomsService
 {

@@ -1,5 +1,6 @@
 ﻿using RomTools.Models;
 using RomTools.Services.CommandLineParser;
+using RomTools.Services.Commands;
 using RomTools.Services.Enums;
 using System.Text;
 
@@ -12,19 +13,22 @@ namespace RomTools.Services
         private readonly IHelpMessageFormatter _helpMessageFormatter;
         private readonly IPruneRomsService _pruneRomsService;
         private readonly ICreateHashedCollectionService _createHashedCollectionService;
+        private readonly IListAllLanguagesService _listAllLanguagesService;
 
         public RomToolsProgram(
             IArgumentsFlattenerService argumentFlattenerService,
             ICommandLineParserService commandLineParserService,
             IHelpMessageFormatter helpMessageFormatter,
             IPruneRomsService pruneRomsService,
-            ICreateHashedCollectionService createHashedCollectionService)
+            ICreateHashedCollectionService createHashedCollectionService,
+            IListAllLanguagesService listAllLanguagesService)
         {
             _argumentsFlattenerService = argumentFlattenerService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
             _pruneRomsService = pruneRomsService;
             _createHashedCollectionService = createHashedCollectionService;
+            _listAllLanguagesService = listAllLanguagesService;
         }
 
         public async Task<int> Run(string[] args, CancellationToken cancellationToken)
@@ -68,6 +72,25 @@ namespace RomTools.Services
                             else
                             {
                                 Console.WriteLine($"{createHashedCollectionOptions.Exception.Message}");
+                            }
+
+                            break;
+                        }
+
+                    case Command.ListAllLanguages:
+                        {
+                            if (_commandLineParserService.TryParseArgumentsAsOptions(
+                                typeof(ListAllLanguagesOptions),
+                                arguments,
+                                out var listAllLanguagesOptions))
+                            {
+                                returnCode = await _listAllLanguagesService.ListAsync(
+                                    (ListAllLanguagesOptions)listAllLanguagesOptions.Options,
+                                    cancellationToken);
+                            }
+                            else
+                            {
+                                Console.WriteLine($"{listAllLanguagesOptions.Exception.Message}");
                             }
 
                             break;
