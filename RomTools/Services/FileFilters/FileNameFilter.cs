@@ -34,13 +34,13 @@ namespace RomTools.Services.FileFilters
             var languageTokens = Program.Config.Languages[language].Split(',');
             var excludedLanguageTokens = Program.Config.Languages["exclusions"].Split(',');
             var mostSuitable = groupedBySimilarNames
-                .Select(x => GetMostSuitableByToken(x.Value, "()", languageTokens, excludedLanguageTokens))
+                .Select(x => GetMostSuitableByToken(x.Value, new[] { "()" }, languageTokens, excludedLanguageTokens))
                 .ToList();
 
             if ((bool)options["verified"])
             {
                 mostSuitable = mostSuitable
-                .Select(x => GetMostSuitableByToken(x, "[]", new[] { "!" }, null))
+                .Select(x => GetMostSuitableByToken(x, new[] { "[]" }, new[] { "!" }, null))
                 .ToList();
             }
             
@@ -94,11 +94,11 @@ namespace RomTools.Services.FileFilters
 
         private static List<FileEnvelope> GetMostSuitableByToken(
             List<FileEnvelope> duplicates,
-            string braces,
+            string[] braceSets,
             string[] priorityTokens,
             string[] excludeTokens)
         {
-            if(braces.Length != 2)
+            if(!braceSets.All(x => x.Length == 2))
             {
                 throw new ArgumentException("Braces must be 2 characters in length, for example \"()\" or \"[]\".");
             }
@@ -106,10 +106,14 @@ namespace RomTools.Services.FileFilters
             var tokens = string.Join('|', priorityTokens);
             foreach (var curToken in priorityTokens)
             {
-                var regex = $"[{braces[0]}].*({tokens}).*[{braces[1]}]";
-                if (duplicates.Any(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)))
+                foreach(var curBraces in braceSets)
                 {
-                    return duplicates.Where(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)).ToList();
+                    var braces = curBraces;
+                    var regex = $"[{braces[0]}].*({tokens}).*[{braces[1]}]";
+                    if (duplicates.Any(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)))
+                    {
+                        return duplicates.Where(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)).ToList();
+                    }
                 }
             }
 

@@ -2,9 +2,9 @@
 
 namespace RomTools.Services.Commands;
 
-public interface IListAllLanguagesService
+public interface IListAllTokensService
 {
     public Task<int> ListAsync(
-        ListAllLanguagesOptions options,
+        ListAllTokensOptions options,
         CancellationToken cancellationToken);
 }

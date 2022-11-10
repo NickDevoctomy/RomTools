@@ -2,7 +2,7 @@
 
 namespace RomTools.Models
 {
-    public class ListAllLanguagesOptions : PreOptions
+    public class ListAllTokensOptions : PreOptions
     {
         [CommandLineParserOption(HelpText = "Path containing the rom set", Required = true, ShortName = "p", LongName = "path")]
         public string Path { get; set; }

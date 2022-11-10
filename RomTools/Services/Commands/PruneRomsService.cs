@@ -26,49 +26,65 @@ public class PruneRomsService : IPruneRomsService
         await Task.Yield();
         _options = options;
 
-        LogMessage($"Getting all files from path '{options.Path}'.", false, options);
+        LogMessage($"Getting all files from path '{options.Path}'.", false, ConsoleColor.White, options);
         var sourceFiles = GetAllFilesFromPath(options.Path);
         var allFiles = sourceFiles.ToList();
 
-        LogMessage($"Got {allFiles.Count} files.", false, options);
+        LogMessage($"Got {allFiles.Count} files.", false, ConsoleColor.White, options);
 
         if (options.HashFiles)
         {
-            LogMessage($"Hashing all files.", false, options);
+            LogMessage($"Hashing all files.", false, ConsoleColor.White, options);
             _md5HasherService.HashAll(allFiles);
-            LogMessage($"All files hashed.", false, options);
+            LogMessage($"All files hashed.", false, ConsoleColor.White, options);
         }
 
-        LogMessage($"Processing file filters", false, options);
+        LogMessage($"Processing file filters", false, ConsoleColor.White, options);
         var filterOptions = new Dictionary<string, object>();
         filterOptions.Add("language", options.Languages);
         filterOptions.Add("verified", options.Verified);
         foreach (var curFileFilter in _fileFilters.Where(x => x.IsApplicable(options)))
         {
-            LogMessage($"Processing file filer: {curFileFilter.Description}", true, options);
+            LogMessage($"Processing file filer: {curFileFilter.Description}", true, ConsoleColor.White, options);
             allFiles = curFileFilter.Filter(allFiles, filterOptions, LogAction);
-            LogMessage($"{allFiles.Count} Files remaining after filtering.", true, options);
+            LogMessage($"{allFiles.Count} Files remaining after filtering.", true, ConsoleColor.White, options);
         }
-        LogMessage($"{allFiles.Count} Files remaining after processing all filters.", false, options);
+        LogMessage($"{allFiles.Count} Files remaining after processing all filters.", false, ConsoleColor.White, options);
 
         var filesToDelete = sourceFiles.Where(x => !allFiles.Contains(x)).ToList();
         if (filesToDelete.Count == 0)
         {
-            LogMessage("Analysis complete, there is nothing to do!", false, options);
+            LogMessage("Analysis complete, there is nothing to do!", false, ConsoleColor.White, options);
             return (int)ReturnCodes.Success;
         }
 
-        LogMessage($"Analysis complete, the following {filesToDelete.Count} files will be deleted,", false, options);
-        filesToDelete.ForEach(x => LogMessage(x.FullPath, false, options));
-        var remainingCount = sourceFiles.Count - filesToDelete.Count;
-        LogMessage($"There will be {remainingCount} remaining after deletion.", false, options);
-        LogMessage("WARNING! This operation cannot be undone.", false, options);
-        LogMessage("Are you sure (y/n)?", false, options);
-        var prompt = Console.ReadKey();
-        if (prompt.Key == ConsoleKey.Y)
+        if(options.Report)
         {
-            filesToDelete.ForEach(x => File.Delete(x.FullPath));
+            LogMessage($"Analysis complete, {filesToDelete.Count} files suggested for deletion,", false, ConsoleColor.White, options);
+            foreach (var curFile in sourceFiles)
+            {
+                var delete = filesToDelete.Contains(curFile);
+                LogMessage(
+                    $"{new FileInfo(curFile.FullPath).Name}",
+                    false,
+                    delete ? ConsoleColor.Red : ConsoleColor.Green,
+                    options);
+            }
         }
+        else
+        {
+            LogMessage($"Analysis complete, the following {filesToDelete.Count} files will be deleted,", false, ConsoleColor.White, options);
+            filesToDelete.ForEach(x => LogMessage(x.FullPath, false, ConsoleColor.Red, options));
+            LogMessage($"There will be {sourceFiles.Count - filesToDelete.Count} remaining after deletion.", false, ConsoleColor.White, options);
+            LogMessage("WARNING! This operation cannot be undone.", false, ConsoleColor.Red, options);
+            LogMessage("Are you sure (y/n)?", false, ConsoleColor.White, options);
+            var prompt = Console.ReadKey();
+            if (prompt.Key == ConsoleKey.Y)
+            {
+                filesToDelete.ForEach(x => File.Delete(x.FullPath));
+            }
+        }
+
 
         return (int)ReturnCodes.Success;
     }
@@ -83,17 +99,21 @@ public class PruneRomsService : IPruneRomsService
         string message,
         bool isVerbose)
     {
-        LogMessage($"{DateTime.Now} :: {message}", isVerbose, _options);
+        LogMessage($"{DateTime.Now} :: {message}", isVerbose, ConsoleColor.White, _options);
     }
 
     private static void LogMessage(
         string message,
         bool isVerbose,
+        ConsoleColor color,
         PruneRomsOptions options)
     {
         if (!isVerbose || isVerbose && options.Verbose)
         {
+            var prevColor = Console.ForegroundColor;
+            Console.ForegroundColor = color;
             Console.WriteLine(message);
+            Console.ForegroundColor = prevColor;
         }
     }
 }

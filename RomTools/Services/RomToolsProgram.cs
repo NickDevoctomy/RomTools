@@ -13,7 +13,7 @@ namespace RomTools.Services
         private readonly IHelpMessageFormatter _helpMessageFormatter;
         private readonly IPruneRomsService _pruneRomsService;
         private readonly ICreateHashedCollectionService _createHashedCollectionService;
-        private readonly IListAllLanguagesService _listAllLanguagesService;
+        private readonly IListAllTokensService _listAllTokensService;
 
         public RomToolsProgram(
             IArgumentsFlattenerService argumentFlattenerService,
@@ -21,14 +21,14 @@ namespace RomTools.Services
             IHelpMessageFormatter helpMessageFormatter,
             IPruneRomsService pruneRomsService,
             ICreateHashedCollectionService createHashedCollectionService,
-            IListAllLanguagesService listAllLanguagesService)
+            IListAllTokensService listAllLanguagesService)
         {
             _argumentsFlattenerService = argumentFlattenerService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
             _pruneRomsService = pruneRomsService;
             _createHashedCollectionService = createHashedCollectionService;
-            _listAllLanguagesService = listAllLanguagesService;
+            _listAllTokensService = listAllLanguagesService;
         }
 
         public async Task<int> Run(string[] args, CancellationToken cancellationToken)
@@ -77,20 +77,20 @@ namespace RomTools.Services
                             break;
                         }
 
-                    case Command.ListAllLanguages:
+                    case Command.ListAllTokens:
                         {
                             if (_commandLineParserService.TryParseArgumentsAsOptions(
-                                typeof(ListAllLanguagesOptions),
+                                typeof(ListAllTokensOptions),
                                 arguments,
-                                out var listAllLanguagesOptions))
+                                out var listAllTokensOptions))
                             {
-                                returnCode = await _listAllLanguagesService.ListAsync(
-                                    (ListAllLanguagesOptions)listAllLanguagesOptions.Options,
+                                returnCode = await _listAllTokensService.ListAsync(
+                                    (ListAllTokensOptions)listAllTokensOptions.Options,
                                     cancellationToken);
                             }
                             else
                             {
-                                Console.WriteLine($"{listAllLanguagesOptions.Exception.Message}");
+                                Console.WriteLine($"{listAllTokensOptions.Exception.Message}");
                             }
 
                             break;
