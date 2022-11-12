@@ -2,6 +2,41 @@
 
 ## Commands
 
+### CreateHashedCollection
+
+This command generates a JSON listing for a folder of files. Including hashing of files.
+
+### ListAllTokenSets
+
+This command lists all of the tokens contained in the files of a single folder.
+
+For example,
+
+```
+c:/folder/subfolder/some file 1 (Europe) (USA) [Beta].zip
+c:/folder/subfolder/some file 2 (Brazil) [Beta].zip
+c:/folder/subfolder/some file 3 (Brazil) (USA) [Beta].zip
+```
+
+will return
+
+```
+(Europe) (USA)
+(Brazil)
+(Brazil) (USA)
+
+[Beta]
+```
+
+This command can come in handy when configuring your own token profile and you need to
+know what tokens to expect.
+
+### PathCompare
+
+This command will compare 2 paths (A) and (B) and will list the differences.  This command
+operates by hashing all files in both folders and comparing hashes, not the filenames
+themselves.
+
 ### PruneRoms
 
 This command will reduce the number of ROM files within a specific folder, attempting to remove
@@ -13,6 +48,7 @@ all redundant and unwanted files by performing the following steps.
   a. Filtering by extension
   b. Filtering by filename (see 'Filtering by Filename' below for more details)
   c. Filtering binary identical duplicates (will have different filenames)
+
 
 Limitations:
 
