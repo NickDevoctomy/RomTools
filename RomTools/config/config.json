@@ -1,19 +1,8 @@
 ﻿{
-  "exclusions": [
-    "proto",
-    "demo",
-    "kiosk",
-    "ique",
-    "manual",
-    "unknown",
-    "debug",
-    "beta",
-    "unl"
-  ],
-  "languages": {
-    "en": "e,uk,europe,u,usa,4,world",
-    "en-gb": "europe,uk,e",
-    "en-us": "usa,u,4",
-    "exclusions": "ique,manual,unknown,debug,gamecube,beta"
+  "tokenProfiles": {
+    "en-proper": {
+      "include": "En,Europe,USA,World",
+      "exclude": "BIOS,Aftermarket,Demo,Kiosk,Proto,Promo,Sample,Unknown,Unl"
+    }
   }
 }

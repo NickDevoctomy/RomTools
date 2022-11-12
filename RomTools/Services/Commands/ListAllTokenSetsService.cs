@@ -10,9 +10,16 @@ using System.Threading.Tasks;
 
 namespace RomTools.Services.Commands;
 
-public class ListAllTokensService : IListAllTokensService
+public class ListAllTokenSetsService : IListAllTokenSetsService
 {
+    private readonly ITokenExtractorService _tokenExtractorService;
+
     public ListAllTokensOptions _options;
+
+    public ListAllTokenSetsService(ITokenExtractorService tokenExtractorService)
+    {
+        _tokenExtractorService = tokenExtractorService;
+    }
 
     public async Task<int> ListAsync(
         ListAllTokensOptions options,
@@ -25,34 +32,32 @@ public class ListAllTokensService : IListAllTokensService
         var sourceFiles = GetAllFilesFromPath(options.Path);
 
         LogMessage($"Getting all tokens from file names.", false, ConsoleColor.White, options);
-        var roundTokens = GetAllTokens(sourceFiles, "(", ")");
-        var squareTokens = GetAllTokens(sourceFiles, "[", "]");
+        var roundTokens = GetAllTokensSets(sourceFiles, "(", ")");
+        var squareTokens = GetAllTokensSets(sourceFiles, "[", "]");
 
-        LogMessage($"The following {roundTokens.Count} round braced tokens were found,", false, ConsoleColor.White, options);
+        LogMessage($"The following {roundTokens.Count} round braced token sets were found,", false, ConsoleColor.White, options);
         roundTokens.ForEach(x => LogMessage(x, false, ConsoleColor.Green, options));
 
-        LogMessage($"The following {squareTokens.Count} square braced tokens were found,", false, ConsoleColor.White, options);
+        LogMessage($"The following {squareTokens.Count} square braced token sets were found,", false, ConsoleColor.White, options);
         squareTokens.ForEach(x => LogMessage(x, false, ConsoleColor.Green, options));
 
         return (int)ReturnCodes.Success;
     }
 
-    private static List<string> GetAllTokens(
+    private List<string> GetAllTokensSets(
         List<FileEnvelope> files,
         params string[] braces)
     {
         var tokens = new List<string>();
         files.ForEach(x =>
         {
-            var fileInfo = new FileInfo(x.FullPath);
-            var matches = Regex.Matches(fileInfo.Name, $"[{braces[0]}][a-zA-Z0-9]+[{braces[1]}]");
-            matches.ToList().ForEach(y =>
+            var curSets = _tokenExtractorService.ExtractTokens(x, braces);
+            curSets = curSets.OrderBy(x => x).ToList();
+            var set = string.Join(' ', curSets);
+            if (!tokens.Contains(set) && !string.IsNullOrWhiteSpace(set))
             {
-                if (!tokens.Contains(y.Value))
-                {
-                    tokens.Add(y.Value);
-                }
-            });
+                tokens.Add(set);
+            }
         });
 
         return tokens;

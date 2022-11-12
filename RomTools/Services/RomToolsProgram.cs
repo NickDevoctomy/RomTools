@@ -13,7 +13,7 @@ namespace RomTools.Services
         private readonly IHelpMessageFormatter _helpMessageFormatter;
         private readonly IPruneRomsService _pruneRomsService;
         private readonly ICreateHashedCollectionService _createHashedCollectionService;
-        private readonly IListAllTokensService _listAllTokensService;
+        private readonly IListAllTokenSetsService _listAllTokenSetsService;
 
         public RomToolsProgram(
             IArgumentsFlattenerService argumentFlattenerService,
@@ -21,14 +21,14 @@ namespace RomTools.Services
             IHelpMessageFormatter helpMessageFormatter,
             IPruneRomsService pruneRomsService,
             ICreateHashedCollectionService createHashedCollectionService,
-            IListAllTokensService listAllLanguagesService)
+            IListAllTokenSetsService listAllTokenSetsService)
         {
             _argumentsFlattenerService = argumentFlattenerService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
             _pruneRomsService = pruneRomsService;
             _createHashedCollectionService = createHashedCollectionService;
-            _listAllTokensService = listAllLanguagesService;
+            _listAllTokenSetsService = listAllTokenSetsService;
         }
 
         public async Task<int> Run(string[] args, CancellationToken cancellationToken)
@@ -77,14 +77,14 @@ namespace RomTools.Services
                             break;
                         }
 
-                    case Command.ListAllTokens:
+                    case Command.ListAllTokenSets:
                         {
                             if (_commandLineParserService.TryParseArgumentsAsOptions(
                                 typeof(ListAllTokensOptions),
                                 arguments,
                                 out var listAllTokensOptions))
                             {
-                                returnCode = await _listAllTokensService.ListAsync(
+                                returnCode = await _listAllTokenSetsService.ListAsync(
                                     (ListAllTokensOptions)listAllTokensOptions.Options,
                                     cancellationToken);
                             }

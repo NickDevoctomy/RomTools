@@ -36,7 +36,8 @@ public static class Program
         .AddFileFilters()
         .AddTransient<IPruneRomsService, PruneRomsService>()
         .AddTransient<ICreateHashedCollectionService, CreateHashedCollectionService>()
-        .AddTransient<IListAllTokensService, ListAllTokensService>()
+        .AddTransient<ITokenExtractorService, TokenExtractorService>()
+        .AddTransient<IListAllTokenSetsService, ListAllTokenSetsService>()
         .AddSingleton<IProgram, RomToolsProgram>());
 
 

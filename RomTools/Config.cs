@@ -1,8 +1,9 @@
-﻿namespace RomTools
+﻿using RomTools.Models;
+
+namespace RomTools
 {
     public class Config
     {
-        public Dictionary<string, string> Languages { get; set; }
-        public List<string> Exclusions { get; set; }
+        public Dictionary<string, TokenProfile> TokenProfiles { get; set; }
     }
 }

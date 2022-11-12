@@ -12,7 +12,7 @@ public class PruneRomsService : IPruneRomsService
     private PruneRomsOptions _options;
 
     public PruneRomsService(
-        IEnumerable<IFileFilter> fileFilters,
+        IEnumerable<IFileFilter> fileFilters,     
         IMd5HasherService md5HasherService)
     {
         _fileFilters = fileFilters;
@@ -41,7 +41,7 @@ public class PruneRomsService : IPruneRomsService
 
         LogMessage($"Processing file filters", false, ConsoleColor.White, options);
         var filterOptions = new Dictionary<string, object>();
-        filterOptions.Add("language", options.Languages);
+        filterOptions.Add("tokenProfile", options.TokenProfile);
         filterOptions.Add("verified", options.Verified);
         foreach (var curFileFilter in _fileFilters.Where(x => x.IsApplicable(options)))
         {

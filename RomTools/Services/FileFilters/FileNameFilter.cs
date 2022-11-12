@@ -14,6 +14,13 @@ namespace RomTools.Services.FileFilters
         public int Priority => 2;
         public string Description => "Filter files by their file names.";
 
+        private readonly ITokenExtractorService _tokenExtractorService;
+
+        public FileNameFilter(ITokenExtractorService tokenExtractorService)
+        {
+            _tokenExtractorService = tokenExtractorService;
+        }
+
         public bool IsApplicable(PruneRomsOptions options)
         {
             return true;
@@ -27,20 +34,19 @@ namespace RomTools.Services.FileFilters
             log($"Files before filtering ({files.Count}):", true);
             files.ForEach(x => log(x.FullPath, true));
 
-            var excludeTokens = Program.Config.Exclusions.ToArray();
-            var groupedBySimilarNames = GroupBySimilarNames(files, excludeTokens);
+            var groupedBySimilarNames = GroupBySimilarNames(files);
 
-            var language = options["language"].ToString();
-            var languageTokens = Program.Config.Languages[language].Split(',');
-            var excludedLanguageTokens = Program.Config.Languages["exclusions"].Split(',');
+            var tokenProfile = options["tokenProfile"].ToString();
+            var includeTokens = Program.Config.TokenProfiles[tokenProfile].Include.Split(',');
+            var excludedTokens = Program.Config.TokenProfiles[tokenProfile].Exclude.Split(',');
             var mostSuitable = groupedBySimilarNames
-                .Select(x => GetMostSuitableByToken(x.Value, new[] { "()" }, languageTokens, excludedLanguageTokens))
+                .Select(x => GetMostSuitableByToken(x.Value, includeTokens, excludedTokens))
                 .ToList();
 
             if ((bool)options["verified"])
             {
                 mostSuitable = mostSuitable
-                .Select(x => GetMostSuitableByToken(x, new[] { "[]" }, new[] { "!" }, null))
+                .Select(x => GetMostSuitableByToken(x, new[] { "!" }, null))
                 .ToList();
             }
             
@@ -52,21 +58,16 @@ namespace RomTools.Services.FileFilters
             return filtered;
         }
 
-        private Dictionary<string, List<FileEnvelope>> GroupBySimilarNames(
-            List<FileEnvelope> files,
-            string[] excludedTokens)
+        private Dictionary<string, List<FileEnvelope>> GroupBySimilarNames(List<FileEnvelope> files)
         {
             var grouped = new Dictionary<string, List<FileEnvelope>>();
             foreach (var curFile in files)
             {
-                var containsExcluded = excludedTokens.Any(x => curFile.FullPath.Contains($"({x})", StringComparison.InvariantCultureIgnoreCase));
-                if(containsExcluded)
-                {
-                    continue;
-                }
+                curFile.Properties.Add("RoundBrancedTokens", _tokenExtractorService.ExtractTokens(curFile, new[]{ "(", ")" }));
+                curFile.Properties.Add("SquareBrancedTokens", _tokenExtractorService.ExtractTokens(curFile, new[] { "[", "]" }));
 
                 var truncatedFileName = TruncateFileNameUptoFirst(curFile.FullPath, '(', '[', '.');
-                if(!grouped.ContainsKey(truncatedFileName))
+                if (!grouped.ContainsKey(truncatedFileName))
                 {
                     grouped.Add(truncatedFileName, new List<FileEnvelope>());
                 }
@@ -94,30 +95,35 @@ namespace RomTools.Services.FileFilters
 
         private static List<FileEnvelope> GetMostSuitableByToken(
             List<FileEnvelope> duplicates,
-            string[] braceSets,
             string[] priorityTokens,
             string[] excludeTokens)
         {
-            if(!braceSets.All(x => x.Length == 2))
+            duplicates.ForEach(x =>
             {
-                throw new ArgumentException("Braces must be 2 characters in length, for example \"()\" or \"[]\".");
-            }
+                var roundBracedTokens = (List<string>)x.Properties["RoundBrancedTokens"];
+                var squareBracedTokens = (List<string>)x.Properties["SquareBrancedTokens"];
+                var priorityTokenMatchCount = priorityTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
+                x.Properties.Add("PriorityTokenMatchCount", priorityTokenMatchCount);
+                var excludedRoundBracedTokenMatchCount = excludeTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
+                var excludedSquareBracedTokenMatchCount = excludeTokens.Where(x => squareBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
+                x.Properties.Add("ExcludedTokenMatchCount", excludedRoundBracedTokenMatchCount + excludedSquareBracedTokenMatchCount);
+            });
 
-            var tokens = string.Join('|', priorityTokens);
-            foreach (var curToken in priorityTokens)
+            var orderedByMatchCount = duplicates
+                .Where(x => (int)x.Properties["ExcludedTokenMatchCount"] == 0)
+                .Where(x => (int)x.Properties["PriorityTokenMatchCount"] > 0)
+                .OrderByDescending(x => (int)x.Properties["PriorityTokenMatchCount"])
+                .ToList();
+
+            if(orderedByMatchCount.Count() > 0)
             {
-                foreach(var curBraces in braceSets)
+                return new List<FileEnvelope>
                 {
-                    var braces = curBraces;
-                    var regex = $"[{braces[0]}].*({tokens}).*[{braces[1]}]";
-                    if (duplicates.Any(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)))
-                    {
-                        return duplicates.Where(x => Regex.IsMatch(RemoveExclusions(x.FullPath, excludeTokens), regex, RegexOptions.IgnoreCase)).ToList();
-                    }
-                }
+                    orderedByMatchCount.First()
+                };
             }
 
-            //Console.WriteLine($"None suitable for '{duplicates[0].FullPath}'.");
+            //Console.WriteLine($"None suitable for '{duplicates[0].FullPath}'.");*/
             return new List<FileEnvelope>();
         }
 

@@ -2,7 +2,7 @@
 
 namespace RomTools.Services.Commands;
 
-public interface IListAllTokensService
+public interface IListAllTokenSetsService
 {
     public Task<int> ListAsync(
         ListAllTokensOptions options,

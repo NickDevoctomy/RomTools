@@ -2,7 +2,7 @@
   "profiles": {
     "RomTools": {
       "commandName": "Project",
-      "commandLineArgs": "pruneroms -p=\"c:\\Roms\\n64\""
+      "commandLineArgs": "pruneroms -p=\"D:\\Roms\\gba\" -r=true"
     }
   }
 }

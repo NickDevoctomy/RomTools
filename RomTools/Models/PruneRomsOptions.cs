@@ -9,8 +9,8 @@ namespace RomTools.Models
         [CommandLineParserOption(HelpText = "Path containing the rom set", Required = true, ShortName = "p", LongName = "path")]
         public string Path { get; set; }
 
-        [CommandLineParserOption(HelpText = "Prioritise these languages, discard everything else", Required = false, ShortName = "l", LongName = "languages", DefaultValue = "en")]
-        public string Languages { get; set; }
+        [CommandLineParserOption(HelpText = "Use this token profile", Required = false, ShortName = "t", LongName = "tokenprofile", DefaultValue = "en-proper")]
+        public string TokenProfile { get; set; }
 
         [CommandLineParserOption(HelpText = "Only include verified dumps", Required = false, ShortName = "d", LongName = "verified", DefaultValue = false)]
         public bool Verified { get; set; }
