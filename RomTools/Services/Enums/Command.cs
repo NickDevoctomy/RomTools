@@ -6,4 +6,5 @@ public enum Command
     PruneRoms = 1,
     CreateHashedCollection = 2,
     ListAllTokenSets = 3,
+    PathCompare = 4,
 }

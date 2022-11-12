@@ -1,16 +1,21 @@
 ﻿using Newtonsoft.Json;
 using RomTools.Models;
+using RomTools.Services.CommandLineParser;
 using RomTools.Services.Enums;
+using System.Threading;
 
 namespace RomTools.Services.Commands;
 
-public class CreateHashedCollectionService : ICreateHashedCollectionService
+public class CreateHashedCollectionService : ICreateHashedCollectionService, ICommand
 {
+    private readonly ICommandLineParserService _commandLineParserService;
     private readonly IMd5HasherService _md5HasherService;
-    private CreateHashedCollectionOptions _options;
 
-    public CreateHashedCollectionService(IMd5HasherService md5HasherService)
+    public CreateHashedCollectionService(
+        ICommandLineParserService commandLineParserService,
+        IMd5HasherService md5HasherService)
     {
+        _commandLineParserService = commandLineParserService;
         _md5HasherService = md5HasherService;
     }
 
@@ -19,7 +24,6 @@ public class CreateHashedCollectionService : ICreateHashedCollectionService
         CancellationToken cancellationToken)
     {
         await Task.Yield();
-        _options = options;
 
         LogMessage($"Getting all files from path '{options.Path}'.", false, options);
         var sourceFiles = GetAllFilesFromPath(options.Path);
@@ -57,17 +61,36 @@ public class CreateHashedCollectionService : ICreateHashedCollectionService
         return (int)ReturnCodes.Success;
     }
 
+    public bool IsApplicable(PreOptions preOptions)
+    {
+        return preOptions.Command == Command.CreateHashedCollection;
+    }
+
+    public async Task<int> RunAsync(
+        string arguments,
+        CancellationToken cancellationToken)
+    {
+        if (_commandLineParserService.TryParseArgumentsAsOptions(
+            typeof(CreateHashedCollectionOptions),
+            arguments,
+            out var createHashedCollectionOptions))
+        {
+            return await CreateAsync(
+                (CreateHashedCollectionOptions)createHashedCollectionOptions.Options,
+                cancellationToken);
+        }
+        else
+        {
+            Console.WriteLine($"{createHashedCollectionOptions.Exception.Message}");
+        }
+
+        return (int)ReturnCodes.Unknown;
+    }
+
     private static List<FileEnvelope> GetAllFilesFromPath(string path)
     {
         var allFiles = Directory.GetFiles(path, "*.*").ToList();
         return allFiles.Select(x => new FileEnvelope(x)).ToList();
-    }
-
-    private void LogAction(
-        string message,
-        bool isVerbose)
-    {
-        LogMessage($"{DateTime.Now} :: {message}", isVerbose, _options);
     }
 
     private static void LogMessage(

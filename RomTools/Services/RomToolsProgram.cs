@@ -14,6 +14,7 @@ namespace RomTools.Services
         private readonly IPruneRomsService _pruneRomsService;
         private readonly ICreateHashedCollectionService _createHashedCollectionService;
         private readonly IListAllTokenSetsService _listAllTokenSetsService;
+        private readonly IPathCompareService _pathCompareService;
 
         public RomToolsProgram(
             IArgumentsFlattenerService argumentFlattenerService,
@@ -21,7 +22,8 @@ namespace RomTools.Services
             IHelpMessageFormatter helpMessageFormatter,
             IPruneRomsService pruneRomsService,
             ICreateHashedCollectionService createHashedCollectionService,
-            IListAllTokenSetsService listAllTokenSetsService)
+            IListAllTokenSetsService listAllTokenSetsService,
+            IPathCompareService pathCompareService)
         {
             _argumentsFlattenerService = argumentFlattenerService;
             _commandLineParserService = commandLineParserService;
@@ -29,6 +31,7 @@ namespace RomTools.Services
             _pruneRomsService = pruneRomsService;
             _createHashedCollectionService = createHashedCollectionService;
             _listAllTokenSetsService = listAllTokenSetsService;
+            _pathCompareService = pathCompareService;
         }
 
         public async Task<int> Run(string[] args, CancellationToken cancellationToken)

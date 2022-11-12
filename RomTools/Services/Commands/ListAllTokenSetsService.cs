@@ -1,17 +1,22 @@
 ﻿using Newtonsoft.Json.Linq;
 using RomTools.Models;
+using RomTools.Services.CommandLineParser;
 using RomTools.Services.Enums;
 
 namespace RomTools.Services.Commands;
 
-public class ListAllTokenSetsService : IListAllTokenSetsService
+public class ListAllTokenSetsService : IListAllTokenSetsService, ICommand
 {
+    private readonly ICommandLineParserService _commandLineParserService;
     private readonly ITokenExtractorService _tokenExtractorService;
 
     public ListAllTokensOptions _options;
 
-    public ListAllTokenSetsService(ITokenExtractorService tokenExtractorService)
+    public ListAllTokenSetsService(
+        ICommandLineParserService commandLineParserService,
+        ITokenExtractorService tokenExtractorService)
     {
+        _commandLineParserService = commandLineParserService;
         _tokenExtractorService = tokenExtractorService;
     }
 
@@ -57,21 +62,36 @@ public class ListAllTokenSetsService : IListAllTokenSetsService
         return tokens;
     }
 
+    public bool IsApplicable(PreOptions preOptions)
+    {
+        return preOptions.Command == Command.ListAllTokenSets;
+    }
+
+    public async Task<int> RunAsync(
+        string arguments,
+        CancellationToken cancellationToken)
+    {
+        if (_commandLineParserService.TryParseArgumentsAsOptions(
+            typeof(ListAllTokensOptions),
+            arguments,
+            out var listAllTokensOptions))
+        {
+            return await ListAsync(
+                (ListAllTokensOptions)listAllTokensOptions.Options,
+                cancellationToken);
+        }
+        else
+        {
+            Console.WriteLine($"{listAllTokensOptions.Exception.Message}");
+        }
+
+        return (int)ReturnCodes.Unknown;
+    }
+
     private static List<FileEnvelope> GetAllFilesFromPath(string path)
     {
         var allFiles = Directory.GetFiles(path, "*.*").ToList();
         return allFiles.Select(x => new FileEnvelope(x)).ToList();
-    }
-
-    private void LogAction(
-        string message,
-        bool isVerbose)
-    {
-        LogMessage(
-            $"{DateTime.Now} :: {message}",
-            isVerbose,
-            ConsoleColor.White,
-            _options);
     }
 
     private static void LogMessage(
