@@ -39,7 +39,7 @@ public class PruneRomsService : IPruneRomsService, ICommand
         if (options.HashFiles)
         {
             LogMessage($"Hashing all files.", false, ConsoleColor.White, options);
-            _md5HasherService.HashAll(allFiles);
+            _md5HasherService.HashAll(allFiles, true);
             LogMessage($"All files hashed.", false, ConsoleColor.White, options);
         }
 

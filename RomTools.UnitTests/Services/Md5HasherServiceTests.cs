@@ -20,7 +20,7 @@ namespace RomTools.UnitTests.Services
             var sut = new Md5HasherService();
 
             // Act
-            sut.HashAll(enveloped);
+            sut.HashAll(enveloped, false);
 
             // Assert
             Assert.Equal("D8JRML/lGiknsGLvN2nCQg==", enveloped.Single(x => x.FullPath.EndsWith("romfile1.rom")).Properties["RawMd5Hash"]);
@@ -37,7 +37,7 @@ namespace RomTools.UnitTests.Services
             var sut = new Md5HasherService();
 
             // Act
-            sut.HashAll(enveloped);
+            sut.HashAll(enveloped, true);
 
             // Assert
             Assert.Equal("True", enveloped.Single(x => x.FullPath.EndsWith("romfile3.zip")).Properties["Archived"]);

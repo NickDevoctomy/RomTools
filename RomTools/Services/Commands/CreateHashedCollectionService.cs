@@ -32,7 +32,7 @@ public class CreateHashedCollectionService : ICreateHashedCollectionService, ICo
         LogMessage($"Got {allFiles.Count} files.", false, options);
 
         LogMessage($"Hashing all files.", false, options);
-        _md5HasherService.HashAll(allFiles);
+        _md5HasherService.HashAll(allFiles, true);
         LogMessage($"All files hashed.", false, options);
 
         var collectionFiles = allFiles.Select(x => new

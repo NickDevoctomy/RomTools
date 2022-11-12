@@ -2,7 +2,7 @@
   "profiles": {
     "RomTools": {
       "commandName": "Project",
-      "commandLineArgs": "listalltokensets -p=\"D:\\Roms\\gba\" -r=true"
+      "commandLineArgs": "pathcompare -a=\"D:\\Roms\\gba\" -b=\"H:\\Roms\\gba\""
     }
   }
 }

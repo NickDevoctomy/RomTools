@@ -6,25 +6,37 @@ namespace RomTools.Services
 {
     public class Md5HasherService : IMd5HasherService
     {
-        public void HashAll(List<FileEnvelope> files)
+        public void HashAll(
+            List<FileEnvelope> files,
+            bool checkArchives)
         {
-            files.ForEach(x => StoreFileHash(x));
+            files.ForEach(x => StoreFileHash(x, checkArchives));
         }
 
-        private void StoreFileHash(FileEnvelope file)
+        private void StoreFileHash(
+            FileEnvelope file,
+            bool checkArchives)
         {
             var isArchived = IsArchived(file.FullPath, out var supported);
             var archivedRomName = default(string);
-            var archivedRomHash = isArchived && supported ?
+            var archivedRomHash = checkArchives && isArchived && supported ?
                 GetArchivedRomHash(file.FullPath, out archivedRomName) :
                 null;
             var unarchivedRomHash = GetUnarchivedRomHash(file.FullPath);
 
             file.Properties.Add("Archived", isArchived.ToString());
-            file.Properties.Add("ArchivedRomName", archivedRomName);
-            file.Properties.Add("ArchivedRomMd5Hash", archivedRomHash);
+            if(!string.IsNullOrEmpty(archivedRomHash))
+            {
+                file.Properties.Add("ArchivedRomName", archivedRomName);
+            }
+
+            if(!string.IsNullOrEmpty(archivedRomHash))
+            {
+                file.Properties.Add("ArchivedRomMd5Hash", archivedRomHash);
+            }
+
             file.Properties.Add("RawMd5Hash", unarchivedRomHash);
-            file.Properties.Add("Md5Hash", isArchived ? archivedRomHash : unarchivedRomHash);
+            file.Properties.Add("Md5Hash", checkArchives && isArchived ? archivedRomHash : unarchivedRomHash);
         }
 
         private bool IsArchived(
