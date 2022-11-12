@@ -38,15 +38,16 @@ namespace RomTools.Services.FileFilters
 
             var tokenProfile = options["tokenProfile"].ToString();
             var includeTokens = Program.Config.TokenProfiles[tokenProfile].Include.Split(',');
+            var lesserTokens = Program.Config.TokenProfiles[tokenProfile].Lesser.Split(',');
             var excludedTokens = Program.Config.TokenProfiles[tokenProfile].Exclude.Split(',');
             var mostSuitable = groupedBySimilarNames
-                .Select(x => GetMostSuitableByToken(x.Value, includeTokens, excludedTokens))
+                .Select(x => GetMostSuitableByToken(x.Value, includeTokens, lesserTokens, excludedTokens))
                 .ToList();
 
             if ((bool)options["verified"])
             {
                 mostSuitable = mostSuitable
-                .Select(x => GetMostSuitableByToken(x, new[] { "!" }, null))
+                .Select(x => GetMostSuitableByToken(x, new[] { "!" }, null, null))
                 .ToList();
             }
             
@@ -96,14 +97,18 @@ namespace RomTools.Services.FileFilters
         private static List<FileEnvelope> GetMostSuitableByToken(
             List<FileEnvelope> duplicates,
             string[] priorityTokens,
+            string[] lesserTokens,
             string[] excludeTokens)
         {
             duplicates.ForEach(x =>
             {
                 var roundBracedTokens = (List<string>)x.Properties["RoundBrancedTokens"];
                 var squareBracedTokens = (List<string>)x.Properties["SquareBrancedTokens"];
+
                 var priorityTokenMatchCount = priorityTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
-                x.Properties.Add("PriorityTokenMatchCount", priorityTokenMatchCount);
+                var lesserTokenMatchCount = lesserTokens != null && lesserTokens.Length > 0 ? lesserTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count() : 0;
+                x.Properties.Add("PriorityTokenMatchCount", priorityTokenMatchCount - lesserTokenMatchCount);
+
                 var excludedRoundBracedTokenMatchCount = excludeTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
                 var excludedSquareBracedTokenMatchCount = excludeTokens.Where(x => squareBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
                 x.Properties.Add("ExcludedTokenMatchCount", excludedRoundBracedTokenMatchCount + excludedSquareBracedTokenMatchCount);

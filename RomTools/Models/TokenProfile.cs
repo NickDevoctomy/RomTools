@@ -9,6 +9,7 @@ namespace RomTools.Models
     public class TokenProfile
     {
         public string Include { get; set; }
+        public string Lesser { get; set; }
         public string Exclude { get; set; }
     }
 }

@@ -53,7 +53,7 @@ public class ListAllTokenSetsService : IListAllTokenSetsService
         {
             var curSets = _tokenExtractorService.ExtractTokens(x, braces);
             curSets = curSets.OrderBy(x => x).ToList();
-            var set = string.Join(' ', curSets);
+            var set = string.Join(':', curSets);
             if (!tokens.Contains(set) && !string.IsNullOrWhiteSpace(set))
             {
                 tokens.Add(set);

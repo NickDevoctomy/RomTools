@@ -2,7 +2,7 @@
   "profiles": {
     "RomTools": {
       "commandName": "Project",
-      "commandLineArgs": "pruneroms -p=\"D:\\Roms\\gba\" -r=true"
+      "commandLineArgs": "listalltokensets -p=\"D:\\Roms\\gba\" -r=true"
     }
   }
 }
