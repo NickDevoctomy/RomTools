@@ -11,99 +11,39 @@ namespace RomTools.Services
         private readonly IArgumentsFlattenerService _argumentsFlattenerService;
         private readonly ICommandLineParserService _commandLineParserService;
         private readonly IHelpMessageFormatter _helpMessageFormatter;
-        private readonly IPruneRomsService _pruneRomsService;
-        private readonly ICreateHashedCollectionService _createHashedCollectionService;
-        private readonly IListAllTokenSetsService _listAllTokenSetsService;
-        private readonly IPathCompareService _pathCompareService;
+        private readonly IEnumerable<ICommand> _commands;
 
         public RomToolsProgram(
             IArgumentsFlattenerService argumentFlattenerService,
             ICommandLineParserService commandLineParserService,
             IHelpMessageFormatter helpMessageFormatter,
-            IPruneRomsService pruneRomsService,
-            ICreateHashedCollectionService createHashedCollectionService,
-            IListAllTokenSetsService listAllTokenSetsService,
-            IPathCompareService pathCompareService)
+            IEnumerable<ICommand> commands)
         {
             _argumentsFlattenerService = argumentFlattenerService;
             _commandLineParserService = commandLineParserService;
             _helpMessageFormatter = helpMessageFormatter;
-            _pruneRomsService = pruneRomsService;
-            _createHashedCollectionService = createHashedCollectionService;
-            _listAllTokenSetsService = listAllTokenSetsService;
-            _pathCompareService = pathCompareService;
+            _commands = commands;
         }
 
         public async Task<int> Run(string[] args, CancellationToken cancellationToken)
         {
             var returnCode = 0;
             var arguments = _argumentsFlattenerService.Flatten(args);
-            if (_commandLineParserService.TryParseArgumentsAsOptions(typeof(PreOptions), arguments, out var preOptions))
+            if (_commandLineParserService.TryParseArgumentsAsOptions(
+                typeof(PreOptions),
+                arguments,
+                out var preOptions))
             {
-                switch (preOptions.OptionsAs<PreOptions>().Command)
+                var command = _commands.SingleOrDefault(x => x.IsApplicable(preOptions.OptionsAs<PreOptions>()));
+                if(command != null)
                 {
-                    case Command.PruneRoms:
-                        {
-                            if (_commandLineParserService.TryParseArgumentsAsOptions(
-                                typeof(PruneRomsOptions),
-                                arguments,
-                                out var pruneRomsOptions))
-                            {
-                                returnCode = await _pruneRomsService.ProcessAsync(
-                                    (PruneRomsOptions)pruneRomsOptions.Options,
-                                    cancellationToken);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"{pruneRomsOptions.Exception.Message}");
-                            }
-
-                            break;
-                        }
-
-                    case Command.CreateHashedCollection:
-                        {
-                            if (_commandLineParserService.TryParseArgumentsAsOptions(
-                                typeof(CreateHashedCollectionOptions),
-                                arguments,
-                                out var createHashedCollectionOptions))
-                            {
-                                returnCode = await _createHashedCollectionService.CreateAsync(
-                                    (CreateHashedCollectionOptions)createHashedCollectionOptions.Options,
-                                    cancellationToken);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"{createHashedCollectionOptions.Exception.Message}");
-                            }
-
-                            break;
-                        }
-
-                    case Command.ListAllTokenSets:
-                        {
-                            if (_commandLineParserService.TryParseArgumentsAsOptions(
-                                typeof(ListAllTokensOptions),
-                                arguments,
-                                out var listAllTokensOptions))
-                            {
-                                returnCode = await _listAllTokenSetsService.ListAsync(
-                                    (ListAllTokensOptions)listAllTokensOptions.Options,
-                                    cancellationToken);
-                            }
-                            else
-                            {
-                                Console.WriteLine($"{listAllTokensOptions.Exception.Message}");
-                            }
-
-                            break;
-                        }
-
-                    default:
-                        {
-                            Console.WriteLine($"Command {preOptions.OptionsAs<PreOptions>().Command} not yet implemented.");
-                            break;
-                        }
+                    returnCode = await command.RunAsync(
+                        arguments,
+                        cancellationToken);
+                }
+                else
+                {
+                    Console.WriteLine($"Command {preOptions.OptionsAs<PreOptions>().Command} not yet implemented.");
                 }
             }
             else

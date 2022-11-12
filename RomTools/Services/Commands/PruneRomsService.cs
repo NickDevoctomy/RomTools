@@ -1,20 +1,24 @@
 ﻿using RomTools.Models;
+using RomTools.Services.CommandLineParser;
 using RomTools.Services.Enums;
 using RomTools.Services.FileFilters;
 
 namespace RomTools.Services.Commands;
 
-public class PruneRomsService : IPruneRomsService
+public class PruneRomsService : IPruneRomsService, ICommand
 {
+    private readonly ICommandLineParserService _commandLineParserService;
     private readonly IEnumerable<IFileFilter> _fileFilters;
     private readonly IMd5HasherService _md5HasherService;
 
     private PruneRomsOptions _options;
 
     public PruneRomsService(
+        ICommandLineParserService commandLineParserService,
         IEnumerable<IFileFilter> fileFilters,     
         IMd5HasherService md5HasherService)
     {
+        _commandLineParserService = commandLineParserService;
         _fileFilters = fileFilters;
         _md5HasherService = md5HasherService;
     }
@@ -89,10 +93,30 @@ public class PruneRomsService : IPruneRomsService
         return (int)ReturnCodes.Success;
     }
 
-    private static List<FileEnvelope> GetAllFilesFromPath(string path)
+    public bool IsApplicable(PreOptions preOptions)
     {
-        var allFiles = Directory.GetFiles(path, "*.*").ToList();
-        return allFiles.Select(x => new FileEnvelope(x)).ToList();
+        return preOptions.Command == Command.PruneRoms;
+    }
+
+    public async Task<int> RunAsync(
+        string arguments,
+        CancellationToken cancellationToken)
+    {
+        if (_commandLineParserService.TryParseArgumentsAsOptions(
+            typeof(PruneRomsOptions),
+            arguments,
+            out var pruneRomsOptions))
+        {
+            return await ProcessAsync(
+                (PruneRomsOptions)pruneRomsOptions.Options,
+                cancellationToken);
+        }
+        else
+        {
+            Console.WriteLine($"{pruneRomsOptions.Exception.Message}");
+        }
+
+        return (int)ReturnCodes.Unknown;
     }
 
     private void LogAction(
@@ -100,6 +124,12 @@ public class PruneRomsService : IPruneRomsService
         bool isVerbose)
     {
         LogMessage($"{DateTime.Now} :: {message}", isVerbose, ConsoleColor.White, _options);
+    }
+
+    private static List<FileEnvelope> GetAllFilesFromPath(string path)
+    {
+        var allFiles = Directory.GetFiles(path, "*.*").ToList();
+        return allFiles.Select(x => new FileEnvelope(x)).ToList();
     }
 
     private static void LogMessage(

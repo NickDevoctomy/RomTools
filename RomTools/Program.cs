@@ -33,11 +33,9 @@ public static class Program
         .AddSingleton<ICommandLineParserService, CommandLineParserService>((IServiceProvider _) => { return CommandLineParserService.CreateDefaultInstance(); })
         .AddTransient<IHelpMessageFormatter, HelpMessageFormatter>()
         .AddTransient<IMd5HasherService, Md5HasherService>()
-        .AddFileFilters()
-        .AddTransient<IPruneRomsService, PruneRomsService>()
-        .AddTransient<ICreateHashedCollectionService, CreateHashedCollectionService>()
         .AddTransient<ITokenExtractorService, TokenExtractorService>()
-        .AddTransient<IListAllTokenSetsService, ListAllTokenSetsService>()
+        .AddFileFilters()
+        .AddCommands()
         .AddSingleton<IProgram, RomToolsProgram>());
 
 
