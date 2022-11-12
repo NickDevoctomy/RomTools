@@ -60,7 +60,7 @@ namespace RomTools.Services.FileFilters
                 curFile.Properties.Add("RoundBrancedTokens", _tokenExtractorService.ExtractTokens(curFile, new[]{ "(", ")" }));
                 curFile.Properties.Add("SquareBrancedTokens", _tokenExtractorService.ExtractTokens(curFile, new[] { "[", "]" }));
 
-                var truncatedFileName = TruncateFileNameUptoFirst(curFile.FullPath, '(', '[', '.');
+                var truncatedFileName = TruncateFileNameUptoFirst(curFile.FullPath, '(', '[');
                 if (!grouped.ContainsKey(truncatedFileName))
                 {
                     grouped.Add(truncatedFileName, new List<FileEnvelope>());
@@ -76,7 +76,7 @@ namespace RomTools.Services.FileFilters
             string fullPath,
             params char[] delimiter)
         {
-            var name = new FileInfo(fullPath).Name;
+            var name = Path.GetFileNameWithoutExtension(new FileInfo(fullPath).Name);
             var orderedDelimiters = delimiter.ToDictionary(a => a, b => name.IndexOf(b)).OrderBy(c => c.Value).ToList();
             if(!orderedDelimiters.Any(x => x.Value > 0))
             {
@@ -99,7 +99,7 @@ namespace RomTools.Services.FileFilters
                 var squareBracedTokens = (List<string>)x.Properties["SquareBrancedTokens"];
 
                 var priorityTokenMatchCount = priorityTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();
-                var lesserTokenMatchCount = lesserTokens != null && lesserTokens.Length > 0 ? lesserTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count() : 0;
+                var lesserTokenMatchCount = duplicates.Count > 1 && lesserTokens != null && lesserTokens.Length > 0 ? lesserTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count() : 0;
                 x.Properties.Add("PriorityTokenMatchCount", priorityTokenMatchCount - lesserTokenMatchCount);
 
                 var excludedRoundBracedTokenMatchCount = excludeTokens.Where(x => roundBracedTokens.Any(y => y.Contains(x, StringComparison.InvariantCulture))).Count();

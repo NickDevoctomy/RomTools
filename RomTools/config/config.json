@@ -2,8 +2,8 @@
   "tokenProfiles": {
     "en-proper": {
       "include": "En,Europe,USA,World",
-      "lesser": "Bundle",
-      "exclude": "BIOS,Aftermarket,Demo,Kiosk,Proto,Promo,Sample,Unknown,Unl"
+      "lesser": "Bundle,Compilation",
+      "exclude": "BIOS,Aftermarket,Beta,Debug,Demo,Kiosk,Proto,Promo,Sample,Unknown,Unl"
     }
   }
 }
