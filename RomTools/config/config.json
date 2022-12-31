@@ -3,7 +3,7 @@
     "en-proper": {
       "include": "En,Europe,USA,World",
       "lesser": "Bundle,Compilation",
-      "exclude": "BIOS,Aftermarket,Beta,Debug,Demo,Kiosk,Proto,Promo,Sample,Unknown,Unl"
+      "exclude": "BIOS,Aftermarket,Beta,Debug,Demo,Kiosk,Pirate,Proto,Promo,Sample,Unknown,Unl"
     }
   }
 }
